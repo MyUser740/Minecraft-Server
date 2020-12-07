@@ -1,0 +1,24 @@
+{
+  "app": [
+    {
+      "name": "Discord App",
+      "version": 0.1,
+      "location": "app/discordApp",
+      "settings": {
+        "online": false,
+        "schedule": false,
+        "schedule-end": "2020-12-25"
+      }
+    },
+    {
+      "name": "Scheduler",
+      "version": 0.1,
+      "location": "app/scheduler",
+      "settings": {
+        "online": false,
+        "schedule": false,
+        "schedule-end": "2020-12-25"
+      }
+    }
+  ]
+}
