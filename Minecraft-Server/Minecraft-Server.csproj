@@ -1316,6 +1316,9 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomesController.cs" />
+    <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1362,7 +1365,6 @@
     <Folder Include="App_Component\Resource\Video\" />
     <Folder Include="App_Data\" />
     <Folder Include="App_GlobalResources\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Data\Linux\App\scheduler\log\" />
     <Folder Include="Data\LogOutput\" />
     <Folder Include="Data\Temp\" />
@@ -1370,6 +1372,9 @@
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="Scripts\" />
+    <Folder Include="Views\Account\" />
+    <Folder Include="Views\Homes\" />
+    <Folder Include="Views\News\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="App_Component\Component\Scripts\index.d.ts" />
