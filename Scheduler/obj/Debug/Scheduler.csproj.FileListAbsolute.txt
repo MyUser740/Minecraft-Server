@@ -1,0 +1,7 @@
+H:\MC SRV\web\Minecraft-Server\Scheduler\bin\Debug\Scheduler.exe.config
+H:\MC SRV\web\Minecraft-Server\Scheduler\bin\Debug\Scheduler.exe
+H:\MC SRV\web\Minecraft-Server\Scheduler\bin\Debug\Scheduler.pdb
+H:\MC SRV\web\Minecraft-Server\Scheduler\obj\Debug\Scheduler.csprojAssemblyReference.cache
+H:\MC SRV\web\Minecraft-Server\Scheduler\obj\Debug\Scheduler.csproj.CoreCompileInputs.cache
+H:\MC SRV\web\Minecraft-Server\Scheduler\obj\Debug\Scheduler.exe
+H:\MC SRV\web\Minecraft-Server\Scheduler\obj\Debug\Scheduler.pdb
