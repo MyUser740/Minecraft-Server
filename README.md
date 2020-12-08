@@ -1,4 +1,4 @@
-# What New?:
+# What's New?:
 
  - Added home page, news page, and account page
  - Added linux background process
