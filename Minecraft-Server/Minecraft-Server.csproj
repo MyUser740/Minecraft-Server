@@ -113,6 +113,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Component\Component\Content\sweetalert2.css" />
+    <Content Include="App_Component\Component\Content\sweetalert2.min.css" />
+    <Content Include="App_Component\Component\Scripts\sweetalert2.all.js" />
+    <Content Include="App_Component\Component\Scripts\sweetalert2.all.min.js" />
+    <Content Include="App_Component\Component\Scripts\sweetalert2.js" />
+    <Content Include="App_Component\Component\Scripts\sweetalert2.min.js" />
+    <Content Include="App_Component\Controller\Main\app.js" />
+    <Content Include="App_Component\Controller\Page\Developer\DiscordBot.js" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
@@ -1314,10 +1322,12 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\DiscordBot.cs" />
+    <Compile Include="App_Code\DiscordBot.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\Api_DiscordBotController.cs" />
+    <Compile Include="Controllers\DeveloperController.cs" />
     <Compile Include="Controllers\HomesController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -1350,6 +1360,7 @@
     <Content Include="App_Component\Component\Scripts\popper.js.map" />
     <Content Include="App_Component\Component\Scripts\popper-utils.min.js.map" />
     <Content Include="App_Component\Component\Scripts\popper-utils.js.map" />
+    <Content Include="Views\Developer\DiscordBot.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1360,7 +1371,6 @@
   <ItemGroup>
     <Folder Include="App_Browsers\" />
     <Folder Include="App_Component\Controller\Locale\" />
-    <Folder Include="App_Component\Controller\Main\" />
     <Folder Include="App_Component\Resource\Img\" />
     <Folder Include="App_Component\Resource\Video\" />
     <Folder Include="App_Data\" />
