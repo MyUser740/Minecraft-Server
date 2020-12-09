@@ -1,9 +1,9 @@
-﻿
+﻿var app = angular.module("apps", []);
 app.controller("DeveloperController", function ($scope, $http) {
     $scope.startBot = function () {
         $.ajax({
             method: 'GET',
-            url: '/api/DiscordBot/0',
+            url: 'StartBot',
             success: function (r) {
                 if (r === 'success') {
                     Swal.fire(

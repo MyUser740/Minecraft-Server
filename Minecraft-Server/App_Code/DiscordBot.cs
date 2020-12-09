@@ -11,18 +11,19 @@ namespace Minecraft_Server.App_Code
         Process dcBot = new Process();
         public void Start()
         {
-            string loc = Server.MapPath("..") + @"\Data\Linux\App\discordApp\nodeJS\Launch.bat";
+            //string loc = System.Web.HttpContext.Current.Server.MapPath("..") + @"\Data\Linux\App\discordApp\nodeJS\Launch.bat";
 
-            dcBot.StartInfo.FileName = loc;
-            dcBot.StartInfo.CreateNoWindow = true;
+            dcBot.StartInfo.WorkingDirectory = System.Web.HttpContext.Current.Server.MapPath("..") + @"\Data\Linux\App\discordApp\nodeJS\";
+            dcBot.StartInfo.FileName = "Launch.bat";
+            //dcBot.StartInfo.CreateNoWindow = true;
 
-            dcBot.WaitForExit();
+            dcBot.Start();
 
         }
 
         public void Stop()
         {
-            string loc = Server.MapPath("..") + @"\Data\Linux\App\discordApp\nodeJS\Launch.bat";
+            string loc = System.Web.HttpContext.Current.Server.MapPath("..") + @"\Data\Linux\App\discordApp\nodeJS\Launch.bat";
 
             dcBot.StartInfo.FileName = loc;
 

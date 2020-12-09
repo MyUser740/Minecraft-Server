@@ -13,5 +13,19 @@ namespace Minecraft_Server.Controllers
         {
             return View();
         }
+
+        public string StartBot()
+        {
+            try
+            {
+                App_Code.DiscordBot discordBot = new App_Code.DiscordBot();
+                discordBot.Start();
+                return "success";
+            }
+            catch(Exception ex)
+            {
+                return "error|" + ex.Message;
+            }
+        }
     }
 }

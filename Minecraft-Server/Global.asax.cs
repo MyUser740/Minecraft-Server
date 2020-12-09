@@ -17,7 +17,43 @@ namespace WebApplication1
             // Code that runs on application startup
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);            
+            RouteConfig.RegisterRoutes(RouteTable.Routes);
+            
+        }
+
+        void Session_Start(object sender, EventArgs e)
+        {
+            //initializes Cache on first request
+            AppStart.Start(HttpContext.Current);
+        }
+    }
+
+    public class AppStart
+    {
+        static bool _init = false;
+        private static Object _lock = new Object();
+
+        /// <summary>
+        /// Does nothing after first request
+        /// </summary>
+        /// <param name="context"></param>
+        public static void Start(HttpContext context)
+        {
+            if (_init)
+            {
+                return;
+            }
+            //create class level lock in case multiple sessions start simultaneously
+            lock (_lock)
+            {
+                if (!_init)
+                {
+                    string server = context.Request.ServerVariables["SERVER_NAME"];
+                    string port = context.Request.ServerVariables["SERVER_PORT"];
+                    HttpRuntime.Cache.Insert("basePath", "http://" + server + ":" + port + "/");
+                    _init = true;
+                }
+            }
         }
     }
 }
