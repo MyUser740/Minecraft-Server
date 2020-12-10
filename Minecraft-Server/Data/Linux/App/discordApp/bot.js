@@ -51,6 +51,8 @@ client.on('message', msg => {
 		//server message handler
 		if (msg.channel.type !== 'dm') {
 			switch (msgParsed.command.toLowerCase()) {
+				
+				//account control
 				case 'register':
 					msg.author.send(
 						'Register here!\nType in `/register [username] [password]`'
@@ -58,11 +60,20 @@ client.on('message', msg => {
 					msg.reply('Check your DM to register');
 					break;
 
+				case 'delete':
+					msg.author.send(
+						'To delete your account, type in:\n`/delete [username] [password]`'
+					);
+					msg.reply('Check your DM to delete your account!');
+					break;
+					
+				//server interaction	
 				case 'spam':
 					for (var i = 0; i < parseInt(msgParsed.arg[0]); i++) {
 						msg.channel.send(msgParsed.arg[1]);
 					}
 					break;
+					
 			}
 		}
 
@@ -143,4 +154,4 @@ client.on('message', msg => {
 			}
 		}
 	}
-}
+});
