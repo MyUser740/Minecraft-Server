@@ -69,6 +69,7 @@
     <script src="~/App_Component/Component/Scripts/popper.min.js"></script>
     <script src="~/App_Component/Component/Scripts/sweetalert2.all.min.js"></script>
     <script src="~/App_Component/Component/Scripts/vue.min.js"></script>
+    <script src="~/signalr/hubs"></script>
 
 
     <link href="~/App_Component/Component/Content/jquery-ui.css" rel="stylesheet" />
@@ -82,7 +83,10 @@
 <body ng-app="apps">
     <div ng-controller="DeveloperController"> 
         <button ng-click="startBot()">Start the bot</button>
-        
+        <div id="log">
+
+        </div>
     </div>
+    
 </body>
 </html>
