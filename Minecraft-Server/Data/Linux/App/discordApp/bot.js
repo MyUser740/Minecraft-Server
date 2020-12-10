@@ -32,26 +32,13 @@ var con = mysql.createConnection({
 	database: 'minecraftsrvdata'
 });
 
-function yesNoHandling(msg) {
-	if (msg.channel.type === 'dm') {
-		if (msg.content.toLowerCase() == 'y') {
-			msg.channel.send('Done! Sucessfully Registered');
-		} else if (msg.content.toLowerCase() == 'n') {
-			msg.channel.send(
-				'Type ```/register [username] [password]``` to register.'
-			);
-		}
-	}
-}
-
-//events
-/* gtw kenapa ini ga work
+//connect to database 
 con.connect(function(err) {
   if (err) throw err;
   console.log(`Connected to database!`);
 });
-*/
 
+//events
 client.on('ready', () => {
 	console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -60,6 +47,7 @@ client.on('message', msg => {
 	msgParsed = parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
+		
 		//server message handler
 		if (msg.channel.type !== 'dm') {
 			switch (msgParsed.command.toLowerCase()) {
@@ -93,7 +81,7 @@ client.on('message', msg => {
 								`to move on.`
 						);
 						confirmHandler = true;
-						console.log(confirmHandler);
+						
 					} else {
 						msg.channel.send(
 							'To register, type: ```/register [username] [password]```'
@@ -105,11 +93,15 @@ client.on('message', msg => {
 					if (confirmHandler == true) {
 						msg.channel.send('Confirmed!\nSuccessfully Registered!');
 						confirmHandler = false;
+						//con.query()
+					}
+				
+				case 'n':
+					if (confirmHandler == true) {
+					msg.channel.send('Type `/register` to start over.');
+					confirmHandler = false;
 					}
 			}
 		}
 	}
 });
-
-
-
