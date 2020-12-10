@@ -33,10 +33,12 @@ var con = mysql.createConnection({
 });
 
 //connect to database 
+/*
 con.connect(function(err) {
   if (err) throw err;
   console.log(`Connected to database!`);
 });
+*/
 
 //events
 client.on('ready', () => {
