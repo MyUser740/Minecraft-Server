@@ -9,9 +9,8 @@ client.login(process.env.BOT_TOKEN);
 
 //variables
 var botPrefix = '/';
-const bold = '**';
-const codeBlock = '``';
 var confirmHandler = false;
+var yesNoType;
 
 //functions
 function parseCommand(data, parseArg) {
@@ -35,8 +34,8 @@ var con = mysql.createConnection({
 //connect to database 
 /*
 con.connect(function(err) {
-  if (err) throw err;
-  console.log(`Connected to database!`);
+	if (err) throw err;
+	console.log(`Connected to database!`);
 });
 */
 
@@ -49,7 +48,6 @@ client.on('message', msg => {
 	msgParsed = parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
-		
 		//server message handler
 		if (msg.channel.type !== 'dm') {
 			switch (msgParsed.command.toLowerCase()) {
@@ -83,27 +81,66 @@ client.on('message', msg => {
 								`to move on.`
 						);
 						confirmHandler = true;
-						
+						yesNoType = 'register';
 					} else {
 						msg.channel.send(
 							'To register, type: ```/register [username] [password]```'
 						);
 					}
 					break;
+					
+				case 'delete' :
+					if (msgParsed.arg.length == 2) {
+						const username = msgParsed.arg[0];
+						const password = msgParsed.arg[1];
+						msg.channel.send(
+							`Confirm deleting your account:\nUsername: **${username}**\nPassword: **${password}**\nType ` +
+								'`/n` ' +
+								`to cancel.\nType ` +
+								'`/y` ' +
+								`to confirm.`
+						);
+						confirmHandler = true;
+						yesNoType = 'delete';
+					} else {
+						msg.channel.send(
+							'To delete your account, type: ```/delete [username] [password]```'
+						);
+					}
+					break;
 
+				//confirm-cancel handling
 				case 'y':
 					if (confirmHandler == true) {
-						msg.channel.send('Confirmed!\nSuccessfully Registered!');
-						confirmHandler = false;
-						//con.query()
+						switch (yesNoType) {
+							case 'register' :
+								msg.channel.send('Confirmed!\nSuccessfully Registered!');
+								confirmHandler = false;
+								yesNoType = undefined;
+								//con.query()
+								
+							case 'delete' :
+								msg.channel.send(`Your account has successfully deleted! We're sorry to see you go.`)
+								confirmHandler = false;
+								yesNoType = undefined;
+						}
 					}
-				
+
 				case 'n':
 					if (confirmHandler == true) {
-					msg.channel.send('Type `/register` to start over.');
-					confirmHandler = false;
+						switch (yesNoType) {
+							case 'register' :
+								msg.channel.send('Type `/register` to start over.');
+								confirmHandler = false;
+								yesNoType = undefined;
+								
+							case 'delete' :
+								msg.channel.send(`Cancelled!`)
+								confirmHandler = false;
+								yesNoType = undefined;
+						}
 					}
 			}
 		}
 	}
-});
+}
