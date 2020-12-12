@@ -1,0 +1,2 @@
+1. discord.js (npm i discord.js)
+2. mysql      (npm i mysql)

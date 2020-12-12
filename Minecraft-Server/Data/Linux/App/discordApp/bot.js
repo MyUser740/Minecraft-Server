@@ -2,42 +2,23 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const mysql = require('mysql');
-require('dotenv').config;
+const config = require('./config.json');
+const functions = require('./functions.js');
+const con = functions.con;
 
 //bot token
-client.login(process.env.BOT_TOKEN);
+client.login(config.BOT_TOKEN);
 
 //variables
 var botPrefix = '/';
 var confirmHandler = false;
 var yesNoType;
 
-//functions
-function parseCommand(data, parseArg) {
-	const parsed = {};
-	const dataParsed = data.split(' ');
-	parsed.prefix = dataParsed[0][0];
-	parsed.command = dataParsed[0].slice(1);
-	parseArg
-		? (parsed.arg = dataParsed.slice(1))
-		: (parsed.arg = dataParsed.slice(1).join(' '));
-	return parsed;
-}
-
-var con = mysql.createConnection({
-	host: 'db4free.net',
-	user: 'wholfgaming',
-	password: process.env.PASSWORD,
-	database: 'minecraftsrvdata'
-});
-
 //connect to database 
-/*
-con.connect(function(err) {
+con.connect(err => {
 	if (err) throw err;
 	console.log(`Connected to database!`);
 });
-*/
 
 //events
 client.on('ready', () => {
@@ -45,7 +26,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-	msgParsed = parseCommand(msg.content, true);
+	msgParsed = functions.parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
 		//server message handler
