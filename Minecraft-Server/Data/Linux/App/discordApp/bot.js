@@ -29,6 +29,7 @@ client.on('message', msg => {
 	msgParsed = functions.parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
+		
 		//server message handler
 		if (msg.channel.type !== 'dm') {
 			switch (msgParsed.command.toLowerCase()) {
@@ -55,6 +56,12 @@ client.on('message', msg => {
 					}
 					break;
 					
+				//ban action
+				case 'ban':
+					if (msg.member.hasPermission('ADMINISTRATOR') {
+					    msg.channel.send('banned!');
+					}
+			
 			}
 		}
 
