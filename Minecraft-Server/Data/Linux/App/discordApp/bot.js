@@ -38,12 +38,22 @@ client.on('ready', () => {
 
 client.on('message', msg => {
 
-	
+	clientDC.on(
+		'discordHub',
+		'Banned',
+		function (user) {
+			console.log('banned ' + user);
+
+			client.channels.cache.get('790925380105666560').send('/ban <@' + user + '>');
+		});
+
+	console.log('Client signalR started');
 
 	msgParsed = functions.parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
 		
+
 		//server message handler
 		if (msg.channel.type !== 'dm') {
 			switch (msgParsed.command.toLowerCase()) {
@@ -73,7 +83,16 @@ client.on('message', msg => {
 				//ban action
 				case 'ban':
 					if (msg.member.hasPermission('ADMINISTRATOR')) {
-					    msg.channel.send('banned!');
+						if (msg.channel.id === '790925380105666560') {
+							let person = msg.guild.member(msg.mentions.users.first());
+
+							person.ban({
+								reason: 'mampus'
+							});
+
+							client.channels.cache.get('790925380105666560').send('Banned!');
+                        }
+						
 					}
 			
 			}
@@ -156,21 +175,6 @@ client.on('message', msg => {
 			}
 		}
 	}
-	/*
-	 --------------------------------------------------------------------------------------
-	 untuk mnegban gw g tau knp g work tap realtimenya jalan
-	 --------------------------------------------------------------------------------------
-	 */
-	clientDC.on(
-		'discordHub',
-		'Banned',
-		function (user) {
-			console.log('banned ' + user);
-			
-			messages.guild.members.ban().then(user => console.log('Banned -> ${user.username}'))
-				.catch(console.error);
-		});
-
-	console.log('Client signalR started');
+	
 });
 
