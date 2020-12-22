@@ -6,6 +6,7 @@ const config = require('./config.json');
 const functions = require('./functions.js');
 const con = functions.con;
 const signalR = require("signalr-client");
+const messages = new Discord.Message;
 
 //bot token
 client.login(config.BOT_TOKEN);
@@ -20,6 +21,15 @@ con.connect(err => {
 	if (err) throw err;
 	console.log(`Connected to database!`);
 });
+
+//connect to signalR
+console.log('start the client signalR');
+
+let clientDC = new signalR.client(
+	'http://localhost:4899/signalR',
+
+	['discordHub']
+);
 
 //events
 client.on('ready', () => {
@@ -146,14 +156,6 @@ client.on('message', msg => {
 			}
 		}
 	}
-	//Reltime setting up
-	console.log('start the client signalR');
-
-	let clientDC = new signalR.client(
-		'http://localhost:4899/signalR',
-
-		['discordHub']
-	);
 	/*
 	 --------------------------------------------------------------------------------------
 	 untuk mnegban gw g tau knp g work tap realtimenya jalan
@@ -164,17 +166,9 @@ client.on('message', msg => {
 		'Banned',
 		function (user) {
 			console.log('banned ' + user);
-			var member = msg.guild.members.resolve(user);
-
-			if (member) {
-				member.ban('reason')
-					.then(() => msg.channel.send(user + ' got banned'))
-					.catch(err => {
-						console.error(err);
-					});
-			} else {
-				console.warn(user + " isn't in this guild!");
-            }
+			
+			messages.guild.members.ban().then(user => console.log('Banned -> ${user.username}'))
+				.catch(console.error);
 		});
 
 	console.log('Client signalR started');
