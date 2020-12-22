@@ -5,6 +5,7 @@ const mysql = require('mysql');
 const config = require('./config.json');
 const functions = require('./functions.js');
 const con = functions.con;
+const signalR = require("signalr-client");
 
 //bot token
 client.login(config.BOT_TOKEN);
@@ -26,6 +27,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
+
+	
+
 	msgParsed = functions.parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
@@ -58,7 +62,7 @@ client.on('message', msg => {
 					
 				//ban action
 				case 'ban':
-					if (msg.member.hasPermission('ADMINISTRATOR') {
+					if (msg.member.hasPermission('ADMINISTRATOR')) {
 					    msg.channel.send('banned!');
 					}
 			
@@ -142,4 +146,37 @@ client.on('message', msg => {
 			}
 		}
 	}
+	//Reltime setting up
+	console.log('start the client signalR');
+
+	let clientDC = new signalR.client(
+		'http://localhost:4899/signalR',
+
+		['discordHub']
+	);
+	/*
+	 --------------------------------------------------------------------------------------
+	 untuk mnegban gw g tau knp g work tap realtimenya jalan
+	 --------------------------------------------------------------------------------------
+	 */
+	clientDC.on(
+		'discordHub',
+		'Banned',
+		function (user) {
+			console.log('banned ' + user);
+			var member = msg.guild.members.resolve(user);
+
+			if (member) {
+				member.ban('reason')
+					.then(() => msg.channel.send(user + ' got banned'))
+					.catch(err => {
+						console.error(err);
+					});
+			} else {
+				console.warn(user + " isn't in this guild!");
+            }
+		});
+
+	console.log('Client signalR started');
 });
+

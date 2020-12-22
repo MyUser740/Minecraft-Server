@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "mysql": "^2.18.1"
+    "mysql": "^2.18.1",
+    "signalr-client": "0.0.20"
   },
   "devDependencies": {},
   "scripts": {
