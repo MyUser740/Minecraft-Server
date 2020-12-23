@@ -131,14 +131,45 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Component\Component\Content\animate.min.css" />
+    <Content Include="App_Component\Component\Content\bootstrap-vue-icons.min.css" />
+    <Content Include="App_Component\Component\Content\bootstrap-vue.min.css" />
+    <Content Include="App_Component\Component\Content\bootstrap.ori.css" />
+    <Content Include="App_Component\Component\Content\semantic.css" />
+    <Content Include="App_Component\Component\Content\semantic.min.css" />
     <Content Include="App_Component\Component\Content\sweetalert2.css" />
     <Content Include="App_Component\Component\Content\sweetalert2.min.css" />
+    <Content Include="App_Component\Component\Content\uikit.css" />
+    <Content Include="App_Component\Component\Content\uikit.min.css" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-extension.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-extension.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.common.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.common.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.esm.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.esm.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.common.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.common.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.esm.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.esm.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.bundle.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.bundle.min.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.js" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.min.js" />
+    <Content Include="App_Component\Component\Scripts\semantic.js" />
+    <Content Include="App_Component\Component\Scripts\semantic.min.js" />
     <Content Include="App_Component\Component\Scripts\sweetalert2.all.js" />
     <Content Include="App_Component\Component\Scripts\sweetalert2.all.min.js" />
     <Content Include="App_Component\Component\Scripts\sweetalert2.js" />
     <Content Include="App_Component\Component\Scripts\sweetalert2.min.js" />
+    <Content Include="App_Component\Component\Scripts\uikit-icons.js" />
+    <Content Include="App_Component\Component\Scripts\uikit-icons.min.js" />
+    <Content Include="App_Component\Component\Scripts\uikit.js" />
+    <Content Include="App_Component\Component\Scripts\uikit.min.js" />
     <Content Include="App_Component\Controller\Main\app.js" />
-    <Content Include="App_Component\Controller\Page\Developer\DiscordBot.js" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
@@ -381,8 +412,25 @@
     <Content Include="Data\Linux\App\discordApp\bot.js" />
     <Content Include="Data\Linux\App\discordApp\functions.js" />
     <Content Include="Data\Linux\App\discordApp\installed_package.txt" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="MC Web.csproj.user" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.bundle.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.common.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.common.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.esm.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.esm.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue-icons.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.common.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.common.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.esm.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.esm.min.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.js.map" />
+    <Content Include="App_Component\Component\Scripts\bootstrap-vue.min.js.map" />
     <None Include="App_Component\Component\Scripts\jquery-3.5.1.intellisense.js" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.js" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.min.js" />
@@ -1339,6 +1387,9 @@
     <Content Include="App_Component\Component\Scripts\umd\popper.min.js" />
     <Content Include="App_Component\Component\Scripts\vue.js" />
     <Content Include="App_Component\Component\Scripts\vue.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -1371,6 +1422,11 @@
     <Content Include="Data\Temp\DC Action.tmp" />
     <Content Include="Data\Linux\App\discordApp\logging.js" />
     <Content Include="Data\LogOutput\Discord.log" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="App_Component\Controller\Shared\_Layout\Style\Site.less" />
     <None Include="packages.config" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.slim.min.map" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.min.map" />
@@ -1387,6 +1443,10 @@
     <Content Include="App_Component\Component\Scripts\popper-utils.min.js.map" />
     <Content Include="App_Component\Component\Scripts\popper-utils.js.map" />
     <Content Include="Views\Developer\DiscordBot.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Homes\Index.cshtml" />
+    <Content Include="Views\Shared\_Script.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1397,6 +1457,7 @@
   <ItemGroup>
     <Folder Include="App_Browsers\" />
     <Folder Include="App_Component\Controller\Locale\" />
+    <Folder Include="App_Component\Controller\Page\" />
     <Folder Include="App_Component\Resource\Img\" />
     <Folder Include="App_Component\Resource\Video\" />
     <Folder Include="App_Data\" />
@@ -1405,9 +1466,7 @@
     <Folder Include="Data\Uploaded Files\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />
-    <Folder Include="Scripts\" />
     <Folder Include="Views\Account\" />
-    <Folder Include="Views\Homes\" />
     <Folder Include="Views\News\" />
   </ItemGroup>
   <ItemGroup>
