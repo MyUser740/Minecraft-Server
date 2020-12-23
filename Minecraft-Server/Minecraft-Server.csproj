@@ -1369,6 +1369,8 @@
     <Content Include="Data\Linux\App\discordApp\package-lock.json" />
     <Content Include="Data\Linux\App\discordApp\package.json" />
     <Content Include="Data\Temp\DC Action.tmp" />
+    <Content Include="Data\Linux\App\discordApp\logging.js" />
+    <Content Include="Data\LogOutput\Discord.log" />
     <None Include="packages.config" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.slim.min.map" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.min.map" />
@@ -1400,7 +1402,6 @@
     <Folder Include="App_Data\" />
     <Folder Include="App_GlobalResources\" />
     <Folder Include="Data\Linux\App\scheduler\log\" />
-    <Folder Include="Data\LogOutput\" />
     <Folder Include="Data\Uploaded Files\" />
     <Folder Include="Models\" />
     <Folder Include="obj\Debug\TempPE\" />

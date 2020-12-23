@@ -7,6 +7,7 @@ const functions = require('./functions.js');
 const con = functions.con;
 const signalR = require("signalr-client");
 const messages = new Discord.Message;
+const log = require('./logging.js');
 
 //bot token
 client.login(config.BOT_TOKEN);
@@ -19,11 +20,13 @@ var yesNoType;
 //connect to database 
 con.connect(err => {
 	if (err) throw err;
+	log.Info(`Connected to database!`);
 	console.log(`Connected to database!`);
 });
 
 //connect to signalR
 console.log('start the client signalR');
+log.Debug('start the client signalR');
 
 let clientDC = new signalR.client(
 	'http://localhost:4899/signalR',
@@ -33,6 +36,7 @@ let clientDC = new signalR.client(
 
 //events
 client.on('ready', () => {
+	log.Info(`Logged in as ${client.user.tag}!`);
 	console.log(`Logged in as ${client.user.tag}!`);
 });
 
@@ -46,13 +50,20 @@ client.on('message', msg => {
 
 			client.channels.cache.get('790925380105666560').send('/ban <@' + user + '>');
 		});
-
-	console.log('Client signalR started');
+	//detect people chatting
+	if (!msg.author.bot) {
+		log.Info(`Chat -> [${msg.author.username}]::` + msg.content);
+		console.log(`Chat -> [${msg.author.username}]::` + msg.content);
+    }
+	
 
 	msgParsed = functions.parseCommand(msg.content, true);
 
 	if (msgParsed.prefix === botPrefix && msg.author !== client) {
-		
+
+
+		//detect people using command
+		log.Info(`CMD -> [${msg.author.username}]::` + msg.content);
 
 		//server message handler
 		if (msg.channel.type !== 'dm') {
