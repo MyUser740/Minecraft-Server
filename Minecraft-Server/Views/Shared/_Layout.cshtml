@@ -6,9 +6,11 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="~/App_Component/Controller/Shared/_Layout/Style/Site.less" rel="stylesheet" />
     @Html.Partial("_Script")
- 
+
+    <script src="~/App_Component/Controller/Main/app.js"></script>
+    <script src="~/App_Component/Controller/Shared/_Layout/Script/ng-Config.js"></script>
 </head>
-<body>
+<body ng-app="apps">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -40,10 +42,31 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_Forrum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_Report</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                @Minecraft_Server.App_LocalResources._Layout.nav_Player
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_PlyList</a></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_FrdList</a></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_PlySosmed</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_Guild</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_Chat</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_Docs</a>
                         </li>
                     </ul>
-                    <ul class="navbar-nav  mb-2 mb-lg-0" style="margin-top:0;">
+                    <ul class="navbar-nav flex-row flex-wrap ms-md-auto" style="margin-top:0;">
                         <li class="nav-item dropdown">
                             <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
                                 <i class="fad fa-bell"></i>
@@ -51,25 +74,42 @@
                             <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-10">
                                             <strong>System</strong>
                                         </div>
                                         <div class="col-5">
                                             <p class="text-muted">Now</p>
                                         </div>
+                                          
                                     </div>
                                     <div class="row">
-                                        <div class="col-12">
+                                        <span class="badge badge-soft-danger float-end">New</span>
+                                        <div class="col-20">
                                             <p>Messages</p>
                                         </div>
                                     </div>
                                 </div>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_ViewNoti</a></li>
 
                             </ul>
                         </li>
-                        
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fad fa-envelope "></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <i class="fad fa-cog" ></i>
+                            </a>
+                        </li>
+                        <form class="d-flex" ng-controller="QuickSearch" ng-submit="quickSearches()">
+                            <input class="form-control me-2" type="search" placeholder="@Minecraft_Server.App_LocalResources._Layout.qck_plc" aria-label="Search" id="QuickSearch">
+                            <button class="btn btn-outline-primary-Superhero" type="submit">@Minecraft_Server.App_LocalResources._Layout.qck_Btn</button>
+                        </form>
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
@@ -77,10 +117,12 @@
 
     <div class="container body-content">
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
-        </footer>
+
     </div>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+    </footer>
+    <!--MODALS-->
+
 </body>
 </html>

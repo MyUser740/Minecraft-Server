@@ -121,4 +121,40 @@
   <data name="drop_Profile" xml:space="preserve">
     <value>Profile</value>
   </data>
+  <data name="nav_Forrum" xml:space="preserve">
+    <value>Forrum</value>
+  </data>
+  <data name="nav_Report" xml:space="preserve">
+    <value>Report</value>
+  </data>
+  <data name="nav_Player" xml:space="preserve">
+    <value>Player</value>
+  </data>
+  <data name="drop_PlyList" xml:space="preserve">
+    <value>Player List</value>
+  </data>
+  <data name="drop_FrdList" xml:space="preserve">
+    <value>Friend List</value>
+  </data>
+  <data name="drop_PlySosmed" xml:space="preserve">
+    <value>Player Social Media</value>
+  </data>
+  <data name="drop_Guild" xml:space="preserve">
+    <value>Guild</value>
+  </data>
+  <data name="nav_Chat" xml:space="preserve">
+    <value>Chat</value>
+  </data>
+  <data name="nav_Docs" xml:space="preserve">
+    <value>Documentation</value>
+  </data>
+  <data name="drop_ViewNoti" xml:space="preserve">
+    <value>View All</value>
+  </data>
+  <data name="qck_plc" xml:space="preserve">
+    <value>Quick Search</value>
+  </data>
+  <data name="qck_Btn" xml:space="preserve">
+    <value>Search</value>
+  </data>
 </root>

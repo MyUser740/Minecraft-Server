@@ -440,6 +440,7 @@
     <Content Include="App_Component\Component\Scripts\uikit.js" />
     <Content Include="App_Component\Component\Scripts\uikit.min.js" />
     <Content Include="App_Component\Controller\Main\app.js" />
+    <Content Include="App_Component\Controller\Shared\_Layout\Script\ng-Config.js" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />

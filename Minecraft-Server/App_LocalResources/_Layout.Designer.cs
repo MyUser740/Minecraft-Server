@@ -61,6 +61,24 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Friend List.
+        /// </summary>
+        public static string drop_FrdList {
+            get {
+                return ResourceManager.GetString("drop_FrdList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Guild.
+        /// </summary>
+        public static string drop_Guild {
+            get {
+                return ResourceManager.GetString("drop_Guild", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Login.
         /// </summary>
         public static string drop_Login {
@@ -75,6 +93,24 @@ namespace Minecraft_Server.App_LocalResources {
         public static string drop_Logout {
             get {
                 return ResourceManager.GetString("drop_Logout", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player List.
+        /// </summary>
+        public static string drop_PlyList {
+            get {
+                return ResourceManager.GetString("drop_PlyList", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player Social Media.
+        /// </summary>
+        public static string drop_PlySosmed {
+            get {
+                return ResourceManager.GetString("drop_PlySosmed", resourceCulture);
             }
         }
         
@@ -97,6 +133,15 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to View All.
+        /// </summary>
+        public static string drop_ViewNoti {
+            get {
+                return ResourceManager.GetString("drop_ViewNoti", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Account.
         /// </summary>
         public static string nav_Account {
@@ -106,11 +151,38 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Chat.
+        /// </summary>
+        public static string nav_Chat {
+            get {
+                return ResourceManager.GetString("nav_Chat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Documentation.
+        /// </summary>
+        public static string nav_Docs {
+            get {
+                return ResourceManager.GetString("nav_Docs", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Event.
         /// </summary>
         public static string nav_Event {
             get {
                 return ResourceManager.GetString("nav_Event", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Forrum.
+        /// </summary>
+        public static string nav_Forrum {
+            get {
+                return ResourceManager.GetString("nav_Forrum", resourceCulture);
             }
         }
         
@@ -129,6 +201,42 @@ namespace Minecraft_Server.App_LocalResources {
         public static string nav_News {
             get {
                 return ResourceManager.GetString("nav_News", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Player.
+        /// </summary>
+        public static string nav_Player {
+            get {
+                return ResourceManager.GetString("nav_Player", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Report.
+        /// </summary>
+        public static string nav_Report {
+            get {
+                return ResourceManager.GetString("nav_Report", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Search.
+        /// </summary>
+        public static string qck_Btn {
+            get {
+                return ResourceManager.GetString("qck_Btn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quick Search.
+        /// </summary>
+        public static string qck_plc {
+            get {
+                return ResourceManager.GetString("qck_plc", resourceCulture);
             }
         }
     }
