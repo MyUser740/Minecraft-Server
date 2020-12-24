@@ -97,34 +97,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Home" xml:space="preserve">
+  <data name="nav_Home" xml:space="preserve">
     <value>Home</value>
   </data>
-  <data name="News" xml:space="preserve">
+  <data name="nav_News" xml:space="preserve">
     <value>News</value>
   </data>
-  <data name="Event" xml:space="preserve">
+  <data name="nav_Event" xml:space="preserve">
     <value>Event</value>
   </data>
-  <data name="Account" xml:space="preserve">
+  <data name="nav_Account" xml:space="preserve">
     <value>Account</value>
   </data>
-  <data name="Login" xml:space="preserve">
+  <data name="drop_Login" xml:space="preserve">
     <value>Login</value>
   </data>
-  <data name="Logout" xml:space="preserve">
-    <value>Logout</value>
-  </data>
-  <data name="Regis" xml:space="preserve">
+  <data name="drop_Regis" xml:space="preserve">
     <value>Register</value>
   </data>
-  <data name="Profile" xml:space="preserve">
+  <data name="drop_Logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="drop_Profile" xml:space="preserve">
     <value>Profile</value>
-  </data>
-  <data name="Forrum" xml:space="preserve">
-    <value>Forrum</value>
-  </data>
-  <data name="Server" xml:space="preserve">
-    <value>Server</value>
   </data>
 </root>

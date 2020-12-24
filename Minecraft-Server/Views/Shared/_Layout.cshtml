@@ -4,27 +4,76 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
-    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
-    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+    <link href="~/App_Component/Controller/Shared/_Layout/Style/Site.less" rel="stylesheet" />
+    @Html.Partial("_Script")
+ 
 </head>
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources._Layout.nav_Event</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                @Minecraft_Server.App_LocalResources._Layout.nav_Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_Login</a></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_Regis</a></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_Logout</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="#">@Minecraft_Server.App_LocalResources._Layout.drop_Profile</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav  mb-2 mb-lg-0" style="margin-top:0;">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                                <i class="fad fa-bell"></i>
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end" aria-labelledby="navbarDropdown">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <strong>System</strong>
+                                        </div>
+                                        <div class="col-5">
+                                            <p class="text-muted">Now</p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p>Messages</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                    
+                </div>
             </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
-            </div>
-        </div>
-    </div>
+        </nav>
+    </header>
 
     <div class="container body-content">
         @RenderBody()
@@ -33,8 +82,5 @@
             <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
         </footer>
     </div>
-
-    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
-    <script src="~/Scripts/bootstrap.min.js"></script>
 </body>
 </html>

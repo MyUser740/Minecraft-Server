@@ -61,92 +61,74 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Account.
-        /// </summary>
-        public static string Account {
-            get {
-                return ResourceManager.GetString("Account", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Event.
-        /// </summary>
-        public static string Event {
-            get {
-                return ResourceManager.GetString("Event", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Forrum.
-        /// </summary>
-        public static string Forrum {
-            get {
-                return ResourceManager.GetString("Forrum", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Home.
-        /// </summary>
-        public static string Home {
-            get {
-                return ResourceManager.GetString("Home", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Login.
         /// </summary>
-        public static string Login {
+        public static string drop_Login {
             get {
-                return ResourceManager.GetString("Login", resourceCulture);
+                return ResourceManager.GetString("drop_Login", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Logout.
         /// </summary>
-        public static string Logout {
+        public static string drop_Logout {
             get {
-                return ResourceManager.GetString("Logout", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to News.
-        /// </summary>
-        public static string News {
-            get {
-                return ResourceManager.GetString("News", resourceCulture);
+                return ResourceManager.GetString("drop_Logout", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Profile.
         /// </summary>
-        public static string Profile {
+        public static string drop_Profile {
             get {
-                return ResourceManager.GetString("Profile", resourceCulture);
+                return ResourceManager.GetString("drop_Profile", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to Register.
         /// </summary>
-        public static string Regis {
+        public static string drop_Regis {
             get {
-                return ResourceManager.GetString("Regis", resourceCulture);
+                return ResourceManager.GetString("drop_Regis", resourceCulture);
             }
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Server.
+        ///   Looks up a localized string similar to Account.
         /// </summary>
-        public static string Server {
+        public static string nav_Account {
             get {
-                return ResourceManager.GetString("Server", resourceCulture);
+                return ResourceManager.GetString("nav_Account", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Event.
+        /// </summary>
+        public static string nav_Event {
+            get {
+                return ResourceManager.GetString("nav_Event", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Home.
+        /// </summary>
+        public static string nav_Home {
+            get {
+                return ResourceManager.GetString("nav_Home", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to News.
+        /// </summary>
+        public static string nav_News {
+            get {
+                return ResourceManager.GetString("nav_News", resourceCulture);
             }
         }
     }
