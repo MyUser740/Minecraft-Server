@@ -1,0 +1,492 @@
+.bytesize.bytesize-activity:after {
+    content: "";
+    background-image: url("../fonts/activity.svg");
+}
+
+.bytesize.bytesize-alert:after {
+    content: "";
+    background-image: url("../fonts/alert.svg");
+}
+
+.bytesize.bytesize-archive:after {
+    content: "";
+    background-image: url("../fonts/archive.svg");
+}
+
+.bytesize.bytesize-arrow-bottom:after {
+    content: "";
+    background-image: url("../fonts/arrow-bottom.svg");
+}
+
+.bytesize.bytesize-arrow-left:after {
+    content: "";
+    background-image: url("../fonts/arrow-left.svg");
+}
+
+.bytesize.bytesize-arrow-right:after {
+    content: "";
+    background-image: url("../fonts/arrow-right.svg");
+}
+
+.bytesize.bytesize-arrow-top:after {
+    content: "";
+    background-image: url("../fonts/arrow-top.svg");
+}
+
+.bytesize.bytesize-backwards:after {
+    content: "";
+    background-image: url("../fonts/backwards.svg");
+}
+
+.bytesize.bytesize-bag:after {
+    content: "";
+    background-image: url("../fonts/bag.svg");
+}
+
+.bytesize.bytesize-ban:after {
+    content: "";
+    background-image: url("../fonts/ban.svg");
+}
+
+.bytesize.bytesize-bell:after {
+    content: "";
+    background-image: url("../fonts/bell.svg");
+}
+
+.bytesize.bytesize-book:after {
+    content: "";
+    background-image: url("../fonts/book.svg");
+}
+
+.bytesize.bytesize-bookmark:after {
+    content: "";
+    background-image: url("../fonts/bookmark.svg");
+}
+
+.bytesize.bytesize-calendar:after {
+    content: "";
+    background-image: url("../fonts/calendar.svg");
+}
+
+.bytesize.bytesize-camera:after {
+    content: "";
+    background-image: url("../fonts/camera.svg");
+}
+
+.bytesize.bytesize-caret-bottom:after {
+    content: "";
+    background-image: url("../fonts/caret-bottom.svg");
+}
+
+.bytesize.bytesize-caret-left:after {
+    content: "";
+    background-image: url("../fonts/caret-left.svg");
+}
+
+.bytesize.bytesize-caret-right:after {
+    content: "";
+    background-image: url("../fonts/caret-right.svg");
+}
+
+.bytesize.bytesize-caret-top:after {
+    content: "";
+    background-image: url("../fonts/caret-top.svg");
+}
+
+.bytesize.bytesize-cart:after {
+    content: "";
+    background-image: url("../fonts/cart.svg");
+}
+
+.bytesize.bytesize-checkmark:after {
+    content: "";
+    background-image: url("../fonts/checkmark.svg");
+}
+
+.bytesize.bytesize-chevron-bottom:after {
+    content: "";
+    background-image: url("../fonts/chevron-bottom.svg");
+}
+
+.bytesize.bytesize-chevron-left:after {
+    content: "";
+    background-image: url("../fonts/chevron-left.svg");
+}
+
+.bytesize.bytesize-chevron-right:after {
+    content: "";
+    background-image: url("../fonts/chevron-right.svg");
+}
+
+.bytesize.bytesize-chevron-top:after {
+    content: "";
+    background-image: url("../fonts/chevron-top.svg");
+}
+
+.bytesize.bytesize-clipboard:after {
+    content: "";
+    background-image: url("../fonts/clipboard.svg");
+}
+
+.bytesize.bytesize-clock:after {
+    content: "";
+    background-image: url("../fonts/clock.svg");
+}
+
+.bytesize.bytesize-close:after {
+    content: "";
+    background-image: url("../fonts/close.svg");
+}
+
+.bytesize.bytesize-code:after {
+    content: "";
+    background-image: url("../fonts/code.svg");
+}
+
+.bytesize.bytesize-compose:after {
+    content: "";
+    background-image: url("../fonts/compose.svg");
+}
+
+.bytesize.bytesize-creditcard:after {
+    content: "";
+    background-image: url("../fonts/creditcard.svg");
+}
+
+.bytesize.bytesize-desktop:after {
+    content: "";
+    background-image: url("../fonts/desktop.svg");
+}
+
+.bytesize.bytesize-download:after {
+    content: "";
+    background-image: url("../fonts/download.svg");
+}
+
+.bytesize.bytesize-edit:after {
+    content: "";
+    background-image: url("../fonts/edit.svg");
+}
+
+.bytesize.bytesize-eject:after {
+    content: "";
+    background-image: url("../fonts/eject.svg");
+}
+
+.bytesize.bytesize-ellipsis-horizontal:after {
+    content: "";
+    background-image: url("../fonts/ellipsis-horizontal.svg");
+}
+
+.bytesize.bytesize-ellipsis-vertical:after {
+    content: "";
+    background-image: url("../fonts/ellipsis-vertical.svg");
+}
+
+.bytesize.bytesize-end:after {
+    content: "";
+    background-image: url("../fonts/end.svg");
+}
+
+.bytesize.bytesize-export:after {
+    content: "";
+    background-image: url("../fonts/export.svg");
+}
+
+.bytesize.bytesize-external:after {
+    content: "";
+    background-image: url("../fonts/external.svg");
+}
+
+.bytesize.bytesize-eye:after {
+    content: "";
+    background-image: url("../fonts/eye.svg");
+}
+
+.bytesize.bytesize-feed:after {
+    content: "";
+    background-image: url("../fonts/feed.svg");
+}
+
+.bytesize.bytesize-file:after {
+    content: "";
+    background-image: url("../fonts/file.svg");
+}
+
+.bytesize.bytesize-filter:after {
+    content: "";
+    background-image: url("../fonts/filter.svg");
+}
+
+.bytesize.bytesize-flag:after {
+    content: "";
+    background-image: url("../fonts/flag.svg");
+}
+
+.bytesize.bytesize-folder-open:after {
+    content: "";
+    background-image: url("../fonts/folder-open.svg");
+}
+
+.bytesize.bytesize-folder:after {
+    content: "";
+    background-image: url("../fonts/folder.svg");
+}
+
+.bytesize.bytesize-forwards:after {
+    content: "";
+    background-image: url("../fonts/forwards.svg");
+}
+
+.bytesize.bytesize-fullscreen-exit:after {
+    content: "";
+    background-image: url("../fonts/fullscreen-exit.svg");
+}
+
+.bytesize.bytesize-fullscreen:after {
+    content: "";
+    background-image: url("../fonts/fullscreen.svg");
+}
+
+.bytesize.bytesize-gift:after {
+    content: "";
+    background-image: url("../fonts/gift.svg");
+}
+
+.bytesize.bytesize-github:after {
+    content: "";
+    background-image: url("../fonts/github.svg");
+}
+
+.bytesize.bytesize-heart:after {
+    content: "";
+    background-image: url("../fonts/heart.svg");
+}
+
+.bytesize.bytesize-home:after {
+    content: "";
+    background-image: url("../fonts/home.svg");
+}
+
+.bytesize.bytesize-import:after {
+    content: "";
+    background-image: url("../fonts/import.svg");
+}
+
+.bytesize.bytesize-inbox:after {
+    content: "";
+    background-image: url("../fonts/inbox.svg");
+}
+
+.bytesize.bytesize-info:after {
+    content: "";
+    background-image: url("../fonts/info.svg");
+}
+
+.bytesize.bytesize-lightning:after {
+    content: "";
+    background-image: url("../fonts/lightning.svg");
+}
+
+.bytesize.bytesize-link:after {
+    content: "";
+    background-image: url("../fonts/link.svg");
+}
+
+.bytesize.bytesize-location:after {
+    content: "";
+    background-image: url("../fonts/location.svg");
+}
+
+.bytesize.bytesize-lock:after {
+    content: "";
+    background-image: url("../fonts/lock.svg");
+}
+
+.bytesize.bytesize-mail:after {
+    content: "";
+    background-image: url("../fonts/mail.svg");
+}
+
+.bytesize.bytesize-menu:after {
+    content: "";
+    background-image: url("../fonts/menu.svg");
+}
+
+.bytesize.bytesize-message:after {
+    content: "";
+    background-image: url("../fonts/message.svg");
+}
+
+.bytesize.bytesize-microphone:after {
+    content: "";
+    background-image: url("../fonts/microphone.svg");
+}
+
+.bytesize.bytesize-minus:after {
+    content: "";
+    background-image: url("../fonts/minus.svg");
+}
+
+.bytesize.bytesize-mobile:after {
+    content: "";
+    background-image: url("../fonts/mobile.svg");
+}
+
+.bytesize.bytesize-moon:after {
+    content: "";
+    background-image: url("../fonts/moon.svg");
+}
+
+.bytesize.bytesize-move:after {
+    content: "";
+    background-image: url("../fonts/move.svg");
+}
+
+.bytesize.bytesize-music:after {
+    content: "";
+    background-image: url("../fonts/music.svg");
+}
+
+.bytesize.bytesize-mute:after {
+    content: "";
+    background-image: url("../fonts/mute.svg");
+}
+
+.bytesize.bytesize-options:after {
+    content: "";
+    background-image: url("../fonts/options.svg");
+}
+
+.bytesize.bytesize-paperclip:after {
+    content: "";
+    background-image: url("../fonts/paperclip.svg");
+}
+
+.bytesize.bytesize-pause:after {
+    content: "";
+    background-image: url("../fonts/pause.svg");
+}
+
+.bytesize.bytesize-photo:after {
+    content: "";
+    background-image: url("../fonts/photo.svg");
+}
+
+.bytesize.bytesize-play:after {
+    content: "";
+    background-image: url("../fonts/play.svg");
+}
+
+.bytesize.bytesize-plus:after {
+    content: "";
+    background-image: url("../fonts/plus.svg");
+}
+
+.bytesize.bytesize-portfolio:after {
+    content: "";
+    background-image: url("../fonts/portfolio.svg");
+}
+
+.bytesize.bytesize-print:after {
+    content: "";
+    background-image: url("../fonts/print.svg");
+}
+
+.bytesize.bytesize-reload:after {
+    content: "";
+    background-image: url("../fonts/reload.svg");
+}
+
+.bytesize.bytesize-reply:after {
+    content: "";
+    background-image: url("../fonts/reply.svg");
+}
+
+.bytesize.bytesize-search:after {
+    content: "";
+    background-image: url("../fonts/search.svg");
+}
+
+.bytesize.bytesize-send:after {
+    content: "";
+    background-image: url("../fonts/send.svg");
+}
+
+.bytesize.bytesize-settings:after {
+    content: "";
+    background-image: url("../fonts/settings.svg");
+}
+
+.bytesize.bytesize-sign-in:after {
+    content: "";
+    background-image: url("../fonts/sign-in.svg");
+}
+
+.bytesize.bytesize-sign-out:after {
+    content: "";
+    background-image: url("../fonts/sign-out.svg");
+}
+
+.bytesize.bytesize-star:after {
+    content: "";
+    background-image: url("../fonts/star.svg");
+}
+
+.bytesize.bytesize-start:after {
+    content: "";
+    background-image: url("../fonts/start.svg");
+}
+
+.bytesize.bytesize-tag:after {
+    content: "";
+    background-image: url("../fonts/tag.svg");
+}
+
+.bytesize.bytesize-telephone:after {
+    content: "";
+    background-image: url("../fonts/telephone.svg");
+}
+
+.bytesize.bytesize-trash:after {
+    content: "";
+    background-image: url("../fonts/trash.svg");
+}
+
+.bytesize.bytesize-twitter:after {
+    content: "";
+    background-image: url("../fonts/twitter.svg");
+}
+
+.bytesize.bytesize-unlock:after {
+    content: "";
+    background-image: url("../fonts/unlock.svg");
+}
+
+.bytesize.bytesize-upload:after {
+    content: "";
+    background-image: url("../fonts/upload.svg");
+}
+
+.bytesize.bytesize-user:after {
+    content: "";
+    background-image: url("../fonts/user.svg");
+}
+
+.bytesize.bytesize-video:after {
+    content: "";
+    background-image: url("../fonts/video.svg");
+}
+
+.bytesize.bytesize-volume:after {
+    content: "";
+    background-image: url("../fonts/volume.svg");
+}
+
+.bytesize.bytesize-work:after {
+    content: "";
+    background-image: url("../fonts/work.svg");
+}
+
+.bytesize.bytesize-zoom-in:after {
+    content: "";

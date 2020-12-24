@@ -1,0 +1,26 @@
+[
+  {
+    "outputFileName": "App_Component/Component/Content/fontawesome.all.min.css",
+    "inputFiles": [
+      "App_Component/Component/Content/fontawesome.all.css"
+    ]
+  },
+  {
+    "outputFileName": "App_Component/Component/Content/feather.min.css",
+    "inputFiles": [
+      "App_Component/Component/Content/feather.css"
+    ]
+  },
+  {
+    "outputFileName": "App_Component/Component/Content/Oction.min.css",
+    "inputFiles": [
+      "App_Component/Component/Content/Oction.css"
+    ]
+  },
+  {
+    "outputFileName": "App_Component/Component/Content/ByteSize.min.css",
+    "inputFiles": [
+      "App_Component/Component/Content/ByteSize.css"
+    ]
+  }
+]
