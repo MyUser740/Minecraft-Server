@@ -142,11 +142,38 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Close.
+        /// </summary>
+        public static string mdlMail_Dismis {
+            get {
+                return ResourceManager.GetString("mdlMail_Dismis", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Claim Reward.
+        /// </summary>
+        public static string mdlMail_MenuClm {
+            get {
+                return ResourceManager.GetString("mdlMail_MenuClm", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to System.
         /// </summary>
         public static string mdlMail_MenuSys {
             get {
                 return ResourceManager.GetString("mdlMail_MenuSys", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Update.
+        /// </summary>
+        public static string mdlMail_MenuUpdt {
+            get {
+                return ResourceManager.GetString("mdlMail_MenuUpdt", resourceCulture);
             }
         }
         

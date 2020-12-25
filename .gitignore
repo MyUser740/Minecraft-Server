@@ -348,3 +348,4 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/Minecraft-Server/App_Component/Component/Content/bootstrap.css
