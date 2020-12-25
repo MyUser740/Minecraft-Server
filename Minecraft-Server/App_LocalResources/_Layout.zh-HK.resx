@@ -192,4 +192,10 @@
   <data name="mdlMail_Dismis" xml:space="preserve">
     <value>關閉</value>
   </data>
+  <data name="alert_QuickSeaerchEmpty_Title" xml:space="preserve">
+    <value>快速搜索</value>
+  </data>
+  <data name="alert_QuickSeaerchEmpty_Desc" xml:space="preserve">
+    <value>快速搜索輸入為空</value>
+  </data>
 </root>

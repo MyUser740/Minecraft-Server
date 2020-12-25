@@ -1,0 +1,112 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "Rumah"
+    },
+    {
+      "id": "nav_News",
+      "text": "Berita"
+    },
+    {
+      "id": "nav_Event",
+      "text": "Acara"
+    },
+    {
+      "id": "nav_Account",
+      "text": "Akaun"
+    },
+    {
+      "id": "drop_Login",
+      "text": "Log masuk"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "Senaraikan"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "Keluar"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "Profil"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "Forum"
+    },
+    {
+      "id": "nav_Report",
+      "text": "Lapor"
+    },
+    {
+      "id": "nav_Player",
+      "text": "Pemain"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "Senarai Pemain"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "Senarai Rakan"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "Pemain Media Sosial"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "Kesatuan"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "Berbual"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "Dokumentasi"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "Lihat Semua"
+    },
+    {
+      "id": "qck_plc",
+      "text": "Pencarian Pantas"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "Cari"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "Surat"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "Sistem"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "Pembaharuan"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "Tuntutan Hadiah"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "Tudung"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "Pencarian Pantas"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "Input carian pantas kosong"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "Home"
+    },
+    {
+      "id": "nav_News",
+      "text": "News"
+    },
+    {
+      "id": "nav_Event",
+      "text": "Event"
+    },
+    {
+      "id": "nav_Account",
+      "text": "Account"
+    },
+    {
+      "id": "drop_Login",
+      "text": "Login"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "Register"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "Logout"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "Profile"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "Forrum"
+    },
+    {
+      "id": "nav_Report",
+      "text": "Report"
+    },
+    {
+      "id": "nav_Player",
+      "text": "Player"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "Player List"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "Friend List"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "Player Social Media"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "Guild"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "Chat"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "Documentation"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "View All"
+    },
+    {
+      "id": "qck_plc",
+      "text": "Quick Search"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "Search"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "Mail"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "System"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "Update"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "Claim Reward"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "Close"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "Quick Search"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "Quick search input is empty"
+    }
+  ]
+}

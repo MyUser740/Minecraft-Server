@@ -1,0 +1,112 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "屋"
+    },
+    {
+      "id": "nav_News",
+      "text": "新闻"
+    },
+    {
+      "id": "nav_Event",
+      "text": "事件"
+    },
+    {
+      "id": "nav_Account",
+      "text": "帳戶"
+    },
+    {
+      "id": "drop_Login",
+      "text": "登錄"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "寄存器"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "登出"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "個人資料"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "論壇"
+    },
+    {
+      "id": "nav_Report",
+      "text": "報告"
+    },
+    {
+      "id": "nav_Player",
+      "text": "播放器"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "球員名單"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "好友列表"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "玩家社交媒體"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "公會"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "聊天室"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "文獻資料"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "查看全部"
+    },
+    {
+      "id": "qck_plc",
+      "text": "塊的搜索"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "搜索"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "郵件"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "系統"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "更新資料"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "領取獎勵"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "關"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "塊的搜索"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "快速搜索輸入為空"
+    }
+  ]
+}

@@ -439,6 +439,7 @@
     <Content Include="App_Component\Component\Scripts\uikit-icons.min.js" />
     <Content Include="App_Component\Component\Scripts\uikit.js" />
     <Content Include="App_Component\Component\Scripts\uikit.min.js" />
+    <Content Include="App_Component\Controller\Locale\Pages.js" />
     <Content Include="App_Component\Controller\Main\app.js" />
     <Content Include="App_Component\Controller\Shared\_Layout\Script\ng-Config.js" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
@@ -2158,6 +2159,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_Layout.en-GB.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_LocalResources\_Layout.fil-PH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Layout.fil-PH.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_LocalResources\_Layout.id-ID.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -2177,6 +2183,11 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>_Layout.zh-Hant.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\_Layout.zh-HK.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Layout.zh-HK.resx</DependentUpon>
     </Compile>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
@@ -2211,6 +2222,14 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="App_Component\Controller\Shared\_Layout\Style\Site.less" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\en-GB.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\fil-PH.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\id-ID.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\ms-MY.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\zh-CN.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\zh-Hant.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\zh-HK.json" />
+    <Content Include="App_Component\Controller\Locale\Script\_Layout\_Layout.resx.json" />
     <None Include="packages.config" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.slim.min.map" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.min.map" />
@@ -2240,7 +2259,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Browsers\" />
-    <Folder Include="App_Component\Controller\Locale\" />
     <Folder Include="App_Component\Controller\Page\" />
     <Folder Include="App_Component\Resource\Img\" />
     <Folder Include="App_Component\Resource\Video\" />
@@ -2264,6 +2282,10 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>_Layout.en-GB.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\_Layout.fil-PH.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>_Layout.fil-PH.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="App_LocalResources\_Layout.id-ID.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>_Layout.id-ID.Designer.cs</LastGenOutput>
@@ -2284,7 +2306,10 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>_Layout.zh-Hant.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Content Include="App_LocalResources\_Layout.zh-HK.resx" />
+    <EmbeddedResource Include="App_LocalResources\_Layout.zh-HK.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>_Layout.zh-HK.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

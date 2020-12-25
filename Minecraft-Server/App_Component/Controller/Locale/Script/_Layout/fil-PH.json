@@ -1,0 +1,112 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "Bahay"
+    },
+    {
+      "id": "nav_News",
+      "text": "Balita"
+    },
+    {
+      "id": "nav_Event",
+      "text": "Kaganapan"
+    },
+    {
+      "id": "nav_Account",
+      "text": "Account"
+    },
+    {
+      "id": "drop_Login",
+      "text": "Mag log in"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "Magparehistro"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "MagparPag-logoutehistro"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "Profile"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "Forum"
+    },
+    {
+      "id": "nav_Report",
+      "text": "Lulat"
+    },
+    {
+      "id": "nav_Player",
+      "text": "Manlalaro"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "Listahan ng Player"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "Listahan ng kaibigan"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "Player ng Social Media"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "Guild"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "Chat"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "Dokumentasyon"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "Tingnan lahat"
+    },
+    {
+      "id": "qck_plc",
+      "text": "Mabilis na Paghahanap"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "Maghanap"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "Mail"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "Sistema"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "Update"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "Gantimpala sa Pag-angkin"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "Isara"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "Mabilis na Paghahanap"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "Walang laman ang mabilis na input ng paghahanap"
+    }
+  ]
+}

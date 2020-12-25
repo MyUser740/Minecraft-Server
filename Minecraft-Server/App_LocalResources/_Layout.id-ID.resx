@@ -192,4 +192,10 @@
   <data name="mdlMail_Dismis" xml:space="preserve">
     <value>Tutup</value>
   </data>
+  <data name="alert_QuickSeaerchEmpty_Title" xml:space="preserve">
+    <value>Pencarian Cepat</value>
+  </data>
+  <data name="alert_QuickSeaerchEmpty_Desc" xml:space="preserve">
+    <value>Input pencarian cepat kosong</value>
+  </data>
 </root>

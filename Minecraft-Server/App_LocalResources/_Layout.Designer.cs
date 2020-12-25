@@ -61,6 +61,24 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Quick search input is empty.
+        /// </summary>
+        public static string alert_QuickSeaerchEmpty_Desc {
+            get {
+                return ResourceManager.GetString("alert_QuickSeaerchEmpty_Desc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Quick Search.
+        /// </summary>
+        public static string alert_QuickSeaerchEmpty_Title {
+            get {
+                return ResourceManager.GetString("alert_QuickSeaerchEmpty_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Friend List.
         /// </summary>
         public static string drop_FrdList {
