@@ -157,4 +157,10 @@
   <data name="qck_Btn" xml:space="preserve">
     <value>Search</value>
   </data>
+  <data name="mdlMail_Title" xml:space="preserve">
+    <value>Mail</value>
+  </data>
+  <data name="mdlMail_MenuSys" xml:space="preserve">
+    <value>System</value>
+  </data>
 </root>

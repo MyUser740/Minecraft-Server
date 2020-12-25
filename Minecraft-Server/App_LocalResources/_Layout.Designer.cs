@@ -142,6 +142,24 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to System.
+        /// </summary>
+        public static string mdlMail_MenuSys {
+            get {
+                return ResourceManager.GetString("mdlMail_MenuSys", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mail.
+        /// </summary>
+        public static string mdlMail_Title {
+            get {
+                return ResourceManager.GetString("mdlMail_Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Account.
         /// </summary>
         public static string nav_Account {
