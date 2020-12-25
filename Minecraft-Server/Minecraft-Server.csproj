@@ -440,6 +440,7 @@
     <Content Include="App_Component\Component\Scripts\uikit.js" />
     <Content Include="App_Component\Component\Scripts\uikit.min.js" />
     <Content Include="App_Component\Controller\Locale\Pages.js" />
+    <Content Include="App_Component\Controller\Locale\func.js" />
     <Content Include="App_Component\Controller\Main\app.js" />
     <Content Include="App_Component\Controller\Shared\_Layout\Script\ng-Config.js" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
