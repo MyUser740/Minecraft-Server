@@ -61,6 +61,15 @@ namespace Minecraft_Server.App_LocalResources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Ok.
+        /// </summary>
+        public static string alert_OkButton {
+            get {
+                return ResourceManager.GetString("alert_OkButton", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Quick search input is empty.
         /// </summary>
         public static string alert_QuickSeaerchEmpty_Desc {

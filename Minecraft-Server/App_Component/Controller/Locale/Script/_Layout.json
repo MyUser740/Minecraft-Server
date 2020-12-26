@@ -107,6 +107,10 @@
     {
       "id": "alert_QuickSeaerchEmpty_Desc",
       "text": "Quick search input is empty"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "Ok"
     }
   ]
 }

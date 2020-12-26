@@ -1,0 +1,116 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "နေအိမ်"
+    },
+    {
+      "id": "nav_News",
+      "text": "သတင်း"
+    },
+    {
+      "id": "nav_Event",
+      "text": "အဖြစ်အပျက်"
+    },
+    {
+      "id": "nav_Account",
+      "text": "အကောင့်"
+    },
+    {
+      "id": "drop_Login",
+      "text": "လော့ဂ်အင်"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "မှတ်ပုံတင်ပါ"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "ထွက်ပေါက်"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "ကိုယ်ရေးအကျဉ်း"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "ဖိုရမ်"
+    },
+    {
+      "id": "nav_Report",
+      "text": "အစီရင်ခံစာ"
+    },
+    {
+      "id": "nav_Player",
+      "text": "ကစားသမား"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "ကစားသမားစာရင်း"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "သူငယ်ချင်းစာရင်း"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "လူမှုမီဒီယာဖွင့်သည်"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "ကောင်မလေး"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "ချက်တင်"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "စာရွက်စာတမ်း"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "အားလုံးကြည့်ပါ"
+    },
+    {
+      "id": "qck_plc",
+      "text": "အမြန်ရှာဖွေရန်"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "ရှာပါ"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "စာ"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "စနစ်"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "နောက်ဆုံးသတင်း"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "ဆုလာဘ်တောင်းဆို"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "ပိတ်"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "အမြန်ရှာဖွေရန်"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "လျင်မြန်စွာရှာဖွေရေး input ကိုဗလာ"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "ရလား"
+    }
+  ]
+}

@@ -198,4 +198,7 @@
   <data name="alert_QuickSeaerchEmpty_Desc" xml:space="preserve">
     <value>Walang laman ang mabilis na input ng paghahanap</value>
   </data>
+  <data name="alert_OkButton" xml:space="preserve">
+    <value>Sige</value>
+  </data>
 </root>

@@ -1,0 +1,116 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "บ้าน"
+    },
+    {
+      "id": "nav_News",
+      "text": "ข่าว"
+    },
+    {
+      "id": "nav_Event",
+      "text": "เหตุการณ์"
+    },
+    {
+      "id": "nav_Account",
+      "text": "บัญชีผู้ใช้"
+    },
+    {
+      "id": "drop_Login",
+      "text": "เข้าสู่ระบบ"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "ลงทะเบียน"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "ออกจากระบบ"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "ข้อมูลส่วนตัว"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "ฟอรั่ม"
+    },
+    {
+      "id": "nav_Report",
+      "text": "รายงาน"
+    },
+    {
+      "id": "nav_Player",
+      "text": "ผู้เล่น"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "รายชื่อผู้เล่น"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "รายชื่อเพื่อน"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "ผู้เล่นโซเชียลมีเดีย"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "กิลด์"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "แชท"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "เอกสารประกอบ"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "ดูทั้งหมด"
+    },
+    {
+      "id": "qck_plc",
+      "text": "ค้นหาอย่างรวดเร็ว"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "ค้นหา"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "จดหมาย"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "ระบบ"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "อัปเดต"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "รับรางวัล"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "ปิด"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "ค้นหาอย่างรวดเร็ว"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "ข้อมูลการค้นหาด่วนว่างเปล่า"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "ตกลง"
+    }
+  ]
+}

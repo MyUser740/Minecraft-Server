@@ -1,0 +1,116 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "ផ្ទះ"
+    },
+    {
+      "id": "nav_News",
+      "text": "ព័ត៌មាន"
+    },
+    {
+      "id": "nav_Event",
+      "text": "ព្រឹត្តិការណ៍"
+    },
+    {
+      "id": "nav_Account",
+      "text": "គណនី"
+    },
+    {
+      "id": "drop_Login",
+      "text": "ចូល"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "ចុះឈ្មោះ"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "ចាកចេញ"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "ប្រវត្តិរូប"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "វេទិកា"
+    },
+    {
+      "id": "nav_Report",
+      "text": "របាយការណ៍"
+    },
+    {
+      "id": "nav_Player",
+      "text": "អ្នកលេង"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "បញ្ជីអ្នកលេង"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "បញ្ជីមិត្តភក្តិ"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "អ្នកលេងបណ្តាញសង្គម"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "អាជីវៈសង្គម"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "ជជែក"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "ឯកសារ"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "មើលទាំងអស់"
+    },
+    {
+      "id": "qck_plc",
+      "text": "ការ​ស្វែង​រក​ឆាប់​រហ័ស"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "ស្វែងរក"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "សំបុត្រ"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "ប្រព័ន្ធ"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "ធ្វើបច្ចុប្បន្នភាព"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "ការទាមទារសំណង"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "បិទ"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "ការ​ស្វែង​រក​ឆាប់​រហ័ស"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "ការបញ្ចូលការស្វែងរករហ័សគឺទទេ"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "យល់ព្រម"
+    }
+  ]
+}

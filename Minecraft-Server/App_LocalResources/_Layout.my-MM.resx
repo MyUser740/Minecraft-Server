@@ -118,87 +118,87 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="nav_Home" xml:space="preserve">
-    <value>家</value>
+    <value>နေအိမ်</value>
   </data>
   <data name="nav_News" xml:space="preserve">
-    <value>新聞</value>
+    <value>သတင်း</value>
   </data>
   <data name="nav_Event" xml:space="preserve">
-    <value>事件</value>
+    <value>အဖြစ်အပျက်</value>
   </data>
   <data name="nav_Account" xml:space="preserve">
-    <value>帳戶</value>
+    <value>အကောင့်</value>
   </data>
   <data name="drop_Login" xml:space="preserve">
-    <value>登錄</value>
+    <value>လော့ဂ်အင်</value>
   </data>
   <data name="drop_Regis" xml:space="preserve">
-    <value>註冊</value>
+    <value>မှတ်ပုံတင်ပါ</value>
   </data>
   <data name="drop_Logout" xml:space="preserve">
-    <value>註銷</value>
-  </data>
-  <data name="nav_Report" xml:space="preserve">
-    <value>報告</value>
+    <value>ထွက်ပေါက်</value>
   </data>
   <data name="drop_Profile" xml:space="preserve">
-    <value>配置文件</value>
+    <value>ကိုယ်ရေးအကျဉ်း</value>
   </data>
   <data name="nav_Forrum" xml:space="preserve">
-    <value>論壇</value>
+    <value>ဖိုရမ်</value>
+  </data>
+  <data name="nav_Report" xml:space="preserve">
+    <value>အစီရင်ခံစာ</value>
   </data>
   <data name="nav_Player" xml:space="preserve">
-    <value>球員</value>
+    <value>ကစားသမား</value>
   </data>
   <data name="drop_PlyList" xml:space="preserve">
-    <value>玩家列表</value>
+    <value>ကစားသမားစာရင်း</value>
   </data>
   <data name="drop_FrdList" xml:space="preserve">
-    <value>好友列表</value>
+    <value>သူငယ်ချင်းစာရင်း</value>
   </data>
   <data name="drop_PlySosmed" xml:space="preserve">
-    <value>朋友社交媒體</value>
+    <value>လူမှုမီဒီယာဖွင့်သည်</value>
   </data>
   <data name="drop_Guild" xml:space="preserve">
-    <value>公會</value>
+    <value>ကောင်မလေး</value>
   </data>
   <data name="nav_Chat" xml:space="preserve">
-    <value>聊天</value>
+    <value>ချက်တင်</value>
   </data>
   <data name="nav_Docs" xml:space="preserve">
-    <value>文檔</value>
+    <value>စာရွက်စာတမ်း</value>
   </data>
   <data name="drop_ViewNoti" xml:space="preserve">
-    <value>查看全部</value>
+    <value>အားလုံးကြည့်ပါ</value>
   </data>
   <data name="qck_plc" xml:space="preserve">
-    <value>快速搜索</value>
+    <value>အမြန်ရှာဖွေရန်</value>
   </data>
   <data name="qck_Btn" xml:space="preserve">
-    <value>搜尋</value>
+    <value>ရှာပါ</value>
   </data>
   <data name="mdlMail_Title" xml:space="preserve">
-    <value>郵件</value>
+    <value>စာ</value>
   </data>
   <data name="mdlMail_MenuSys" xml:space="preserve">
-    <value>系統</value>
+    <value>စနစ်</value>
   </data>
   <data name="mdlMail_MenuUpdt" xml:space="preserve">
-    <value>更新</value>
+    <value>နောက်ဆုံးသတင်း</value>
   </data>
   <data name="mdlMail_MenuClm" xml:space="preserve">
-    <value>索賠獎勵</value>
+    <value>ဆုလာဘ်တောင်းဆို</value>
   </data>
   <data name="mdlMail_Dismis" xml:space="preserve">
-    <value>關閉</value>
+    <value>ပိတ်</value>
   </data>
   <data name="alert_QuickSeaerchEmpty_Title" xml:space="preserve">
-    <value>快速搜索</value>
+    <value>အမြန်ရှာဖွေရန်</value>
   </data>
   <data name="alert_QuickSeaerchEmpty_Desc" xml:space="preserve">
-    <value>快速搜索輸入為空</value>
+    <value>လျင်မြန်စွာရှာဖွေရေး input ကိုဗလာ</value>
   </data>
   <data name="alert_OkButton" xml:space="preserve">
-    <value>仲可以</value>
+    <value>ရလား</value>
   </data>
 </root>

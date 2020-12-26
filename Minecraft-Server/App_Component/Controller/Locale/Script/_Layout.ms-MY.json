@@ -107,6 +107,10 @@
     {
       "id": "alert_QuickSeaerchEmpty_Desc",
       "text": "Input carian pantas kosong"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "Okey"
     }
   ]
 }

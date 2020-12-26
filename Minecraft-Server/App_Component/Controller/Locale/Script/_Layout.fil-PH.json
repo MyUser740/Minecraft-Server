@@ -107,6 +107,10 @@
     {
       "id": "alert_QuickSeaerchEmpty_Desc",
       "text": "Walang laman ang mabilis na input ng paghahanap"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "Sige"
     }
   ]
 }

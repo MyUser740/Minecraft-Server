@@ -107,6 +107,10 @@
     {
       "id": "alert_QuickSeaerchEmpty_Desc",
       "text": "快速搜索輸入為空"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "好"
     }
   ]
 }

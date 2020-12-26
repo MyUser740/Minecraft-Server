@@ -2,115 +2,115 @@
   "Texts": [
     {
       "id": "nav_Home",
-      "text": "家"
+      "text": "Trang Chủ"
     },
     {
       "id": "nav_News",
-      "text": "新聞"
+      "text": "Tin tức"
     },
     {
       "id": "nav_Event",
-      "text": "事件"
+      "text": "Biến cố"
     },
     {
       "id": "nav_Account",
-      "text": "帳戶"
+      "text": "Tài khoản"
     },
     {
       "id": "drop_Login",
-      "text": "登錄"
+      "text": "Đăng nhập"
     },
     {
       "id": "drop_Regis",
-      "text": "註冊"
+      "text": "Đăng ký"
     },
     {
       "id": "drop_Logout",
-      "text": "註銷"
-    },
-    {
-      "id": "nav_Report",
-      "text": "報告"
+      "text": "Đăng xuất"
     },
     {
       "id": "drop_Profile",
-      "text": "配置文件"
+      "text": "Hồ sơ"
     },
     {
       "id": "nav_Forrum",
-      "text": "論壇"
+      "text": "Diễn đàn"
+    },
+    {
+      "id": "nav_Report",
+      "text": "Báo cáo"
     },
     {
       "id": "nav_Player",
-      "text": "球員"
+      "text": "Người chơi"
     },
     {
       "id": "drop_PlyList",
-      "text": "玩家列表"
+      "text": "Danh sách người chơi"
     },
     {
       "id": "drop_FrdList",
-      "text": "好友列表"
+      "text": "Danh sách bạn bè"
     },
     {
       "id": "drop_PlySosmed",
-      "text": "朋友社交媒體"
+      "text": "Phương tiện truyền thông xã hội của người chơi"
     },
     {
       "id": "drop_Guild",
-      "text": "公會"
+      "text": "bang hội"
     },
     {
       "id": "nav_Chat",
-      "text": "聊天"
+      "text": "trò chuyện"
     },
     {
       "id": "nav_Docs",
-      "text": "文檔"
+      "text": "tài liệu"
     },
     {
       "id": "drop_ViewNoti",
-      "text": "查看全部"
+      "text": "Xem tất cả"
     },
     {
       "id": "qck_plc",
-      "text": "快速搜索"
+      "text": "Tìm kiếm nhanh"
     },
     {
       "id": "qck_Btn",
-      "text": "搜尋"
+      "text": "Tìm kiếm"
     },
     {
       "id": "mdlMail_Title",
-      "text": "郵件"
+      "text": "Thư"
     },
     {
       "id": "mdlMail_MenuSys",
-      "text": "系統"
+      "text": "Hệ thống"
     },
     {
       "id": "mdlMail_MenuUpdt",
-      "text": "更新"
+      "text": "Cập nhật"
     },
     {
       "id": "mdlMail_MenuClm",
-      "text": "索賠獎勵"
+      "text": "Yêu cầu phần thưởng"
     },
     {
       "id": "mdlMail_Dismis",
-      "text": "關閉"
+      "text": "Đóng"
     },
     {
       "id": "alert_QuickSeaerchEmpty_Title",
-      "text": "快速搜索"
+      "text": "Tìm kiếm nhanh"
     },
     {
       "id": "alert_QuickSeaerchEmpty_Desc",
-      "text": "快速搜索輸入為空"
+      "text": "Đầu vào tìm kiếm nhanh trống"
     },
     {
       "id": "alert_OkButton",
-      "text": "仲可以"
+      "text": "đồng ý"
     }
   ]
 }

@@ -198,4 +198,7 @@
   <data name="alert_QuickSeaerchEmpty_Desc" xml:space="preserve">
     <value>Input carian pantas kosong</value>
   </data>
+  <data name="alert_OkButton" xml:space="preserve">
+    <value>Okey</value>
+  </data>
 </root>

@@ -118,87 +118,87 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="nav_Home" xml:space="preserve">
-    <value>家</value>
+    <value>Trang Chủ</value>
   </data>
   <data name="nav_News" xml:space="preserve">
-    <value>新聞</value>
+    <value>Tin tức</value>
   </data>
   <data name="nav_Event" xml:space="preserve">
-    <value>事件</value>
+    <value>Biến cố</value>
   </data>
   <data name="nav_Account" xml:space="preserve">
-    <value>帳戶</value>
+    <value>Tài khoản</value>
   </data>
   <data name="drop_Login" xml:space="preserve">
-    <value>登錄</value>
+    <value>Đăng nhập</value>
   </data>
   <data name="drop_Regis" xml:space="preserve">
-    <value>註冊</value>
+    <value>Đăng ký</value>
   </data>
   <data name="drop_Logout" xml:space="preserve">
-    <value>註銷</value>
-  </data>
-  <data name="nav_Report" xml:space="preserve">
-    <value>報告</value>
+    <value>Đăng xuất</value>
   </data>
   <data name="drop_Profile" xml:space="preserve">
-    <value>配置文件</value>
+    <value>Hồ sơ</value>
   </data>
   <data name="nav_Forrum" xml:space="preserve">
-    <value>論壇</value>
+    <value>Diễn đàn</value>
+  </data>
+  <data name="nav_Report" xml:space="preserve">
+    <value>Báo cáo</value>
   </data>
   <data name="nav_Player" xml:space="preserve">
-    <value>球員</value>
+    <value>Người chơi</value>
   </data>
   <data name="drop_PlyList" xml:space="preserve">
-    <value>玩家列表</value>
+    <value>Danh sách người chơi</value>
   </data>
   <data name="drop_FrdList" xml:space="preserve">
-    <value>好友列表</value>
+    <value>Danh sách bạn bè</value>
   </data>
   <data name="drop_PlySosmed" xml:space="preserve">
-    <value>朋友社交媒體</value>
+    <value>Phương tiện truyền thông xã hội của người chơi</value>
   </data>
   <data name="drop_Guild" xml:space="preserve">
-    <value>公會</value>
+    <value>bang hội</value>
   </data>
   <data name="nav_Chat" xml:space="preserve">
-    <value>聊天</value>
+    <value>trò chuyện</value>
   </data>
   <data name="nav_Docs" xml:space="preserve">
-    <value>文檔</value>
+    <value>tài liệu</value>
   </data>
   <data name="drop_ViewNoti" xml:space="preserve">
-    <value>查看全部</value>
+    <value>Xem tất cả</value>
   </data>
   <data name="qck_plc" xml:space="preserve">
-    <value>快速搜索</value>
+    <value>Tìm kiếm nhanh</value>
   </data>
   <data name="qck_Btn" xml:space="preserve">
-    <value>搜尋</value>
+    <value>Tìm kiếm</value>
   </data>
   <data name="mdlMail_Title" xml:space="preserve">
-    <value>郵件</value>
+    <value>Thư</value>
   </data>
   <data name="mdlMail_MenuSys" xml:space="preserve">
-    <value>系統</value>
+    <value>Hệ thống</value>
   </data>
   <data name="mdlMail_MenuUpdt" xml:space="preserve">
-    <value>更新</value>
+    <value>Cập nhật</value>
   </data>
   <data name="mdlMail_MenuClm" xml:space="preserve">
-    <value>索賠獎勵</value>
+    <value>Yêu cầu phần thưởng</value>
   </data>
   <data name="mdlMail_Dismis" xml:space="preserve">
-    <value>關閉</value>
+    <value>Đóng</value>
   </data>
   <data name="alert_QuickSeaerchEmpty_Title" xml:space="preserve">
-    <value>快速搜索</value>
+    <value>Tìm kiếm nhanh</value>
   </data>
   <data name="alert_QuickSeaerchEmpty_Desc" xml:space="preserve">
-    <value>快速搜索輸入為空</value>
+    <value>Đầu vào tìm kiếm nhanh trống</value>
   </data>
   <data name="alert_OkButton" xml:space="preserve">
-    <value>仲可以</value>
+    <value>đồng ý</value>
   </data>
 </root>
