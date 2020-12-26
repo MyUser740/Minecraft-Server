@@ -7,6 +7,7 @@ using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
 using System.Web.Http;
+using System.Globalization;
 
 namespace WebApplication1
 {
@@ -25,6 +26,16 @@ namespace WebApplication1
         {
             //initializes Cache on first request
             AppStart.Start(HttpContext.Current);
+        }
+
+        void Application_BeginRequest(object sender, EventArgs e)
+        {
+            //initializes Culture
+            if(Request.Cookies["stg_lang"].Value != null)
+            {
+                CultureInfo.CurrentCulture = new CultureInfo(Request.Cookies["stg_lang"].Value,false);
+                CultureInfo.CurrentUICulture = new CultureInfo(Request.Cookies["stg_lang"].Value, false);
+            }
         }
     }
 
