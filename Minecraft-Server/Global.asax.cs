@@ -31,7 +31,7 @@ namespace WebApplication1
         void Application_BeginRequest(object sender, EventArgs e)
         {
             //initializes Culture
-            if(Request.Cookies["stg_lang"].Value != null)
+            if(Request.Cookies["stg_lang"] != null)
             {
                 CultureInfo.CurrentCulture = new CultureInfo(Request.Cookies["stg_lang"].Value,false);
                 CultureInfo.CurrentUICulture = new CultureInfo(Request.Cookies["stg_lang"].Value, false);
