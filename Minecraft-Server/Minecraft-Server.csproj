@@ -451,6 +451,7 @@
     <Content Include="App_Component\Controller\Locale\Script\_Layout.zh-HK.json" />
     <Content Include="App_Component\Controller\Main\app.js" />
     <Content Include="App_Component\Controller\Shared\_Layout\Script\ng-Config.js" />
+    <Content Include="App_Component\Controller\Shared\_Layout\Script\realtime-Config.js" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="App_Component\Component\Content\images\ajax-loader.gif" />
     <Content Include="App_Component\Component\Content\images\icons-png\action-black.png" />
@@ -2211,6 +2212,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Hubs\discordHub.cs" />
+    <Compile Include="Hubs\notificationHub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
