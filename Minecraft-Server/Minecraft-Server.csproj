@@ -451,7 +451,10 @@
     <Content Include="App_Component\Controller\Locale\Script\_Layout.zh-HK.json" />
     <Content Include="App_Component\Controller\Main\app.js" />
     <Content Include="App_Component\Controller\Shared\_Layout\Script\ng-Config.js" />
+    <Content Include="App_Component\Controller\Shared\_Layout\Script\not-Func.js" />
     <Content Include="App_Component\Controller\Shared\_Layout\Script\realtime-Config.js" />
+    <Content Include="App_Component\Resource\Img\Home\Parallax1.jpg" />
+    <Content Include="App_Component\Resource\Img\Home\Parallax2.jpg" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="App_Component\Component\Content\images\ajax-loader.gif" />
     <Content Include="App_Component\Component\Content\images\icons-png\action-black.png" />
@@ -2152,6 +2155,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>_Layout.en-GB.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_LocalResources\_Layout.es-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>_Layout.es-ES.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_LocalResources\_Layout.fil-PH.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -2208,6 +2216,7 @@
     <Compile Include="Controllers\DeveloperController.cs" />
     <Compile Include="Controllers\HomesController.cs" />
     <Compile Include="Controllers\NewsController.cs" />
+    <Compile Include="Controllers\TranslateController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -2264,7 +2273,6 @@
   <ItemGroup>
     <Folder Include="App_Browsers\" />
     <Folder Include="App_Component\Controller\Page\" />
-    <Folder Include="App_Component\Resource\Img\" />
     <Folder Include="App_Component\Resource\Video\" />
     <Folder Include="App_Data\" />
     <Folder Include="App_GlobalResources\" />
@@ -2284,6 +2292,10 @@
     <EmbeddedResource Include="App_LocalResources\_Layout.en-GB.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>_Layout.en-GB.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\_Layout.es-ES.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>_Layout.es-ES.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="App_LocalResources\_Layout.fil-PH.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>

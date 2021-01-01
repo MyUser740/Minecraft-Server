@@ -10,7 +10,7 @@ namespace Minecraft_Server.Hubs
     {
         public void Send(int id, string User, string From, string Message, DateTime DateSend)
         {
-            Clients.All.Reacive(id,User, From, Message, DateSend);
+            Clients.All.Reacive(id,User, From, Message, DateSend.ToString("yyyy/MMM/dd/HH/mm/ss/") + DateSend.Millisecond);
         }
     }
 }
