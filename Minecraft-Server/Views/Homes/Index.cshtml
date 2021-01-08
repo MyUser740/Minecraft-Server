@@ -3,48 +3,52 @@
     ViewBag.Title = "Index";
 }
 
+@section style{
+    <link href="~/App_Component/Controller/Page/Home/Style/carousel.less" rel="stylesheet" />
+}
+
 <section class="parallax animate__fadeInUp" data-speed="0.2" data-img-src="./App_Component/Resource/Img/Home/Parallax1.jpg" style="background-repeat: no-repeat; width: 100%; height: 250px;">
     
 </section>
 <section class="text-center animate__fadeInUp" style="animation-delay:1s">
     <div class="container py-7 container">
-        <h2 class="display-4 mb-4">Our Minecraft Server Advantages</h2>
+        <h2 class="display-4 mb-4">@Minecraft_Server.App_LocalResources.Home.title_ServerAdvantages</h2>
         <div class="row text-center">
             <div class="col-md-10 fs-3">
                 <i class="fal fa-tachometer-fastest"></i>
-                <p class="text-black">High speed server</p>
+                <p class="text-black">@Minecraft_Server.App_LocalResources.Home.adv_1</p>
             </div>
             <div class="col-md-10 fs-3">
                 <i class="fal fa-lock-alt"></i>
-                <p class="text-black">Privacy</p>
+                <p class="text-black">@Minecraft_Server.App_LocalResources.Home.adv_2</p>
             </div>
         </div>
         <div class="row text-center">
             <div class="col-md-10 fs-3">
                 <i class="fal fa-users"></i>
-                <p class="text-black">Best Community</p>
+                <p class="text-black">@Minecraft_Server.App_LocalResources.Home.adv_3</p>
             </div>
             <div class="col-md-10 fs-3">
                 <i class="fal fa-shield-alt"></i>
-                <p class="text-black">Hosted 24/7</p>
+                <p class="text-black">@Minecraft_Server.App_LocalResources.Home.adv_4</p>
             </div>
         </div>
     </div>
 </section>
 <section class="parallax animate__fadeInUp" data-speed="0.2" data-img-src="./App_Component/Resource/Img/Home/Parallax2.jpg" style="animation-delay:2s">
     <div class="container py-7 text-white">
-        <h2 class="display-4 mb-4 text-white">Lets Play!</h2>
+        <h2 class="display-4 mb-4 text-white">@Minecraft_Server.App_LocalResources.Home.letsPlay</h2>
         <p class="lead">[ip]</p>
     </div>
 </section>
 <section class="container animate__fadeInUp" style="animation-delay:3s">
-    <h2 class="text-center fw-bold">Gamemode</h2>
-    <p class="text-center lead">Additional information</p>
+    <h2 class="text-center fw-bold">@Minecraft_Server.App_LocalResources.Home.gamemode_Title</h2>
+    <p class="text-center lead">@Minecraft_Server.App_LocalResources.Home.gamemode_Subtitle</p>
     <div class="row">
+        <h2>@Minecraft_Server.App_LocalResources.Home.gamode_surv_section</h2>
         <div class="col-md-12">
-            <h2>Survival</h2>
             <p>
-                [survival gamemode]
+                @Minecraft_Server.App_LocalResources.Home.gamemode_surv_content
             </p>
         </div>
         <div class="col-md-8">
@@ -53,21 +57,21 @@
     </div>
     <hr />
     <div class="row">
+        <h2>@Minecraft_Server.App_LocalResources.Home.gamode_crtv_section</h2>
         <div class="col-md-8">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 1920x1080" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">1920x1080</text></svg>
         </div>
         <div class="col-md-12">
-            <h2>Creative</h2>
             <p>
-                [creative gamemode]
+                @Minecraft_Server.App_LocalResources.Home.gamemode_crtv_content
             </p>
         </div>
     </div>
     <div class="row">
+        <h2>@Minecraft_Server.App_LocalResources.Home.gamode_advn_section</h2>
         <div class="col-md-12">
-            <h2>Adventure</h2>
             <p>
-                [adventure gamemode] 
+                @Minecraft_Server.App_LocalResources.Home.gamode_advn_content
             </p>
         </div>
         <div class="col-md-8">
@@ -76,15 +80,54 @@
     </div>
     <hr />
     <div class="row">
+        <h2>@Minecraft_Server.App_LocalResources.Home.gamemode_hrdc_section</h2>
         <div class="col-md-8">
             <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="1920" height="1080" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 1920x1080" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">1920x1080</text></svg>
         </div>
         <div class="col-md-12">
-            <h2>Hardcore</h2>
             <p>
-                [hardcore gamemode] 
+                @Minecraft_Server.App_LocalResources.Home.gamemode_hrdc_content
             </p>
         </div>
     </div>
 </section>
+<br />
+<section class="parallax animate__fadeInUp" data-speed="0.2" data-img-src="./App_Component/Resource/Img/Home/Parallax3.jpg" style="animation-delay:4s">
+    <div class="container py-7 text-white">
+        <h2 class="display-4 mb-4 text-white">@Minecraft_Server.App_LocalResources.Home.shop_title</h2>
+        <p class="lead"><a href="#">@Minecraft_Server.App_LocalResources.Home.shop_link</a></p>
+    </div>
+</section>
+<br />
+<section class="container marketing animate__fadeInUp" style="animation-delay: 5s">
+    <h2>@Minecraft_Server.App_LocalResources.Home.thx_title</h2>
+    <div class="row">
+        <div class="col-lg-5 col-md-10">
+            <img src="~/App_Component/Resource/Img/Home/Thank For1.jpg" height="140" width="140" style="border-radius: 100%"/>
+            <h2>WholfGaming769</h2>
+            <p>@Minecraft_Server.App_LocalResources.Home.thx1</p>
+            <p>
 
+                <a class="btn btn-YouTube mb-4" href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <br />
+                <a class="btn btn-Instagram" href="https://www.instagram.com/whitewolfgaming7691/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </p>
+        </div>
+        <div class="col-lg-5 col-md-10">
+            <img src="~/App_Component/Resource/Img/Home/Thank For2.light.jpg" height="140" width="140" style="max-height: 140px; max-width: 140px;border-radius: 100%;" />
+            <h2>T-XIvIN</h2>
+            <p>@Minecraft_Server.App_LocalResources.Home.thx2</p>
+            <p>
+                <a class="btn btn-Instagram" href="https://www.instagram.com/txivin.corporation/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <br />
+            </p>
+        </div>
+
+    </div>
+</section>

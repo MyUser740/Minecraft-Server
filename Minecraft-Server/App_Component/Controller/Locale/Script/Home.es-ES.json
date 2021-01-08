@@ -1,0 +1,88 @@
+{
+  "Texts": [
+    {
+      "id": "title_ServerAdvantages",
+      "text": "Nuestras ventajas del servidor Minecraft"
+    },
+    {
+      "id": "adv_1",
+      "text": "Servidor de alta velocidad"
+    },
+    {
+      "id": "adv_2",
+      "text": "Intimidad"
+    },
+    {
+      "id": "adv_3",
+      "text": "Mejor comunidad"
+    },
+    {
+      "id": "adv_4",
+      "text": "Alojado 24/7"
+    },
+    {
+      "id": "gamemode_Title",
+      "text": "Modo de juego"
+    },
+    {
+      "id": "gamemode_Subtitle",
+      "text": "Mod permainan yang tersedia di pelayan minecraft kami"
+    },
+    {
+      "id": "gamode_surv_section",
+      "text": "Supervivencia"
+    },
+    {
+      "id": "gamemode_surv_content",
+      "text": "El modo de supervivencia es uno de los principales modos de juego de Minecraft. Los jugadores deben recolectar recursos, construir estructuras, luchar contra turbas, comer y explorar el mundo en un esfuerzo por prosperar y sobrevivir. En Bedrock Edition, los jugadores pueden recibir logros en un mundo que no esté configurado en Flat mientras juegan en el modo de supervivencia sin trampas, complementos y privilegios de anfitrión desactivados. Si un jugador crea un mundo en modo creativo y luego lo carga en modo de supervivencia, el jugador no puede ganar logros en ese mundo. En Minecraft Survival, el objetivo principal es sobrevivir, construir, explorar y divertirse, pero también un objetivo opcional en Survival es derrotar al Ender Dragon y Wither. En Survival, los jugadores tienen un inventario para recolectar artículos. Todos los bloques requieren una cierta cantidad de tiempo para romperse, a diferencia del modo creativo, donde puedes destruir bloques instantáneamente. Estos elementos se pueden utilizar en recetas para crear herramientas que incluyen (pico, hacha, espada, azada, pala) y otros elementos. También se puede acceder más fácilmente a las recetas haciendo clic en el Libro de recetas en la esquina inferior izquierda. Este proceso se conoce como elaboración. La mayoría de las recetas de elaboración requieren una mesa de elaboración. Algunos artículos no se pueden obtener elaborando normalmente y requieren un horno para su procesamiento. Existen varias otras estaciones de elaboración para otros usos, como elaboración de cerveza, reparación y encantamiento. En el modo Supervivencia, el jugador puede recibir daño del entorno (daño por caída, asfixia y lava) y de turbas hostiles (a menos que juegue en modo pacífico, donde las turbas hostiles están desactivadas). Un jugador que recibe suficiente daño muere y regresa a un punto de generación. Si los trucos están habilitados, un jugador puede cambiar al modo Supervivencia utilizando el comando / modo de juego Supervivencia, pero no puede obtener logros."
+    },
+    {
+      "id": "gamode_crtv_section",
+      "text": "Creativo"
+    },
+    {
+      "id": "gamemode_crtv_content",
+      "text": "El modo creativo es uno de los principales modos de juego de Minecraft. El modo creativo elimina los aspectos de supervivencia de Minecraft y permite a los jugadores crear y destruir estructuras y mecanismos fácilmente con la inclusión de un uso infinito de bloques y vuelo. También cambia la música de fondo. En el modo Creativo, los jugadores no tienen barra de salud o hambre que obstaculice su construcción (aunque todavía es posible comer, y la salud del jugador aún disminuye si reciben daño del vacío). El modo creativo permite a los jugadores destruir todos los bloques al instante (incluidos los bloques normalmente indestructibles como el lecho de roca y los marcos del portal final), siempre que no estén sosteniendo una espada, un tridente o un palo de depuración. Sin embargo, estos bloques no se eliminan y deben obtenerse mediante el inventario de creatividades. El modo creativo les da a los jugadores la habilidad de volar. Para activar el vuelo, toque dos veces la tecla de salto. Use la tecla de salto para subir y la tecla de furtivo para bajar y las teclas de movimiento, el valor predeterminado es WASD para moverse. El jugador puede inhabilitar el vuelo en el aire haciendo doble clic para saltar nuevamente, lo que hace que caigan al suelo. Tocar el suelo al volar desactiva el vuelo en Java Edition, pero no en Bedrock Edition. Subirse a un vagón de minas o una cama no impide el vuelo."
+    },
+    {
+      "id": "gamode_advn_section",
+      "text": "Aventuras"
+    },
+    {
+      "id": "gamode_advn_content",
+      "text": "El modo Aventura es un modo de juego diseñado para mapas creados por jugadores, lo que limita parte del juego en Minecraft. En este modo, el jugador no puede destruir directamente ningún bloque con ninguna herramienta o colocar ningún bloque, para evitar estropear los mapas de aventuras o los servidores en duelo. El modo Aventura es accesible solo con comandos o el selector de modo de juego. El modo Aventura es similar a Supervivencia en que los jugadores reciben daño de su entorno, es posible morir y los jugadores deben manejar el hambre. Sin embargo, también es diferente en muchos aspectos. En la Edición Java, los bloques solo se pueden destruir con un elemento / herramienta que tenga la etiqueta CanDestroy NBT, y no se pueden destruir con el puño del jugador. Asimismo, los bloques requieren que se coloque la etiqueta CanPlaceOn NBT. En Bedrock Edition, de manera similar, las etiquetas can_destroy y can_place_on NBT son necesarias para destruir y colocar bloques. Sin embargo, los jugadores pueden hacer uso del entorno de otras formas, como interactuar con turbas y otras entidades (por ejemplo, matarlas), encender o apagar un mecanismo de piedra roja (como una palanca) y comerciar con los aldeanos. Además, los jugadores pueden crear artículos como lo harían normalmente en cualquier otro modo de juego. Otra característica es que los jugadores siempre aparecen exactamente en el punto de generación del mundo, sin importar dónde esté, a diferencia del modo Supervivencia, donde los jugadores pueden generar en cualquier lugar dentro de una determinada cuadrícula."
+    },
+    {
+      "id": "gamemode_hrdc_section",
+      "text": "Núcleo duro"
+    },
+    {
+      "id": "gamemode_hrdc_content",
+      "text": "Hardcore es una variante exclusiva de la edición Java de Survival. En este modo, el mundo está bloqueado en dificultad Difícil y el jugador no puede reaparecer después de ser asesinado. La característica clave del modo Hardcore es que el jugador no tiene la opción de reaparecer al morir como lo haría en otros modos de juego. En cambio, hay dos botones en la pantalla de la muerte: \"Mundo espectador\" y \"Pantalla de título\". \"Spectate world\" establece al jugador en el modo Espectador y reaparece en el punto de generación del mundo, lo que le permite ver y explorar el mundo solo en ese modo. El botón \"Pantalla de título\" simplemente lleva al jugador a la pantalla del menú principal; reabrir el mundo simplemente devuelve al jugador a la misma pantalla de muerte que antes. Además, los mundos del modo Hardcore están restringidos a dificultad difícil. Al crear un mundo en modo Hardcore, las opciones de mundo Habilitar trucos y Cofre de bonificación están bloqueadas en APAGADO. En el menú de selección de mundo, los mundos del modo hardcore muestran un texto rojo oscuro que dice \"¡Modo Hardcore!\""
+    },
+    {
+      "id": "letsPlay",
+      "text": "¡Vamos a jugar!"
+    },
+    {
+      "id": "shop_title",
+      "text": "¿Quieres mejorar / comprar rango?"
+    },
+    {
+      "id": "shop_link",
+      "text": "Ven aquí"
+    },
+    {
+      "id": "thx1",
+      "text": "Bueno ... Sin mí, este Minecraft nunca existió. Gracias por su apoyo"
+    },
+    {
+      "id": "thx2",
+      "text": "Muchas gracias a la comunidad T-XIvIN por desarrollar este sitio."
+    },
+    {
+      "id": "thx_title",
+      "text": "Muchas gracias por"
+    }
+  ]
+}

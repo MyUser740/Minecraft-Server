@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>ข้อดีของ Minecraft Server ของเรา</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>เซิร์ฟเวอร์ความเร็วสูง</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>ความเป็นส่วนตัว</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>ชุมชนที่ดีที่สุด</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>โฮสต์ 24/7</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>โหมดเกม</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>โหมดเกมที่มีอยู่ในเซิร์ฟเวอร์ minecraft ของเรา</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>การอยู่รอด</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>โหมดเอาชีวิตรอดเป็นหนึ่งในโหมดเกมหลักในมายคราฟ ผู้เล่นจะต้องรวบรวมทรัพยากรสร้างโครงสร้างต่อสู้กับฝูงชนกินและสำรวจโลกด้วยความพยายามที่จะเติบโตและอยู่รอด ใน Bedrock Edition ผู้เล่นอาจได้รับความสำเร็จในโลกที่ไม่ได้ตั้งค่าเป็น Flat ในขณะที่เล่น Survival Mode โดยปิดกลโกงปิดโปรแกรมเสริมและปิดสิทธิ์ของโฮสต์ หากผู้เล่นสร้างโลกในโหมดสร้างสรรค์แล้วโหลดในโหมดเอาชีวิตรอดผู้เล่นจะไม่สามารถรับรางวัลพิเศษในโลกนั้นได้ ใน Minecraft Survival เป้าหมายหลักคือเอาชีวิตรอดสร้างสำรวจและสนุกสนาน แต่เป้าหมายเสริมใน Survival คือการเอาชนะ Ender Dragon และ Wither ใน Survival ผู้เล่นจะมีสินค้าคงคลังเพื่อรวบรวมไอเท็ม บล็อกทั้งหมดต้องใช้เวลาระยะหนึ่งในการทำลายซึ่งแตกต่างจากโหมดสร้างสรรค์ที่คุณสามารถทำลายบล็อกได้ทันที ไอเท็มเหล่านี้สามารถใช้ในสูตรอาหารเพื่อสร้างเครื่องมือต่างๆ ได้แก่ (Pickaxe, Axe, Sword, Hoe, Shovel) และไอเท็มอื่น ๆ นอกจากนี้ยังสามารถเข้าถึงสูตรอาหารได้ง่ายขึ้นโดยคลิกที่หนังสือสูตรอาหารที่มุมล่างซ้าย กระบวนการนี้เรียกว่างานหัตถกรรม สูตรการประดิษฐ์ส่วนใหญ่ต้องใช้โต๊ะคราฟต์ บางรายการไม่สามารถหาได้จากการประดิษฐ์ตามปกติและต้องใช้เตาเผาเพื่อแปรรูป มีสถานีการประดิษฐ์อื่น ๆ อีกมากมายสำหรับการใช้งานอื่น ๆ เช่นการต้มเบียร์การซ่อมแซมและการสร้างเสน่ห์ ในโหมดเอาชีวิตรอดผู้เล่นจะได้รับความเสียหายจากสภาพแวดล้อม (ความเสียหายจากการตกการหายใจไม่ออกและลาวา) และจากฝูงชนที่ไม่เป็นมิตร (เว้นแต่จะเล่นแบบสงบที่ซึ่งม็อบศัตรูจะถูกปิดใช้งาน) ผู้เล่นที่ได้รับความเสียหายเพียงพอจะตายและกลับไปที่จุดเกิด หากเปิดใช้กลโกงผู้เล่นสามารถเปลี่ยนเป็นโหมดเอาชีวิตรอดได้โดยใช้คำสั่ง / โหมดการอยู่รอด แต่ไม่สามารถรับรางวัลพิเศษได้</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>สร้างสรรค์</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>โหมดสร้างสรรค์เป็นหนึ่งในโหมดเกมหลักใน Minecraft โหมดครีเอทีฟจะดึงแง่มุมการเอาชีวิตรอดของ Minecraft ออกไปและช่วยให้ผู้เล่นสามารถสร้างและทำลายโครงสร้างและกลไกได้อย่างง่ายดายด้วยการใช้บล็อกและการบินที่ไม่สิ้นสุด นอกจากนี้ยังเปลี่ยนเพลงพื้นหลัง ในโหมดสร้างสรรค์ผู้เล่นไม่มีพลังชีวิตหรือแถบความหิวที่จะขัดขวางการสร้างของพวกเขา (แม้ว่าจะยังกินได้และสุขภาพของผู้เล่นยังคงลดลงหากพวกเขาได้รับความเสียหายจากความว่างเปล่า) โหมดสร้างสรรค์ช่วยให้ผู้เล่นสามารถทำลายบล็อกทั้งหมดได้ทันที (รวมถึงบล็อกที่ทำลายไม่ได้ตามปกติเช่นฐานรากและเฟรมประตูท้าย) หากพวกเขาไม่ได้ถือดาบตรีศูลหรือไม้แก้จุดบกพร่อง อย่างไรก็ตามการบล็อกเหล่านี้จะไม่ตกหล่นและต้องได้รับจากคลังโฆษณา โหมดสร้างสรรค์ช่วยให้ผู้เล่นสามารถบินได้ ในการเปิดใช้งานการบินให้แตะสองครั้งที่ปุ่มกระโดด ใช้ปุ่มกระโดดเพื่อขึ้นและปุ่มแอบเพื่อลงและปุ่มการเคลื่อนไหวค่าเริ่มต้นคือ WASD เพื่อย้าย ผู้เล่นสามารถปิดการบินกลางอากาศได้โดยการกระโดดสองครั้งอีกครั้งทำให้พวกเขาตกลงสู่พื้น การสัมผัสพื้นเมื่อบินจะปิดใช้งานการบินใน Java Edition แต่ไม่ใช่ใน Bedrock Edition การเข้าไปในรถมินิคาร์ทหรือเตียงไม่ได้ปิดการบิน</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>การผจญภัย</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>โหมดผจญภัยเป็นโหมดเกมที่มีไว้สำหรับแผนที่ที่ผู้เล่นสร้างขึ้นโดย จำกัด การเล่นเกมบางส่วนใน Minecraft ในโหมดนี้ผู้เล่นไม่สามารถทำลายบล็อกด้วยเครื่องมือใด ๆ โดยตรงหรือวางบล็อกใด ๆ เพื่อหลีกเลี่ยงการทำลายแผนที่การผจญภัยหรือเซิร์ฟเวอร์ที่ทำให้เศร้าโศก โหมดผจญภัยสามารถเข้าถึงได้ด้วยคำสั่งหรือตัวเลือกโหมดเกมเท่านั้น โหมดผจญภัยคล้ายกับการอยู่รอดตรงที่ผู้เล่นได้รับความเสียหายจากสภาพแวดล้อมการตายเป็นไปได้และผู้เล่นต้องจัดการกับความหิว อย่างไรก็ตามมันก็แตกต่างกันในหลาย ๆ ด้านเช่นกัน ใน Java Edition บล็อกสามารถทำลายได้ด้วยไอเท็ม / เครื่องมือที่มีแท็ก CanDestroy NBT เท่านั้นและไม่สามารถทำลายได้ด้วยกำปั้นของผู้เล่น ในทำนองเดียวกันบล็อกต้องใช้แท็ก CanPlaceOn NBT เพื่อวาง ใน Bedrock Edition ในทำนองเดียวกันแท็ก can_destroy และ can_place_on NBT เพื่อทำลายและวางบล็อก อย่างไรก็ตามผู้เล่นสามารถใช้ประโยชน์จากสภาพแวดล้อมในรูปแบบอื่น ๆ ได้เช่นการโต้ตอบกับฝูงชนและหน่วยงานอื่น ๆ (เช่นการฆ่าพวกมัน) การเปิดหรือปิดกลไกจับกลุ่ม (เช่นคันโยก) และการซื้อขายกับชาวบ้าน นอกจากนี้ผู้เล่นยังสามารถสร้างไอเท็มได้ตามปกติในโหมดเกมอื่น ๆ คุณสมบัติอีกประการหนึ่งคือผู้เล่นมักจะวางไข่ที่จุดวางไข่ของโลกไม่ว่าจะอยู่ที่ไหน - ต่างจากโหมดเอาชีวิตรอดที่ผู้เล่นสามารถวางไข่ได้ทุกที่ภายในตาราง</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>ฮาร์ดคอร์</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore เป็นรูปแบบการเอาชีวิตรอดที่เป็นเอกสิทธิ์เฉพาะของ Java Edition ในโหมดนี้โลกถูกล็อคให้อยู่ในระดับความยากและผู้เล่นจะไม่สามารถเกิดใหม่ได้หลังจากถูกฆ่า คุณสมบัติที่สำคัญของโหมด Hardcore คือผู้เล่นไม่ได้รับตัวเลือกในการเกิดใหม่เมื่อตายเหมือนอย่างที่ทำในโหมดเกมอื่น ๆ แต่จะมีปุ่มสองปุ่มบนหน้าจอมรณะแทน: "โลกแห่งการมองเห็น" และ "หน้าจอชื่อเรื่อง" "โลกแห่งการมองเห็น" ตั้งค่าผู้เล่นเป็นโหมดผู้ชมและทำให้ผู้เล่นเกิดใหม่ ณ จุดเกิดของโลกทำให้พวกเขาสามารถดูและสำรวจโลกได้เฉพาะในโหมดนั้น ปุ่ม "Title screen" จะนำผู้เล่นไปที่หน้าจอเมนูหลัก การเปิดโลกใหม่เพียงแค่ทำให้ผู้เล่นกลับไปสู่หน้าจอมรณะเหมือนเดิม นอกจากนี้โลกของโหมด Hardcore ยังถูก จำกัด ให้อยู่ในระดับยาก เมื่อสร้างโลกในโหมดฮาร์ดคอร์ตัวเลือกเปิดใช้กลโกงและหีบโบนัสจะถูกล็อกเป็นปิด ในเมนูการเลือกโลกโลกของโหมดฮาร์ดคอร์จะแสดงข้อความสีแดงเข้มว่า "โหมดไม่ยอมใครง่ายๆ!"</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>มาเล่นกัน!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>คุณต้องการอัพเกรด / ซื้ออันดับหรือไม่?</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>มานี่</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>อืม ...... ถ้าไม่มีฉัน minecraft นี้ไม่เคยมีอยู่จริง ขอบคุณสำหรับการสนับสนุน</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>ขอบคุณมากสำหรับชุมชน T-XIvIN สำหรับการพัฒนาไซต์นี้</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>ขอบคุณมากสำหรับ</value>
+  </data>
+</root>

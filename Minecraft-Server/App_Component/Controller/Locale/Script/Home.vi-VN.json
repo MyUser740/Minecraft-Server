@@ -1,0 +1,88 @@
+{
+  "Texts": [
+    {
+      "id": "title_ServerAdvantages",
+      "text": "Ưu điểm Minecraft Server của chúng tôi"
+    },
+    {
+      "id": "adv_1",
+      "text": "Máy chủ tốc độ cao"
+    },
+    {
+      "id": "adv_2",
+      "text": "Riêng tư"
+    },
+    {
+      "id": "adv_3",
+      "text": "Cộng đồng tốt nhất"
+    },
+    {
+      "id": "adv_4",
+      "text": "Lưu trữ 24/7"
+    },
+    {
+      "id": "gamemode_Title",
+      "text": "Chế độ chơi"
+    },
+    {
+      "id": "gamemode_Subtitle",
+      "text": "Chế độ chơi có sẵn trong Máy chủ minecraft của chúng tôi"
+    },
+    {
+      "id": "gamode_surv_section",
+      "text": "Sự sống còn"
+    },
+    {
+      "id": "gamemode_surv_content",
+      "text": "Chế độ sinh tồn là một trong những chế độ chơi chính trong Minecraft. Người chơi phải thu thập tài nguyên, xây dựng công trình, chiến đấu với mob, ăn uống và khám phá thế giới để cố gắng phát triển và tồn tại. Trong Bedrock Edition, người chơi có thể nhận được thành tích trong một thế giới không được đặt ở chế độ Bằng phẳng khi chơi Chế độ sinh tồn khi tắt gian lận, tắt tiện ích và đặc quyền máy chủ. Nếu người chơi tạo ra một thế giới trong chế độ sáng tạo và sau đó tải nó trong Chế độ sinh tồn, người chơi không thể kiếm được thành tựu trong thế giới đó. Trong Minecraft Survival, mục tiêu chính là sống sót, xây dựng, khám phá và vui chơi, nhưng cũng có một mục tiêu không bắt buộc trong Survival là đánh bại Ender Dragon và Wither. Trong Survival, người chơi có một kho đồ để thu thập các vật phẩm. Tất cả các Khối yêu cầu một khoảng thời gian nhất định để phá vỡ không giống như chế độ Sáng tạo, nơi bạn có thể phá hủy các khối ngay lập tức. Những vật phẩm này có thể được sử dụng trong công thức nấu ăn để tạo ra các công cụ bao gồm (Cuốc, Rìu, Kiếm, Cuốc, Xẻng) và các vật phẩm khác. Bạn cũng có thể truy cập công thức nấu ăn dễ dàng hơn bằng cách nhấp vào sách Công thức nấu ăn ở góc dưới cùng bên trái. Quá trình này được gọi là thủ công. Hầu hết các công thức chế tạo đều yêu cầu bàn chế tạo. Một số vật phẩm không thể kiếm được bằng cách chế tạo thông thường và cần phải có lò để xử lý. Nhiều trạm chế tác khác tồn tại cho các mục đích sử dụng khác, chẳng hạn như sản xuất bia, sửa chữa và làm mê hoặc. Trong chế độ Sinh tồn, người chơi có thể nhận sát thương từ môi trường (thiệt hại do rơi, ngạt thở và dung nham) và từ mob thù địch (trừ khi chơi trên hòa bình, nơi mob thù địch bị vô hiệu hóa). Người chơi nhận đủ sát thương sẽ chết và trở lại điểm sinh sản. Nếu các gian lận được bật, người chơi có thể chuyển sang chế độ Sinh tồn bằng cách sử dụng lệnh / chế độ trò chơi sinh tồn nhưng không thể kiếm được thành tích."
+    },
+    {
+      "id": "gamode_crtv_section",
+      "text": "Sáng tạo"
+    },
+    {
+      "id": "gamode_advn_section",
+      "text": "Cuộc phiêu lưu"
+    },
+    {
+      "id": "gamode_advn_content",
+      "text": "Chế độ phiêu lưu là một chế độ chơi dành cho các bản đồ do người chơi tạo, hạn chế một số lối chơi trong Minecraft. Trong chế độ này, người chơi không thể trực tiếp phá hủy bất kỳ khối nào bằng bất kỳ công cụ nào hoặc đặt bất kỳ khối nào, để tránh làm hỏng bản đồ phiêu lưu hoặc máy chủ đau buồn. Chế độ phiêu lưu chỉ có thể truy cập bằng các lệnh hoặc công cụ chọn chế độ trò chơi. Chế độ phiêu lưu tương tự như Survival ở chỗ người chơi nhận được thiệt hại từ môi trường của họ, chết là có thể và người chơi phải kiềm chế cơn đói. Tuy nhiên, nó cũng khác theo nhiều cách. Trong phiên bản Java, các khối chỉ có thể bị phá hủy bằng vật phẩm / công cụ có thẻ CanDestroy NBT và không thể bị phá hủy bằng nắm tay của người chơi. Tương tự như vậy, các khối yêu cầu phải đặt thẻ CanPlaceOn NBT. Tương tự, trong Bedrock Edition, các thẻ NBT can_destroy và can_place_on được yêu cầu để hủy và đặt các khối. Tuy nhiên, người chơi có thể sử dụng môi trường theo những cách khác - bao gồm tương tác với mob và các thực thể khác (ví dụ: giết chúng), bật hoặc tắt cơ chế redstone (chẳng hạn như đòn bẩy) và giao dịch với dân làng. Ngoài ra, người chơi có thể chế tạo các vật phẩm như bình thường trong bất kỳ chế độ chơi nào khác. Một tính năng khác là người chơi luôn xuất hiện chính xác vào điểm sinh sản trên thế giới, bất kể đó là ở đâu - không giống như chế độ Sinh tồn, nơi người chơi có thể sinh sản ở bất kỳ đâu trong một lưới nhất định."
+    },
+    {
+      "id": "gamemode_crtv_content",
+      "text": "Chế độ sáng tạo là một trong những chế độ chơi chính trong Minecraft. Chế độ sáng tạo loại bỏ các khía cạnh sinh tồn của Minecraft và cho phép người chơi dễ dàng tạo và phá hủy các cấu trúc và cơ chế với việc sử dụng vô hạn các khối và bay. Nó cũng thay đổi nhạc nền. Trong chế độ Sáng tạo, người chơi không có thanh máu hoặc thanh đói để cản trở việc xây dựng của họ (mặc dù vẫn có thể ăn, và sức khỏe của người chơi vẫn giảm nếu họ nhận sát thương từ khoảng trống). Chế độ sáng tạo cho phép người chơi phá hủy tất cả các khối ngay lập tức (bao gồm cả các khối thông thường không thể phá hủy như nền móng và khung cổng cuối), miễn là họ không cầm kiếm, đinh ba hoặc gậy gỡ rối. Tuy nhiên, các khối này không bị rơi ra và phải có được bằng khoảng không quảng cáo. Chế độ sáng tạo cung cấp cho người chơi khả năng bay. Để kích hoạt bay, hãy nhấn đúp vào phím nhảy. Sử dụng phím nhảy để đi lên và phím lẻn để đi xuống và các phím di chuyển, mặc định là WASD để di chuyển. Người chơi có thể vô hiệu hóa tính năng bay giữa không trung bằng cách nhấn đúp lần nữa để nhảy, khiến chúng rơi xuống đất. Chạm đất khi bay sẽ vô hiệu hóa tính năng bay trong Phiên bản Java, nhưng không có trong Phiên bản Bedrock. Vào trong xe bom hoặc giường không có nghĩa là bay."
+    },
+    {
+      "id": "gamemode_hrdc_section",
+      "text": "Lõi cứng"
+    },
+    {
+      "id": "gamemode_hrdc_content",
+      "text": "Hardcore là một biến thể độc quyền của Phiên bản Java của Survival. Trong chế độ này, thế giới bị khóa ở độ khó Khó và người chơi không thể hồi sinh sau khi bị giết. Tính năng chính của chế độ Hardcore là người chơi không được cung cấp tùy chọn hồi sinh khi chết như trong các chế độ chơi khác. Thay vào đó, có hai nút trên màn hình chết: \"Spectate world\" và \"Title screen.\" \"Spectate world\" đặt người chơi ở chế độ Spectator và hồi sinh người chơi tại điểm xuất hiện của thế giới, giúp họ chỉ có thể xem và khám phá thế giới trong chế độ đó. Nút \"Màn hình tiêu đề\" chỉ đơn giản là dẫn người chơi đến màn hình menu chính; mở lại thế giới chỉ đơn giản là đưa người chơi trở lại màn hình chết chóc như trước. Ngoài ra, các thế giới trong chế độ Hardcore bị hạn chế ở độ khó khó. Khi tạo thế giới ở chế độ Hardcore, các tùy chọn Bật Cheats và Bonus Chest thế giới bị khóa thành TẮT. Trên menu lựa chọn thế giới, các thế giới ở chế độ hạng nặng hiển thị dòng chữ màu đỏ sẫm đọc \"Chế độ hạng nặng!\""
+    },
+    {
+      "id": "letsPlay",
+      "text": "Hãy chơi!"
+    },
+    {
+      "id": "shop_title",
+      "text": "Bạn có muốn nâng cấp / mua hạng?"
+    },
+    {
+      "id": "shop_link",
+      "text": "Đến đây"
+    },
+    {
+      "id": "thx1",
+      "text": "Chà ...... Không có tôi thì minecraft này không bao giờ tồn tại. Cảm ơn sự ủng hộ của bạn"
+    },
+    {
+      "id": "thx2",
+      "text": "Rất cảm ơn Cộng đồng T-XIvIN đã phát triển trang web này."
+    },
+    {
+      "id": "thx_title",
+      "text": "Cảm ơn rất nhiều"
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>ကျွန်ုပ်တို့၏ Minecraft Server အားသာချက်များ</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>မြန်နှုန်းမြင့်ဆာဗာ</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>သီးသန့်တည်ရှိမှု</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>အကောင်းဆုံးရပ်ရွာ</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>24/7 တည်ခင်းည်</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>ဂိမ်းထုံးနည်း</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>ကျွန်ုပ်တို့၏ minecraft ဆာဗာတွင်ဂိမ်းကစားနည်း</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>ရှင်သန်မှု</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>Survival mode သည် Minecraft ရှိအဓိကဂိမ်းအမျိုးအစားတစ်ခုဖြစ်သည်။ ကစားသမားများသည်အရင်းအမြစ်များကိုစုဆောင်းရမည်၊ အဆောက်အအုံများတည်ဆောက်ခြင်း၊ လူအုပ်ကြီးကိုတိုက်ခိုက်ခြင်း၊ စားခြင်းနှင့်ရှင်သန်ရန်နှင့်ရှင်သန်ရန်ကမ္ဘာကိုစူးစမ်းလေ့လာရမည်။ Bedrock Edition တွင်ကစားသမားများသည် Survival Mode ကို cheats off၊ add-ons off နှင့် host အခွင့်အရေးများကိုပိတ်ထားစဉ် Flat သို့မသတ်မှတ်ထားသောကမ္ဘာတွင်အောင်မြင်မှုများရရှိနိုင်သည်။ အကယ်၍ ကစားသမားတစ် ဦး သည်ကမ္ဘာကြီးကိုဖန်တီးမှုပုံစံဖြင့်ဖန်တီးပြီး၎င်းကို Survival Mode တွင်တင်လျှင်၎င်းကစားသမားသည်ထိုကမ္ဘာတွင်အောင်မြင်မှုမရရှိပါ။ Minecraft Survival တွင်အဓိကရည်မှန်းချက်မှာရှင်သန်ရန်၊ တည်ဆောက်ရန်၊ ရှာဖွေရန်နှင့်ပျော်ရွှင်ရန်ဖြစ်သည်၊ သို့သော် Survival တွင်မပါ ၀ င်သောရည်မှန်းချက်မှာ Ender Dragon နှင့် Wither ကိုအနိုင်ယူရန်ဖြစ်သည်။ Survival တွင်ကစားသမားများသည်ပစ္စည်းများကိုစုဆောင်းရန်စာရင်းရှိသည်။ All Blocks အားလုံးသည်သင်လုပ်ကွက်များကိုချက်ချင်းဖျက်ဆီးနိုင်သော Creative mode နှင့်မတူဘဲချိုးရန်အချိန်အနည်းငယ်လိုအပ်သည်။ ဤပစ္စည်းများကို (Pickaxe, Axe, Sword, Hoe, Shovel) နှင့်အခြားပစ္စည်းများအပါအဝင်ကိရိယာများဖန်တီးရန်ချက်ပြုတ်နည်းများတွင်အသုံးပြုနိုင်သည်။ ဘယ်ဘက်အောက်ထောင့်ရှိ Recipe စာအုပ်ကိုနှိပ်ခြင်းဖြင့်ချက်ပြုတ်နည်းများကိုပိုမိုလွယ်ကူစွာရယူနိုင်ပါတယ်။ ဤလုပ်ငန်းစဉ်ကိုလက်မှုပညာအဖြစ်လူသိများသည်။ ထုလုပ်သောချက်ပြုတ်နည်းများသည်လက်လုပ်စားပွဲတစ်ခုလိုအပ်သည်။ အချို့သောပစ္စည်းများသည်ပုံမှန်အားဖြင့်လက်မှုပညာဖြင့် ပြုလုပ်၍ မရပါ။ ဘီယာချက်ခြင်း၊ ပြုပြင်ခြင်းနှင့်ဝိဇ္ဇာအတတ်ပြုခြင်းကဲ့သို့သောအခြားအသုံးပြုရန်အတွက်အခြားသုတ်သင်ရေးစခန်းများရှိသည်။ Survival mode တွင်ကစားသမားသည်ပတ် ၀ န်းကျင်မှပျက်စီးခြင်း (ပြိုလဲပျက်စီးခြင်း၊ အသက်ရှူကျပ်ခြင်းနှင့်ချော်ရည်များ) နှင့်ရန်လိုလူအုပ်များမှ (ငြိမ်းချမ်းစွာကစားခြင်းမှ လွဲ၍ ရန်လိုနေသောလူအုပ်များမသန်စွမ်းသော) ပျက်စီးမှုများကိုခံယူနိုင်သည်။ ပျက်စီးမှုအလုံအလောက်ရရှိသောကစားသမားတစ် ဦး သည်သေပြီး spawn သို့ပြန်သွားသည်။ cheat များဖွင့်ထားလျှင်ကစားသမားတစ် ဦး သည် command / gamemode ရှင်သန်မှုကို အသုံးပြု၍ Survival mode သို့ပြောင်းနိုင်သော်လည်းအောင်မြင်မှုမရရှိပါ။</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>ဖန်တီးမှု</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>Creative mode သည် Minecraft ၏အဓိကဂိမ်းအမျိုးအစားတစ်ခုဖြစ်သည်။ Creative mode သည် Minecraft ၏ရှင်သန်မှုရှုထောင့်များကိုဖယ်ရှားပြီးကစားသမားများအားအကန့်အသတ်မရှိအသုံးပြုခြင်းနှင့်တည်ဆောက်မှုနှင့်အဆောက်အ ဦ များနှင့်ယန္တရားများအားအလွယ်တကူဖန်တီးဖျက်ဆီးနိုင်စေသည်။ နောက်ခံဂီတကိုလည်းပြောင်းသည်။ Creative mode တွင်ကစားသမားများအနေဖြင့်၎င်းတို့၏အဆောက်အ ဦး ကိုအဟန့်အတားဖြစ်စေရန်ကျန်းမာရေးသို့မဟုတ်ငတ်မွတ်ခေါင်းပါးခြင်းမရှိပါ (အစာစားရန်ဖြစ်နိုင်ပြီး၊ ပျက်ပြယ်ပျက်စီးခြင်းမှအပကစားသူ၏ကျန်းမာရေးသည်ဆက်လက်ကျဆင်းနေသည်) ။ Creative mode သည်ကစားသမားများအားဓား၊ သုံးစင်းသို့မဟုတ်ဒက်ဘ်ဂိတ်မကိုင်ဆောင်ပါကကစားသမားများအားလုံးကို (bedrock နှင့် end portal frames ကဲ့သို့သောပုံမှန်အားဖြင့်မဖျက်နိုင်သည့်လုပ်ကွက်များအပါအ ၀ င်) ကိုချက်ချင်းဖျက်ဆီးပစ်နိုင်သည်။ သို့သော်ဤလုပ်ကွက်များကိုမဖြုတ်ချဘဲတီထွင်ဖန်တီးမှုစာရင်းမှရယူရမည်။ Creative mode ကကစားသမားတွေကိုပျံသန်းနိုင်တဲ့စွမ်းရည်ကိုပေးတယ်။ ပျံသန်းမှုကိုစတင်ရန်, ခလုပ်ခလုတ်ကိုနှစ်ချက်နှိပ်ပါ။ အပေါ်တက်ခလုတ်ကို နှိပ်၍ ခလုတ်ကိုအောက်သို့ဆင်း။ လှုပ်ရှားမှုသော့များကိုသုံးပါ။ ပုံမှန်အတိုင်း WASD သည်ရွှေ့သည်။ ကစားသမားအနေဖြင့်လေအလယ်တွင်ပျံသန်းခြင်းကိုနှစ်ကြိမ်ထိခေါက်ခြင်းဖြင့်ပိတ်ခြင်းဖြင့်သူတို့ကိုမြေပေါ်သို့ကျစေနိုင်သည်။ လေယာဉ်ပျံသန်းစဉ်မြေပြင်ကိုထိခြင်းသည် Java Edition တွင်ပျံသန်းမှုကိုပိတ်ပင်ထားသော်လည်း Bedrock Edition တွင်မဟုတ်ပါ။ မြေမြှုပ်မိုင်းသို့မဟုတ်အိပ်ရာထဲသို့ ၀ င်ခြင်းသည်လေယာဉ်ကိုမပိတ်နိုင်ပါ။</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>စွန့်စားခန်း</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>စွန့်စားမှု mode သည်ကစားသမားဖန်တီးထားသောမြေပုံများအတွက်ရည်ရွယ်သည့်ဂိမ်းတစ်ခုဖြစ်ပြီး Minecraft ရှိဂိမ်းအချို့ကိုကန့်သတ်ထားသည်။ ဒီ mode မှာ, ကစားသမားစွန့်စားမှုမြေပုံများသို့မဟုတ် griefing ဆာဗာများပျက်စီးခြင်းကိုရှောင်ရှားရန်, မည်သည့် tools များနှင့်အတူမည်သည့်လုပ်ကွက်ကိုမဆိုဖျက်ဆီးခြင်းသို့မဟုတ်မည်သည့်လုပ်ကွက်နေရာမရနိုင်ပါ။ စွန့်စားမှု mode ကို command များသို့မဟုတ် game mode selector ဖြင့်သာသုံးနိုင်သည်။ စွန့်စားမှု mode သည် Survival နှင့်ဆင်တူသည်။ ကစားသမားများသည်၎င်းတို့၏ပတ် ၀ န်းကျင်မှပျက်စီးမှုကိုရနိုင်သည်၊ သေနိုင်သည်၊ ကစားသမားများသည်ငတ်မွတ်ခေါင်းပါးမှုကိုထိန်းချုပ်ရမည်။ သို့သော်၎င်းသည်နည်းလမ်းများစွာတွင်ကွဲပြားသည်။ Java Edition တွင်လုပ်ကွက်များ၊ CanDestroy NBT tag ရှိသည့်ပစ္စည်း / ကိရိယာဖြင့်သာဖျက်ဆီးနိုင်သည်။ ကစားသမား၏လက်သီးဖြင့် ဖျက်၍ မရပါ။ ထိုနည်းတူစွာလုပ်ကွက်များသည် CanPlaceOn NBT tag ကိုထားရန်လိုအပ်သည်။ Bedrock Edition တွင်အလားတူပင်၊ can_destroy နှင့် can_place_on NBT tags များသည်လုပ်ကွက်များကို ဖျက်ဆီး၍ နေရာချထားရန်လိုအပ်သည်။ သို့ရာတွင်ကစားသမားများအနေဖြင့်ပတ် ၀ န်းကျင်ကိုအခြားနည်းလမ်းများဖြင့်အသုံးပြုနိုင်သည်။ လူအုပ်စုများနှင့်အခြားအဖွဲ့အစည်းများနှင့်အပြန်အလှန်ဆက်သွယ်ခြင်း (ဥပမာအားဖြင့်သတ်ဖြတ်ခြင်း)၊ အနီရောင်ကျောက်ကပ်ယန္တရား (ဥပမာ - လီဗာ) ကိုဖွင့်ခြင်း၊ ရွာသားများနှင့်ကုန်သွယ်ခြင်းစသည်တို့ဖြစ်သည်။ ထို့အပြင်ကစားသမားများသည်ပုံမှန်အားဖြင့်အခြားမည်သည့်ကစားနည်းတွင်မဆိုကစားနိုင်သည့်အရာများကိုပြုလုပ်နိုင်သည်။ နောက်ထပ်လုပ်ဆောင်ချက်တစ်ခုကတော့ Survival mode နှင့်မတူဘဲကစားသမားများသည်ဇယားကွက်အတွင်းမည်သည့်နေရာတွင်မဆို spawn လုပ်နိုင်သည်နှင့်မတူသည်မှာကစားသမားများသည်ကမ္ဘာပေါ်ရှိမည်သည့်နေရာ၌ပင်ရှိနေသည်ဖြစ်စေအတိအကျပေါ်ပေါက်လာသည်။</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>အမာရွတ်</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore သည် Java Edition သီးသန့် Survival အမျိုးအစားဖြစ်သည်။ ဒီ mode မှာ, ကမ္ဘာကြီးခက်ခဲအခက်အခဲမှသော့ခတ်သည်နှင့်ကစားသမားအသတ်ခံရပြီးနောက်ပြန်လည်အသက်မရှင်နိုင်ပါ။ Hardcore mode ၏အဓိကအင်္ဂါရပ်မှာကစားသမားအားအခြားဂိမ်း mode များတွင်ကဲ့သို့သေသွားပြီးနောက်ပြန်လည်အသက်ပြန်ရှင်နိုင်သည့်အခွင့်အလမ်းမရှိခြင်းဖြစ်သည်။ အဲဒီအစားသေမင်းမှာ "Spectate world" နဲ့ "title screen" ဆိုတဲ့ခလုတ်နှစ်ခုရှိတယ်။ "Spectate world" သည်ကစားသူအား Spectator mode သို့သတ်မှတ်ပေးပြီးကစားသမားကိုကမ္ဘာ့ spawn နေရာတွင်ပြန်လည်အသက်သွင်းပေးသည်။ ၎င်းအားကမ္ဘာကြီးအားထိုပုံစံဖြင့်သာကြည့်ရှုနိုင်မည်ဖြစ်သည်။ "Title screen" ခလုတ်သည်ကစားသူအားအဓိက menu screen သို့ပို့ဆောင်သည်။ ကမ္ဘာကြီးကိုပြန်လည်ဖွင့်လှစ်ခြင်းသည်ကစားသမားအားယခင်သေကဲ့သို့ပင်တူညီသောသေတ္တာသို့ပြန်ပို့ပေးသည်။ ထို့အပြင်၊ Hardcore mode လောကသည်အခက်အခဲများနှင့်ကြုံတွေ့ရသည်။ Hardcore mode ကမ္ဘာကိုဖန်တီးစဉ်၊ Enable Cheats နှင့် Bonus Chest ကမ္ဘာ့ရွေးချယ်စရာများသည် OFF ဖြစ်သည်။ ကမ္ဘာ့ရွေးချယ်မှုမီနူးတွင်၊ hardcore mode worlds များသည်အနီရောင်စာသားကို "Hardcore Mode!" ကိုပြသည်။</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>ဆော့ကြစို့!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>အဆင့်ကိုအဆင့်မြှင့်တင်ချင်ပါသလား။</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>ဒီကိုသွား</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>ကောင်းပြီ ...... ငါမရှိရင်ဒီ minecraft မရှိခဲ့ဘူး။ မင်းရဲ့ထောက်ပံ့မှုအတွက်ကျေးဇူးတင်ပါတယ်</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>ဤဆိုဒ်တည်ဆောက်ရန် T-XIvIN အသိုင်းအဝိုင်းကိုများစွာကျေးဇူးတင်ပါသည်။</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>မှုအတွက်ကျေးဇူးတင်ပါတယ်</value>
+  </data>
+</root>

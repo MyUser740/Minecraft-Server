@@ -1,0 +1,116 @@
+{
+  "Texts": [
+    {
+      "id": "nav_Home",
+      "text": "Casa"
+    },
+    {
+      "id": "nav_News",
+      "text": "Noticias"
+    },
+    {
+      "id": "nav_Event",
+      "text": "Evento"
+    },
+    {
+      "id": "nav_Account",
+      "text": "Cuenta"
+    },
+    {
+      "id": "drop_Login",
+      "text": "Iniciar sesión"
+    },
+    {
+      "id": "drop_Regis",
+      "text": "Registrarse"
+    },
+    {
+      "id": "drop_Logout",
+      "text": "Cerrar sesión"
+    },
+    {
+      "id": "drop_Profile",
+      "text": "Perfil"
+    },
+    {
+      "id": "nav_Forrum",
+      "text": "Foro"
+    },
+    {
+      "id": "nav_Report",
+      "text": "Reporte"
+    },
+    {
+      "id": "nav_Player",
+      "text": "Jugadores"
+    },
+    {
+      "id": "drop_PlyList",
+      "text": "Lista de jugadores"
+    },
+    {
+      "id": "drop_FrdList",
+      "text": "Lista de amigos"
+    },
+    {
+      "id": "drop_PlySosmed",
+      "text": "Reproductor de redes sociales"
+    },
+    {
+      "id": "drop_Guild",
+      "text": "Gremio"
+    },
+    {
+      "id": "nav_Chat",
+      "text": "Charla"
+    },
+    {
+      "id": "nav_Docs",
+      "text": "Documentación"
+    },
+    {
+      "id": "drop_ViewNoti",
+      "text": "Ver todo"
+    },
+    {
+      "id": "qck_plc",
+      "text": "Búsqueda rápida"
+    },
+    {
+      "id": "qck_Btn",
+      "text": "Buscar"
+    },
+    {
+      "id": "mdlMail_Title",
+      "text": "Correo"
+    },
+    {
+      "id": "mdlMail_MenuSys",
+      "text": "Sistema"
+    },
+    {
+      "id": "mdlMail_MenuUpdt",
+      "text": "Actualizar"
+    },
+    {
+      "id": "mdlMail_MenuClm",
+      "text": "Reclamar recompensa"
+    },
+    {
+      "id": "mdlMail_Dismis",
+      "text": "Cerca"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Title",
+      "text": "Búsqueda rápida"
+    },
+    {
+      "id": "alert_QuickSeaerchEmpty_Desc",
+      "text": "La entrada de búsqueda rápida está vacía"
+    },
+    {
+      "id": "alert_OkButton",
+      "text": "Okay"
+    }
+  ]
+}

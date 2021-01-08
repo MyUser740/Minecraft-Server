@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link href="~/App_Component/Controller/Shared/_Layout/Style/Site.less" rel="stylesheet" />
+
+    @RenderSection("style", required: false)
+
     @Html.Partial("_Script")
 
     <script src="~/App_Component/Controller/Locale/func.js"></script>

@@ -1,0 +1,88 @@
+{
+  "Texts": [
+    {
+      "id": "title_ServerAdvantages",
+      "text": "Our Minecraft Server Advantages"
+    },
+    {
+      "id": "adv_1",
+      "text": "High speed server"
+    },
+    {
+      "id": "adv_2",
+      "text": "Privacy"
+    },
+    {
+      "id": "adv_3",
+      "text": "Best Community"
+    },
+    {
+      "id": "adv_4",
+      "text": "Hosted 24/7"
+    },
+    {
+      "id": "gamemode_Title",
+      "text": "Gamemode"
+    },
+    {
+      "id": "gamemode_Subtitle",
+      "text": "Available gamemode in our minecraft Server"
+    },
+    {
+      "id": "gamode_surv_section",
+      "text": "Survival"
+    },
+    {
+      "id": "gamemode_surv_content",
+      "text": "Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive. In Bedrock Edition, players may receive achievements in a world not set to Flat while playing Survival Mode with cheats off, add-ons off, and host privileges off. If a player creates a world in creative mode and then loads it in Survival Mode, the player cannot earn achievements in that world. In Minecraft Survival, the main goal is to survive, build, explore, and have fun, but also an optional goal in Survival is to defeat the Ender Dragon and the Wither. In Survival, players have an inventory to collect items. All Blocks require a certain amount of time to break unlike Creative mode where you can instantly destroy blocks. These items can be used in recipes to create tools including (Pickaxe, Axe, Sword, Hoe, Shovel) and other items. The recipes can also be accessed easier by clicking the Recipe book in the bottom left corner. This process is known as crafting. Most crafting recipes require a crafting table. Some items cannot be obtained by crafting normally and require a furnace for processing. Various other crafting stations exist for other uses, such as brewing, repairing, and enchanting. In Survival mode, the player is able to receive damage from the environment (fall damage, suffocation, and lava) and from hostile mobs (unless playing on peaceful, where hostile mobs are disabled). A player who receives enough damage dies and returns to a spawn point. If cheats are enabled, a player can switch to Survival mode by using the command /gamemode survival but cannot earn achievements."
+    },
+    {
+      "id": "gamode_crtv_section",
+      "text": "Creative"
+    },
+    {
+      "id": "gamemode_crtv_content",
+      "text": "Creative mode is one of the main game modes in Minecraft. Creative mode strips away the survival aspects of Minecraft and allows players to easily create and destroy structures and mechanisms with the inclusion of an infinite use of blocks and flying. It also changes the background music. In Creative mode, players have no health or hunger bar to hamper their building (though it is still possible to eat, and the player's health still goes down if they take damage from the void). Creative mode allows players to destroy all blocks instantly (including normally-indestructible blocks such as bedrock and end portal frames), provided they are not holding a sword, trident or debug stick. However, these blocks are not dropped and must be obtained by the creative inventory. Creative mode gives players the ability to fly. To activate flying, double-tap the jump key. Use the jump key to go up and the sneak key to go down and the movement keys, the default is WASD to move. The player can disable flying in mid-air by double-tapping jump again, causing them to drop to the ground. Touching the ground when flying disables flying in Java Edition, but not in Bedrock Edition. Getting into a minecart or bed does not disable flying."
+    },
+    {
+      "id": "gamode_advn_section",
+      "text": "Adventure"
+    },
+    {
+      "id": "gamode_advn_content",
+      "text": "Adventure mode is a game mode intended for player-created maps, limiting some of the gameplay in Minecraft. In this mode, the player cannot directly destroy any blocks with any tools or place any blocks, in order to avoid spoiling adventure maps or griefing servers. Adventure mode is accessible only with commands or the game mode selector. Adventure mode is similar to Survival in that players receive damage from their environment, dying is possible, and players must manage hunger. However, it is different in many ways as well. In the Java Edition, blocks can be destroyed only with an item/tool that has the CanDestroy NBT tag, and cannot be destroyed by the player's fist. Likewise, blocks require the CanPlaceOn NBT tag to be placed. In Bedrock Edition, similarly, can_destroy and can_place_on NBT tags are required to destroy and place blocks. However, players are able to make use of the environment in other ways - including interacting with mobs and other entities (for example, killing them), turning a redstone mechanism (such as a lever) on or off, and trading with villagers. Additionally, players are able to craft items as they normally would in any other game mode. Another feature is that players always spawn exactly on the world spawn point, no matter where it is - unlike Survival mode, where players can spawn anywhere within a certain grid."
+    },
+    {
+      "id": "gamemode_hrdc_section",
+      "text": "Hardcore"
+    },
+    {
+      "id": "gamemode_hrdc_content",
+      "text": "Hardcore is a Java Edition exclusive variant of Survival. In this mode, the world is locked to Hard difficulty and the player cannot respawn after being killed. The key feature of Hardcore mode is that the player is not given the option to respawn upon death as they would in other game modes. Instead, there are two buttons on the death screen: \"Spectate world\" and \"Title screen.\" \"Spectate world\" sets the player to Spectator mode and respawns the player at the world's spawn point, making them able to view and explore the world only in that mode. The \"Title screen\" button simply leads the player to the main menu screen; re-opening the world simply returns the player back to the same death screen as before. In addition, Hardcore mode worlds are restricted to hard difficulty. When creating a Hardcore mode world, the Enable Cheats and Bonus Chest world options are locked to OFF. On the world selection menu, hardcore mode worlds display dark red text reading \"Hardcore Mode!\""
+    },
+    {
+      "id": "letsPlay",
+      "text": "Let's Play!"
+    },
+    {
+      "id": "shop_title",
+      "text": "Do you want to upgrade/buy rank?"
+    },
+    {
+      "id": "shop_link",
+      "text": "Go here"
+    },
+    {
+      "id": "thx1",
+      "text": "Well...... Without me this minecraft never existed. Thank for your support"
+    },
+    {
+      "id": "thx2",
+      "text": "Many thanks to the T-XIvIN Community for developing this site."
+    },
+    {
+      "id": "thx_title",
+      "text": "Big Thank For"
+    }
+  ]
+}

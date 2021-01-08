@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>Kelebihan Server Minecraft kami</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>Pelayan berkelajuan tinggi</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>Privasi</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>Komuniti Terbaik</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>Dihoskan 24/7</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>Mod permainan</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>Mod permainan yang tersedia di pelayan minecraft kami</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>Kelangsungan hidup</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>Survival mode adalah salah satu mod permainan utama di Minecraft. Pemain mesti mengumpulkan sumber daya, membina struktur, memerangi massa, makan, dan menjelajah dunia dalam usaha untuk berkembang maju dan bertahan. Dalam Edisi Bedrock, pemain mungkin mendapat pencapaian dalam dunia yang tidak ditetapkan ke Flat ketika bermain Survival Mode dengan cheat off, add-ons, dan host host off. Sekiranya pemain mencipta dunia dalam mod kreatif dan kemudian memuatkannya dalam Survival Mode, pemain tidak dapat memperoleh pencapaian di dunia itu. Dalam Minecraft Survival, tujuan utamanya adalah bertahan, membina, menjelajah, dan bersenang-senang, tetapi juga tujuan pilihan dalam Survival adalah untuk mengalahkan Ender Dragon dan the Wither. Dalam Survival, pemain mempunyai inventori untuk mengumpulkan barang. Semua Blok memerlukan sejumlah masa untuk berhenti seperti mod Kreatif di mana anda boleh menghancurkan blok dengan serta-merta. Barang-barang ini boleh digunakan dalam resipi untuk membuat alat termasuk (beliung, kapak, pedang, cangkul, sekop) dan barang-barang lain. Resipi juga boleh diakses dengan lebih mudah dengan mengklik buku Resipi di sudut kiri bawah. Proses ini dikenali sebagai kerajinan. Sebilangan besar resipi membuat kraftangan. Sebilangan barang tidak dapat diperoleh dengan membuat secara normal dan memerlukan tungku untuk diproses. Pelbagai stesen pembuatan lain ada untuk kegunaan lain, seperti pembuatan bir, pembaikan, dan mempesona. Dalam mod Survival, pemain dapat menerima kerosakan dari persekitaran (kerosakan jatuh, sesak nafas, dan lava) dan dari kumpulan bermusuhan (kecuali bermain dengan aman, di mana kumpulan bermusuhan dilumpuhkan). Seorang pemain yang mendapat kerosakan yang cukup mati dan kembali ke titik pemijahan. Sekiranya cheat diaktifkan, pemain boleh beralih ke mod Survival dengan menggunakan survival / gamemode perintah tetapi tidak dapat memperoleh pencapaian.</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>Kreatif</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>Mod kreatif adalah salah satu mod permainan utama di Minecraft. Mod kreatif menghilangkan aspek kelangsungan hidup Minecraft dan membolehkan pemain membuat dan memusnahkan struktur dan mekanisme dengan mudah dengan penyertaan penggunaan blok dan terbang yang tidak terbatas. Ia juga mengubah muzik latar. Dalam mod Kreatif, pemain tidak mempunyai bar kesihatan atau kelaparan untuk mengganggu bangunan mereka (walaupun masih boleh dimakan, dan kesihatan pemain masih merosot jika mereka mengalami kerosakan akibat kekosongan). Mod kreatif membolehkan pemain menghancurkan semua blok dengan serta-merta (termasuk blok yang biasanya tidak dapat dihancurkan seperti bingkai dasar dan bingkai portal akhir), dengan syarat mereka tidak memegang pedang, trisula atau debug stick. Walau bagaimanapun, blok ini tidak dijatuhkan dan mesti diperolehi oleh inventori kreatif. Mod kreatif memberi pemain kemampuan untuk terbang. Untuk mengaktifkan penerbangan, ketik dua kali kekunci lompat. Gunakan tombol lompat untuk naik dan kunci menyelinap untuk turun dan kekunci pergerakan, lalai adalah WASD untuk bergerak. Pemain boleh melumpuhkan terbang di udara dengan melompat dua kali sekali lagi, menyebabkan mereka jatuh ke tanah. Menyentuh tanah ketika terbang melumpuhkan terbang di Edisi Java, tetapi tidak di Edisi Bedrock. Masuk ke minecart atau tempat tidur tidak mematikan penerbangan.</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>Pengembaraan</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>Mod petualangan adalah mod permainan yang ditujukan untuk peta buatan pemain, sehingga membatasi beberapa permainan di Minecraft. Dalam mod ini, pemain tidak dapat secara langsung menghancurkan blok dengan alat apa pun atau meletakkan blok apa pun, untuk mengelakkan merosakkan peta petualangan atau pelayan yang menyedihkan. Mod petualangan hanya dapat diakses dengan perintah atau pemilih mod permainan. Mod petualangan serupa dengan Survival di mana pemain menerima kerosakan dari persekitaran mereka, kematian mungkin, dan pemain mesti mengatasi rasa lapar. Walau bagaimanapun, ia juga berbeza dalam banyak cara. Dalam Edisi Java, blok dapat dihancurkan hanya dengan item / alat yang memiliki tag CanDestroy NBT, dan tidak dapat dihancurkan oleh penumbuk pemain. Begitu juga, blok memerlukan tag CanPlaceOn NBT diletakkan. Dalam Edisi Bedrock, serupa, tag can_destroy dan can_place_on NBT diperlukan untuk memusnahkan dan meletakkan blok. Walau bagaimanapun, pemain dapat memanfaatkan persekitaran dengan cara lain - termasuk berinteraksi dengan massa dan entiti lain (misalnya, membunuhnya), menghidupkan atau mematikan mekanisme redstone (seperti tuas), dan berdagang dengan penduduk kampung. Selain itu, pemain dapat membuat item seperti biasa dalam mod permainan lain. Ciri lain ialah pemain selalu bertelur tepat di titik pemijahan dunia, di mana pun ia berada - tidak seperti mod Survival, di mana pemain dapat bertelur di mana sahaja dalam grid tertentu.</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>Inti keras</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore adalah varian eksklusif Java Survival. Dalam mod ini, dunia terkunci dalam kesukaran Keras dan pemain tidak dapat bergerak semula setelah dibunuh. Ciri utama mod Hardcore adalah bahawa pemain tidak diberi pilihan untuk memberi respon ketika mati seperti yang mereka lakukan dalam mod permainan lain. Sebaliknya, terdapat dua butang di skrin mati: "Spectate world" dan "Screen title." "Spectate world" menetapkan pemain ke mod Spectator dan memberi respon kepada pemain pada titik spawn dunia, menjadikan mereka dapat melihat dan menjelajahi dunia hanya dalam mod tersebut. Butang "Skrin tajuk" hanya membawa pemain ke skrin menu utama; membuka semula dunia hanya mengembalikan pemain kembali ke skrin mati yang sama seperti sebelumnya. Di samping itu, dunia mod Tegar terhad kepada kesukaran yang sukar. Semasa membuat dunia mod Hardcore, pilihan Enable Cheats and Bonus Chest dikunci ke MATI. Pada menu pilihan dunia, dunia mod tegar memaparkan teks merah gelap yang berbunyi "Mod Tegar!"</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>Jom main!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>Adakah anda mahu menaik taraf / membeli pangkat?</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>Pergi ke sini</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>Baik ...... Tanpa saya minecraft ini tidak pernah wujud. Terima kasih atas sokongan anda</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>Terima kasih banyak kepada Komuniti T-XIvIN kerana membangunkan laman web ini.</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>Terima Kasih Besar</value>
+  </data>
+</root>

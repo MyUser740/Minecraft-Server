@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>我们的Minecraft服务器优势</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>高速服务器</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>隐私</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>最佳社区</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>托管24/7</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>游戏模式</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>我们的世界服务器中可用的游戏模式</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>生存</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>生存模式是Minecraft中的主要游戏模式之一。玩家必须收集资源，建造建筑物，与暴民作战，进食并探索世界，才能蓬勃发展和生存。在“基岩版”中，玩家在玩“生存模式”时关闭了作弊，关闭了附加组件并禁用了主机特权时，可能会在未设置为“平坦”的世界中获得成就。如果玩家在创意模式下创建了一个世界，然后在生存模式下加载了该世界，则该玩家无法在该世界上获得成就。在《我的世界》中，生存的主要目标是生存，建立，探索和玩乐，但生存中的一个可选目标是击败Ender Dragon和Wither。在生存中，玩家有一个清单来收集物品。与“创意”模式不同，所有“方块”都需要一定的时间才能打破，在“创意”模式下，您可以立即破坏方块。这些项目可用于配方中以创建工具，包括（镐，斧，剑，Ho，铲）和其他项目。单击左下角的食谱书，也可以更轻松地访问食谱。此过程称为制作。大多数手工食谱都需要一个手工桌子。有些物品无法通过正常加工获得，需要使用炉子进行加工。存在用于其他用途的各种其他制作工位，例如酿造，维修和附魔。在生存模式下，玩家可以从环境（跌落伤害，窒息和熔岩）和敌对的暴民（除非在和平的情况下玩耍，而敌对的暴民被禁用）受到伤害。受到足够伤害的玩家死亡并返回到生成点。如果启用了作弊功能，则玩家可以使用/ gamemode生存命令切换到生存模式，但无法获得成就。</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>创意性</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>创作模式是Minecraft中的主要游戏模式之一。创新模式剥夺了Minecraft的生存空间，并允许玩家轻松地创建和破坏建筑物和机制，包括无限使用方块和飞行。它还会更改背景音乐。在“创作”模式下，玩家没有健康或饥饿栏来妨碍他们的建筑物（尽管仍然可以进食，并且如果受到空洞的伤害，玩家的健康仍然会下降）。创作模式允许玩家立即摧毁所有方块（包括通常坚不可摧的方块，例如基岩和末端传送门框架），前提是他们没有握住剑，三叉戟或调试棒。但是，这些块不会丢失，必须由广告资源获取。创意模式使玩家能够飞行。要启动飞行，请点按两次跳转键。使用跳转键向上移动，使用潜行键向下移动，使用移动键，默认为WASD移动。玩家可以通过再次双击跳动使其掉落到地面来禁用空中飞行。飞行时触摸地面会禁止在Java Edition中飞行，但在Bedrock Edition中则不会。进入矿车或床上不会阻止飞行。</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>冒险</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>冒险模式是一种用于玩家创建地图的游戏模式，限制了Minecraft中的某些游戏玩法。在这种模式下，玩家无法使用任何工具直接销毁任何方块或放置任何方块，以避免破坏冒险地图或悲伤的服务器。冒险模式只能通过命令或游戏模式选择器访问。冒险模式与生存模式相似，因为玩家会受到周围环境的伤害，有可能死亡，并且玩家必须控制饥饿。但是，它在许多方面也有所不同。在Java Edition中，只能使用带有CanDestroy NBT标签的物品/工具来破坏积木，而不能被玩家的拳头破坏。同样，块需要放置CanPlaceOn NBT标签。在基岩版中，类似地，需要can_destroy和can_place_on NBT标签来销毁和放置块。但是，玩家可以通过其他方式利用环境-包括与暴民和其他实体互动（例如杀死他们），打开或关闭红石机制（例如杠杆）以及与村民交易。另外，玩家能够像在其他任何游戏模式中一样制作物品。另一个功能是，玩家无论在何处都始终精确地在世界上的生成点上生成-与生存模式不同，生存模式下，玩家可以在特定网格内的任何位置生成。</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>铁杆</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore是Java Edition Survival的专有变体。 在这种模式下，世界被锁定为困难难度，玩家被杀死后无法重生。 核心模式的主要特点是，玩家没有像其他游戏模式那样在死亡时重生的选项。 取而代之的是，死亡屏幕上有两个按钮：“主题世界”和“标题屏幕”。 “ Spectate world”将玩家设置为“观众”模式，并在世界的生成点重生该玩家，从而使他们只能在该模式下查看和探索世界。 “标题屏幕”按钮只是将播放器引导至主菜单屏幕； 重新打开世界只会使玩家回到与以前相同的死亡屏幕。 此外，硬核模式世界仅限于困难难度。 创建“硬核”模式世界时，“启用作弊”和“奖励宝箱”世界选项将锁定为OFF。 在世界选择菜单上，“硬核模式”世界显示深红色文本，显示为“硬核模式！”。</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>让我们玩！</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>您想升级/购买等级吗？</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>到这里</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>好吧……没有我，我的世界就不存在了。 感谢您的支持</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>非常感谢T-XIvIN社区开发此网站。</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>竞标感谢</value>
+  </data>
+</root>

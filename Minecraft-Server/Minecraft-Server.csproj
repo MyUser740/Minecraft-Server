@@ -455,6 +455,10 @@
     <Content Include="App_Component\Controller\Shared\_Layout\Script\realtime-Config.js" />
     <Content Include="App_Component\Resource\Img\Home\Parallax1.jpg" />
     <Content Include="App_Component\Resource\Img\Home\Parallax2.jpg" />
+    <Content Include="App_Component\Resource\Img\Home\Parallax3.jpg" />
+    <Content Include="App_Component\Resource\Img\Home\Thank For1.jpg" />
+    <Content Include="App_Component\Resource\Img\Home\Thank For2.dark.jpg" />
+    <Content Include="App_Component\Resource\Img\Home\Thank For2.light.jpg" />
     <Content Include="App_Readme\modernizr.full\readme.txt" />
     <Content Include="App_Component\Component\Content\images\ajax-loader.gif" />
     <Content Include="App_Component\Component\Content\images\icons-png\action-black.png" />
@@ -2145,6 +2149,71 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\DiscordBot.cs" />
+    <Compile Include="App_LocalResources\Home.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.en-GB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.en-GB.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.es-ES.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.es-ES.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.fil-PH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.fil-PH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.id-ID.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.id-ID.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.km-KH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.km-KH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.ms-MY.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.ms-MY.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.my-MM.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.my-MM.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.th-TH.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.th-TH.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.vi-VN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.vi-VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.zh-CN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.zh-CN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.zh-Hant.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.zh-Hant.resx</DependentUpon>
+    </Compile>
+    <Compile Include="App_LocalResources\Home.zh-HK.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Home.zh-HK.resx</DependentUpon>
+    </Compile>
     <Compile Include="App_LocalResources\_Layout.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -2243,6 +2312,7 @@
     <Content Include="App_Component\Controller\Locale\Script\_Layout.my-MM.json" />
     <Content Include="App_Component\Controller\Locale\Script\_Layout.th-TH.json" />
     <Content Include="App_Component\Controller\Locale\Script\_Layout.vi-VN.json" />
+    <Content Include="App_Component\Controller\Page\Home\Style\carousel.less" />
     <None Include="packages.config" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.slim.min.map" />
     <Content Include="App_Component\Component\Scripts\jquery-3.5.1.min.map" />
@@ -2272,7 +2342,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Browsers\" />
-    <Folder Include="App_Component\Controller\Page\" />
     <Folder Include="App_Component\Resource\Video\" />
     <Folder Include="App_Data\" />
     <Folder Include="App_GlobalResources\" />
@@ -2289,6 +2358,58 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="App_LocalResources\Home.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.my-MM.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.my-MM.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.zh-CN.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.zh-CN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.zh-Hant.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.zh-Hant.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.zh-HK.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.zh-HK.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.en-GB.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.en-GB.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.fil-PH.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.fil-PH.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.id-ID.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.id-ID.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.km-KH.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.km-KH.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.ms-MY.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.ms-MY.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.es-ES.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.es-ES.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.th-TH.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.th-TH.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="App_LocalResources\Home.vi-VN.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Home.vi-VN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="App_LocalResources\_Layout.en-GB.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>_Layout.en-GB.Designer.cs</LastGenOutput>

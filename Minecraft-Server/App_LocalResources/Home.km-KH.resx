@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>គុណសម្បត្តិម៉ាស៊ីនរ៉ែ Minecraft របស់យើង</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>ម៉ាស៊ីនមេមានល្បឿនលឿន</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>ភាពឯកជន</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>សហគមន៍ល្អបំផុត</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>បានរៀបចំ ២៤/៧</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>របៀបលេងហ្គេម</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>របៀបលេងហ្គេមដែលអាចរកបាននៅក្នុង Server Minecraft របស់យើង</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>ការរស់រានមានជីវិត</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>របៀបរស់រានមានជីវិតគឺជារបៀបលេងហ្គេមដ៏សំខាន់មួយនៅក្នុង Minecraft ។ អ្នកលេងត្រូវតែប្រមូលធនធានបង្កើតរចនាសម្ព័ន្ធក្រុមប្រយុទ្ធប្រយុទ្ធបរិភោគនិងរុករកពិភពលោកក្នុងការខិតខំដើម្បីរស់និងរស់។ នៅក្នុង Bedrock Edition អ្នកលេងអាចនឹងទទួលបានសមិទ្ធិផលនៅក្នុងពិភពលោកដែលមិនត្រូវបានកំណត់នៅពេលដែលលេងរបៀបរស់រានមានជីវិតជាមួយនឹងការបន្លំបិទកម្មវិធីបន្ថែមនិងសិទ្ធិបិទម៉ាស៊ីន។ ប្រសិនបើអ្នកលេងបង្កើតពិភពលោកក្នុងរបៀបច្នៃប្រឌិតហើយបន្ទាប់មកផ្ទុកវានៅក្នុងរបៀបរស់រានមានជីវិតអ្នកលេងមិនអាចទទួលបានសមិទ្ធិផលនៅក្នុងពិភពលោកនោះទេ។ នៅក្នុងការរុករក Minecraft ការរស់រានមានជីវិតគោលដៅសំខាន់គឺដើម្បីរស់នៅកសាងការរុករកនិងមានភាពសប្បាយរីករាយប៉ុន្តែក៏ជាគោលដៅជម្រើសមួយនៅក្នុងការរស់រានមានជីវិតគឺដើម្បីកម្ចាត់អេនឌ័រនាគនិងស្វិត។ នៅក្នុងការរស់រានមានជីវិតអ្នកលេងមានសារពើភ័ណ្ឌដើម្បីប្រមូលរបស់របរ។ ប្លុកទាំងអស់ត្រូវការពេលវេលាជាក់លាក់ដើម្បីបំបែកមិនដូចរបៀបច្នៃប្រឌិតដែលអ្នកអាចបំផ្លាញប្លុកភ្លាមៗ។ ធាតុទាំងនេះអាចត្រូវបានប្រើនៅក្នុងរូបមន្តដើម្បីបង្កើតឧបករណ៍រួមមាន (Pickaxe, Ax, ដាវ, Hoe, Shovel) និងរបស់ផ្សេងទៀត។ រូបមន្តធ្វើម្ហូបក៏អាចចូលបានកាន់តែងាយស្រួលដោយចុចសៀវភៅរូបមន្តនៅជ្រុងខាងឆ្វេងផ្នែកខាងក្រោម។ ដំណើរការនេះត្រូវបានគេស្គាល់ថាជាសិប្បកម្ម។ រូបមន្តធ្វើសិប្បកម្មភាគច្រើនតម្រូវឱ្យមានតុធ្វើនំ។ របស់របរខ្លះមិនអាចទទួលបានដោយសិប្បកម្មធម្មតាទេហើយត្រូវការឡសម្រាប់ដំណើរការ។ ស្ថានីយ៍សិប្បកម្មផ្សេងៗមានសម្រាប់ការប្រើប្រាស់ផ្សេងទៀតដូចជាស្រាបៀរជួសជុលនិងវាងវៃ។ នៅក្នុងរបៀបរស់រានមានជីវិតអ្នកលេងអាចទទួលបានការខូចខាតពីបរិស្ថាន (ការដួលរលំការថប់ដង្ហើមនិងកង្ហារ) និងពីក្រុមអរិភាព (លើកលែងតែលេងដោយសន្តិវិធីដែលក្រុមអរិភាពត្រូវបានបិទ) ។ អ្នកលេងដែលទទួលបានការខូចខាតគ្រប់គ្រាន់ស្លាប់ហើយត្រលប់ទៅកន្លែងពងកូនវិញ។ ប្រសិនបើការបន្លំត្រូវបានបើកអ្នកលេងអាចប្តូរទៅរបៀបរស់រានមានជីវិតដោយប្រើពាក្យបញ្ជា / ការរំជើបរំជួល gamemode ប៉ុន្តែមិនអាចរកបានសមិទ្ធិផល។</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>ច្នៃប្រឌិត</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>របៀបច្នៃប្រឌិតគឺជារបៀបលេងហ្គេមដ៏សំខាន់មួយនៅក្នុង Minecraft ។ របៀបច្នៃប្រឌិតដកចេញនូវទិដ្ឋភាពនៃការរស់រានមានជីវិតនៃ Minecraft និងអនុញ្ញាតឱ្យអ្នកលេងបង្កើតនិងបំផ្លាញរចនាសម្ព័ន្ធនិងយន្តការយ៉ាងងាយស្រួលដោយរួមបញ្ចូលការប្រើប្រាស់ប្លុកនិងការហោះហើរដែលគ្មានកំណត់។ វាក៏ផ្លាស់ប្តូរតន្ត្រីផ្ទៃខាងក្រោយផងដែរ។ នៅក្នុងរបៀបច្នៃប្រឌិតអ្នកលេងមិនមានបញ្ហាសុខភាពឬអត់ឃ្លានដើម្បីរារាំងអគាររបស់ពួកគេ (ទោះបីជាវាអាចបរិភោគបានក៏ដោយហើយសុខភាពរបស់អ្នកលេងនៅតែធ្លាក់ចុះប្រសិនបើពួកគេយកការខូចខាតពីមោឃៈ) ។ របៀបច្នៃប្រឌិតអនុញ្ញាតឱ្យអ្នកលេងបំផ្លាញប្លុកទាំងអស់ភ្លាមៗ (រាប់បញ្ចូលទាំងប្លុកដែលមិនអាចបំផ្លាញបានដូចជាថ្មគោលនិងស៊ុមទ្វារចុងក្រោយ) ប្រសិនបើពួកគេមិនកាន់ដាវទ្រនាប់ឬដំបងបំបាត់កំហុស។ ទោះជាយ៉ាងណាក៏ដោយប្លុកទាំងនេះមិនត្រូវបានទម្លាក់ទេហើយត្រូវតែទទួលបានដោយសារពើភ័ណ្ឌច្នៃប្រឌិត។ របៀបច្នៃប្រឌិតផ្តល់ឱ្យអ្នកលេងនូវសមត្ថភាពហោះហើរ។ ដើម្បីធ្វើឱ្យការហោះហើរសកម្មសូមប៉ះប៊ូតុងលោតទ្វេ។ ប្រើគ្រាប់ចុចលោតដើម្បីឡើងលើនិងគ្រាប់ចុចជ្រលក់ដើម្បីចុះក្រោមនិងគ្រាប់ចុចចលនាលំនាំដើមគឺ WASD ដើម្បីផ្លាស់ទី។ អ្នកលេងអាចបិទការហោះហើរនៅពាក់កណ្តាលខ្យល់ដោយលោតទ្វេដងម្តងទៀតដែលបណ្តាលឱ្យពួកគេធ្លាក់ចុះដល់ដី។ ការប៉ះដីនៅពេលហោះហើរមិនអនុញ្ញាតឱ្យហោះហើរនៅចាវ៉ាបោះពុម្ពលើកប៉ុន្តែមិនមែននៅក្នុងឌីដ្រូកបោះពុម្ពទេ។ ការចូលក្នុងអណ្តូងរ៉ែឬគ្រែមិនបិទការហោះហើរទេ។</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>ដំណើរផ្សងព្រេង</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>របៀបផ្សងព្រេងគឺជារបៀបលេងហ្គេមដែលត្រូវបានបម្រុងទុកសម្រាប់ផែនទីដែលបង្កើតដោយអ្នកលេងដោយកំណត់ល្បែងមួយចំនួននៅក្នុង Minecraft ។ នៅក្នុងរបៀបនេះអ្នកលេងមិនអាចបំផ្លាញប្លុកដោយផ្ទាល់ដោយប្រើឧបករណ៍ឬដាក់ប្លុកណាមួយដើម្បីចៀសវាងផែនទីផ្សងព្រេងឬម៉ាស៊ីនមេដែលសោកសៅ។ របៀបផ្សងព្រេងអាចចូលបានតែជាមួយពាក្យបញ្ជាឬឧបករណ៍ជ្រើសរើសរបៀបលេងហ្គេមប៉ុណ្ណោះ។ របៀបផ្សងព្រេងគឺស្រដៀងនឹងការរស់រានមានជីវិតដែលអ្នកលេងទទួលបានការខូចខាតពីបរិយាកាសរបស់ពួកគេការស្លាប់អាចទៅរួចហើយអ្នកលេងត្រូវតែគ្រប់គ្រងភាពអត់ឃ្លាន។ ទោះយ៉ាងណាក៏ដោយវាខុសគ្នាតាមវិធីជាច្រើន។ នៅក្នុង Java Edition ប្លុកអាចត្រូវបានបំផ្លាញតែជាមួយធាតុ / ឧបករណ៍ដែលមានស្លាក CanDestroy NBT ហើយមិនអាចត្រូវបានបំផ្លាញដោយកណ្តាប់ដៃរបស់អ្នកលេងឡើយ។ ដូចគ្នានេះដែរប្លុកតម្រូវឱ្យដាក់ស្លាក CanPlaceOn NBT ។ នៅក្នុង Bedrock Edition ស្រដៀងគ្នានេះដែរស្លាក - អាចនិងកន្លែង NBT ត្រូវបានទាមទារដើម្បីបំផ្លាញនិងដាក់ប្លុក។ ទោះយ៉ាងណាអ្នកលេងអាចប្រើប្រាស់បរិស្ថានតាមរបៀបផ្សេងទៀត - រួមទាំងការប្រាស្រ័យទាក់ទងជាមួយហ្វូងមនុស្សនិងអង្គភាពដទៃទៀត (ឧទាហរណ៍ការសម្លាប់ពួកគេ) បង្វែរយន្ដការក្រួសក្រហម (ដូចជាដងថ្លឹង) បើកនិងធ្វើពាណិជ្ជកម្មជាមួយអ្នកភូមិ។ លើសពីនេះទៀតអ្នកលេងអាចធ្វើគ្រឿងសិប្បកម្មបានដូចដែលពួកគេនឹងធ្វើនៅក្នុងរបៀបល្បែងផ្សេងទៀត។ លក្ខណៈពិសេសមួយទៀតគឺថាអ្នកលេងតែងតែពងនៅលើចំណុចពងកូនពិភពលោកមិនថាវានៅទីណាទេ - មិនដូចរបៀបរស់រានមានជីវិតដែលអ្នកលេងអាចពងបានគ្រប់ទីកន្លែងក្នុងក្រឡាចត្រង្គជាក់លាក់។</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>ស្នូលរឹង</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore គឺជាវ៉ារ្យ៉ង់ផ្តាច់មុខរបស់ Java Edition នៃការរស់រានមានជីវិត។ នៅក្នុងរបៀបនេះពិភពលោកត្រូវបានចាក់សោរទៅនឹងការលំបាកហើយអ្នកលេងមិនអាចស្រោចស្រង់បន្ទាប់ពីត្រូវបានគេសម្លាប់។ លក្ខណៈពិសេសសំខាន់នៃរបៀប Hardcore គឺថាអ្នកលេងមិនត្រូវបានផ្តល់ជម្រើសដើម្បីធ្វើឱ្យធូរស្បើយនៅពេលដែលពួកគេស្លាប់នៅក្នុងរបៀបលេងហ្គេមផ្សេងទៀត។ ផ្ទុយទៅវិញមានប៊ូតុងពីរនៅលើអេក្រង់មរណៈ: "ពិភពលោកគួរឱ្យគោរព" និង "អេក្រង់ចំណងជើង" ។ “ ពិភពពិភពលោកដែលគួរឱ្យគោរព” កំណត់អ្នកលេងទៅជារបៀបអ្នកមើលនិងធ្វើឱ្យអ្នកលេងនៅចំណុចពងទឹកពិភពលោកធ្វើឱ្យពួកគេអាចមើលនិងរុករកពិភពលោកបានតែនៅក្នុងរបៀបនោះ។ ប៊ូតុង "អេក្រង់ចំណងជើង" គ្រាន់តែនាំអ្នកលេងទៅអេក្រង់ម៉ឺនុយមេ; ការបើកពិភពលោកឡើងវិញជាធម្មតាធ្វើឱ្យអ្នកលេងត្រលប់ទៅអេក្រង់ស្លាប់ដូចកាលពីមុន។ លើសពីនេះទៀតពិភពម៉ូដ Hardcore ត្រូវបានដាក់កម្រិតលើការលំបាក។ នៅពេលបង្កើតពិភពម៉ូដ Hardcore ជម្រើស Enable Cheats និង Bonus Chest world ត្រូវបានចាក់សោទៅបិទ។ នៅលើបញ្ជីជ្រើសរើសពិភពលោកពិភព hardcore បង្ហាញការអានអត្ថបទពណ៌ក្រហមងងឹត "របៀប Hardcore!"</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>តោះ​ចាប់ផ្តើម​លេង!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>តើអ្នកចង់ធ្វើឱ្យប្រសើរឡើង / ទិញលំដាប់?</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>ចូល​ទៅ​ទីនេះ</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>អញ្ចឹង ...... បើគ្មានខ្ញុំយាននេះមិនដែលមានទេ។ សូមអរគុណសម្រាប់ការគាំទ្ររបស់អ្នក</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>សូមថ្លែងអំណរគុណយ៉ាងជ្រាលជ្រៅដល់សហគមន៍ធីធីអ៊ិនជីនសម្រាប់ការអភិវឌ្ឍគេហទំព័រនេះ។</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>អរគុណធំ</value>
+  </data>
+</root>

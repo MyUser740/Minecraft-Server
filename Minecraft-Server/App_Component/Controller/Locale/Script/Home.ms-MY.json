@@ -1,0 +1,88 @@
+{
+  "Texts": [
+    {
+      "id": "title_ServerAdvantages",
+      "text": "Kelebihan Server Minecraft kami"
+    },
+    {
+      "id": "adv_1",
+      "text": "Pelayan berkelajuan tinggi"
+    },
+    {
+      "id": "adv_2",
+      "text": "Privasi"
+    },
+    {
+      "id": "adv_3",
+      "text": "Komuniti Terbaik"
+    },
+    {
+      "id": "adv_4",
+      "text": "Dihoskan 24/7"
+    },
+    {
+      "id": "gamemode_Title",
+      "text": "Mod permainan"
+    },
+    {
+      "id": "gamemode_Subtitle",
+      "text": "Mod permainan yang tersedia di pelayan minecraft kami"
+    },
+    {
+      "id": "gamode_surv_section",
+      "text": "Kelangsungan hidup"
+    },
+    {
+      "id": "gamemode_surv_content",
+      "text": "Survival mode adalah salah satu mod permainan utama di Minecraft. Pemain mesti mengumpulkan sumber daya, membina struktur, memerangi massa, makan, dan menjelajah dunia dalam usaha untuk berkembang maju dan bertahan. Dalam Edisi Bedrock, pemain mungkin mendapat pencapaian dalam dunia yang tidak ditetapkan ke Flat ketika bermain Survival Mode dengan cheat off, add-ons, dan host host off. Sekiranya pemain mencipta dunia dalam mod kreatif dan kemudian memuatkannya dalam Survival Mode, pemain tidak dapat memperoleh pencapaian di dunia itu. Dalam Minecraft Survival, tujuan utamanya adalah bertahan, membina, menjelajah, dan bersenang-senang, tetapi juga tujuan pilihan dalam Survival adalah untuk mengalahkan Ender Dragon dan the Wither. Dalam Survival, pemain mempunyai inventori untuk mengumpulkan barang. Semua Blok memerlukan sejumlah masa untuk berhenti seperti mod Kreatif di mana anda boleh menghancurkan blok dengan serta-merta. Barang-barang ini boleh digunakan dalam resipi untuk membuat alat termasuk (beliung, kapak, pedang, cangkul, sekop) dan barang-barang lain. Resipi juga boleh diakses dengan lebih mudah dengan mengklik buku Resipi di sudut kiri bawah. Proses ini dikenali sebagai kerajinan. Sebilangan besar resipi membuat kraftangan. Sebilangan barang tidak dapat diperoleh dengan membuat secara normal dan memerlukan tungku untuk diproses. Pelbagai stesen pembuatan lain ada untuk kegunaan lain, seperti pembuatan bir, pembaikan, dan mempesona. Dalam mod Survival, pemain dapat menerima kerosakan dari persekitaran (kerosakan jatuh, sesak nafas, dan lava) dan dari kumpulan bermusuhan (kecuali bermain dengan aman, di mana kumpulan bermusuhan dilumpuhkan). Seorang pemain yang mendapat kerosakan yang cukup mati dan kembali ke titik pemijahan. Sekiranya cheat diaktifkan, pemain boleh beralih ke mod Survival dengan menggunakan survival / gamemode perintah tetapi tidak dapat memperoleh pencapaian."
+    },
+    {
+      "id": "gamode_crtv_section",
+      "text": "Kreatif"
+    },
+    {
+      "id": "gamemode_crtv_content",
+      "text": "Mod kreatif adalah salah satu mod permainan utama di Minecraft. Mod kreatif menghilangkan aspek kelangsungan hidup Minecraft dan membolehkan pemain membuat dan memusnahkan struktur dan mekanisme dengan mudah dengan penyertaan penggunaan blok dan terbang yang tidak terbatas. Ia juga mengubah muzik latar. Dalam mod Kreatif, pemain tidak mempunyai bar kesihatan atau kelaparan untuk mengganggu bangunan mereka (walaupun masih boleh dimakan, dan kesihatan pemain masih merosot jika mereka mengalami kerosakan akibat kekosongan). Mod kreatif membolehkan pemain menghancurkan semua blok dengan serta-merta (termasuk blok yang biasanya tidak dapat dihancurkan seperti bingkai dasar dan bingkai portal akhir), dengan syarat mereka tidak memegang pedang, trisula atau debug stick. Walau bagaimanapun, blok ini tidak dijatuhkan dan mesti diperolehi oleh inventori kreatif. Mod kreatif memberi pemain kemampuan untuk terbang. Untuk mengaktifkan penerbangan, ketik dua kali kekunci lompat. Gunakan tombol lompat untuk naik dan kunci menyelinap untuk turun dan kekunci pergerakan, lalai adalah WASD untuk bergerak. Pemain boleh melumpuhkan terbang di udara dengan melompat dua kali sekali lagi, menyebabkan mereka jatuh ke tanah. Menyentuh tanah ketika terbang melumpuhkan terbang di Edisi Java, tetapi tidak di Edisi Bedrock. Masuk ke minecart atau tempat tidur tidak mematikan penerbangan."
+    },
+    {
+      "id": "gamode_advn_section",
+      "text": "Pengembaraan"
+    },
+    {
+      "id": "gamode_advn_content",
+      "text": "Mod petualangan adalah mod permainan yang ditujukan untuk peta buatan pemain, sehingga membatasi beberapa permainan di Minecraft. Dalam mod ini, pemain tidak dapat secara langsung menghancurkan blok dengan alat apa pun atau meletakkan blok apa pun, untuk mengelakkan merosakkan peta petualangan atau pelayan yang menyedihkan. Mod petualangan hanya dapat diakses dengan perintah atau pemilih mod permainan. Mod petualangan serupa dengan Survival di mana pemain menerima kerosakan dari persekitaran mereka, kematian mungkin, dan pemain mesti mengatasi rasa lapar. Walau bagaimanapun, ia juga berbeza dalam banyak cara. Dalam Edisi Java, blok dapat dihancurkan hanya dengan item / alat yang memiliki tag CanDestroy NBT, dan tidak dapat dihancurkan oleh penumbuk pemain. Begitu juga, blok memerlukan tag CanPlaceOn NBT diletakkan. Dalam Edisi Bedrock, serupa, tag can_destroy dan can_place_on NBT diperlukan untuk memusnahkan dan meletakkan blok. Walau bagaimanapun, pemain dapat memanfaatkan persekitaran dengan cara lain - termasuk berinteraksi dengan massa dan entiti lain (misalnya, membunuhnya), menghidupkan atau mematikan mekanisme redstone (seperti tuas), dan berdagang dengan penduduk kampung. Selain itu, pemain dapat membuat item seperti biasa dalam mod permainan lain. Ciri lain ialah pemain selalu bertelur tepat di titik pemijahan dunia, di mana pun ia berada - tidak seperti mod Survival, di mana pemain dapat bertelur di mana sahaja dalam grid tertentu."
+    },
+    {
+      "id": "gamemode_hrdc_section",
+      "text": "Inti keras"
+    },
+    {
+      "id": "gamemode_hrdc_content",
+      "text": "Hardcore adalah varian eksklusif Java Survival. Dalam mod ini, dunia terkunci dalam kesukaran Keras dan pemain tidak dapat bergerak semula setelah dibunuh. Ciri utama mod Hardcore adalah bahawa pemain tidak diberi pilihan untuk memberi respon ketika mati seperti yang mereka lakukan dalam mod permainan lain. Sebaliknya, terdapat dua butang di skrin mati: \"Spectate world\" dan \"Screen title.\" \"Spectate world\" menetapkan pemain ke mod Spectator dan memberi respon kepada pemain pada titik spawn dunia, menjadikan mereka dapat melihat dan menjelajahi dunia hanya dalam mod tersebut. Butang \"Skrin tajuk\" hanya membawa pemain ke skrin menu utama; membuka semula dunia hanya mengembalikan pemain kembali ke skrin mati yang sama seperti sebelumnya. Di samping itu, dunia mod Tegar terhad kepada kesukaran yang sukar. Semasa membuat dunia mod Hardcore, pilihan Enable Cheats and Bonus Chest dikunci ke MATI. Pada menu pilihan dunia, dunia mod tegar memaparkan teks merah gelap yang berbunyi \"Mod Tegar!\""
+    },
+    {
+      "id": "letsPlay",
+      "text": "Jom main!"
+    },
+    {
+      "id": "shop_title",
+      "text": "Adakah anda mahu menaik taraf / membeli pangkat?"
+    },
+    {
+      "id": "shop_link",
+      "text": "Pergi ke sini"
+    },
+    {
+      "id": "thx1",
+      "text": "Baik ...... Tanpa saya minecraft ini tidak pernah wujud. Terima kasih atas sokongan anda"
+    },
+    {
+      "id": "thx2",
+      "text": "Terima kasih banyak kepada Komuniti T-XIvIN kerana membangunkan laman web ini."
+    },
+    {
+      "id": "thx_title",
+      "text": "Terima Kasih Besar"
+    }
+  ]
+}

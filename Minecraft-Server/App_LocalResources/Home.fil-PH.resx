@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>Ang aming Mga kalamangan sa Minecraft Server</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>Mataas na bilis ng server</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>Pinakamahusay na Komunidad</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>Nag-host ng 24/7</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>Gamemode</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>Magagamit na mode ng laro sa aming minecraft Server</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>Kaligtasan ng buhay</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>Ang mode na kaligtasan ng buhay ay isa sa mga pangunahing mode ng laro sa Minecraft. Dapat kolektahin ng mga manlalaro ang mga mapagkukunan, bumuo ng mga istraktura, labanan ang mga mandurumog, kumain, at tuklasin ang mundo sa pagsisikap na umunlad at mabuhay. Sa Bedrock Edition, ang mga manlalaro ay maaaring makatanggap ng mga nakamit sa isang mundo na hindi nakatakda sa Flat habang naglalaro ng Survival Mode na may mga cheats off, mga add-on, at off ang mga pribilehiyo. Kung ang isang manlalaro ay lumilikha ng isang mundo sa mode na malikha at mai-load ito sa Survival Mode, ang manlalaro ay hindi maaaring makakuha ng mga nakamit sa mundong iyon. Sa Minecraft Survival, ang pangunahing layunin ay upang mabuhay, bumuo, mag-explore, at magsaya, ngunit isang opsyonal na layunin din sa Survival ay talunin ang Ender Dragon at the Wither. Sa Kaligtasan ng buhay, ang mga manlalaro ay mayroong imbentaryo upang mangolekta ng mga item. Ang lahat ng mga Block ay nangangailangan ng isang tiyak na dami ng oras upang masira hindi katulad ng Creative mode kung saan maaari mong agad na sirain ang mga bloke. Ang mga item na ito ay maaaring magamit sa mga recipe upang lumikha ng mga tool kabilang ang (Pickaxe, Axe, Sword, Hoe, Shovel) at iba pang mga item. Maaari ding ma-access nang mas madali ang mga recipe sa pamamagitan ng pag-click sa libro ng Recipe sa ibabang kaliwang sulok. Ang prosesong ito ay kilala bilang crafting. Karamihan sa mga resipe ng crafting ay nangangailangan ng isang crafting table. Ang ilang mga item ay hindi maaaring makuha sa pamamagitan ng crafting nang normal at nangangailangan ng isang pugon para sa pagproseso. Iba't ibang iba pang mga istasyon ng crafting ang mayroon para sa iba pang mga paggamit, tulad ng paggawa ng serbesa, pag-aayos, at pag-akit. Sa Survival mode, ang manlalaro ay makakatanggap ng pinsala mula sa kapaligiran (pinsala sa taglagas, inis, at lava) at mula sa pagalit na mga manggugulo (maliban kung naglalaro sa mapayapang, kung saan hindi pinagana ang mga manggugalit na mob) Ang isang manlalaro na tumatanggap ng sapat na pinsala ay namatay at bumalik sa isang spawn point. Kung pinagana ang mga cheat, ang isang manlalaro ay maaaring lumipat sa Survival mode sa pamamagitan ng paggamit ng command / gamemode survival ngunit hindi makakakuha ng mga nakamit.</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>Malikhain</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>Ang Creative mode ay isa sa pangunahing mga mode ng laro sa Minecraft. Tinatanggal ng Creative mode ang mga aspeto ng kaligtasan ng Minecraft at pinapayagan ang mga manlalaro na madaling lumikha at sirain ang mga istraktura at mekanismo na may pagsasama ng isang walang katapusang paggamit ng mga bloke at paglipad. Binabago din nito ang background music. Sa Creative mode, ang mga manlalaro ay walang kalusugan o gutom bar upang hadlangan ang kanilang gusali (kahit na posible pang kumain, at bumababa pa rin ang kalusugan ng manlalaro kung magkakaroon sila ng pinsala mula sa walang bisa). Pinapayagan ng Creative mode ang mga manlalaro na sirain agad ang lahat ng mga bloke (kasama ang mga normal na hindi masisira na mga bloke tulad ng bedrock at pagtatapos ng mga frame ng portal), sa kondisyon na hindi sila may hawak na isang tabak, trident o debug stick. Gayunpaman, ang mga bloke na ito ay hindi nahulog at dapat makuha ng imbentaryo ng malikhaing. Nagbibigay ang Creative mode ng mga manlalaro ng kakayahang lumipad. Upang mai-aktibo ang paglipad, i-double tap ang jump key. Gamitin ang jump key upang umakyat at ang sneak key upang bumaba at ang mga key ng paggalaw, ang default ay WASD upang ilipat. Maaaring hindi paganahin ng manlalaro ang paglipad sa kalagitnaan ng hangin sa pamamagitan ng pag-double-tap jump muli, na sanhi upang mahulog sila sa lupa. Ang pagpindot sa lupa kapag lumilipad ay hindi pinagagana ang paglipad sa Java Edition, ngunit hindi sa Bedrock Edition. Ang pagpasok sa isang minecart o kama ay hindi pinapagana ang paglipad.</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>Pakikipagsapalaran</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>Ang mode ng pakikipagsapalaran ay isang mode ng laro na inilaan para sa mga mapa na nilikha ng manlalaro, nililimitahan ang ilan sa mga gameplay sa Minecraft. Sa mode na ito, ang manlalaro ay hindi maaaring direktang sirain ang anumang mga bloke sa anumang mga tool o ilagay ang anumang mga bloke, upang maiwasan ang pagkasira ng mga mapang pakikipagsapalaran o mga server ng kalungkutan. Maa-access lamang ang mode ng pakikipagsapalaran sa mga utos o tagapili ng mode ng laro. Ang mode ng pakikipagsapalaran ay katulad ng Kaligtasan ng buhay na ang mga manlalaro ay tumatanggap ng pinsala mula sa kanilang kapaligiran, posible ang pagkamatay, at dapat pamahalaan ng mga manlalaro ang gutom. Gayunpaman, iba ito sa maraming paraan din. Sa Java Edition, ang mga bloke ay maaaring masira lamang sa isang item / tool na mayroong tag na CanDestroy NBT, at hindi maaaring sirain ng kamao ng manlalaro. Gayundin, ang mga bloke ay nangangailangan ng tag na CanPlaceOn NBT na mailagay. Sa Bedrock Edition, kapareho nito, ang mga can_destroy at can_place_on NBT na mga tag ay kinakailangan upang sirain at ilagay ang mga bloke. Gayunpaman, nagawang gamitin ng mga manlalaro ang kapaligiran sa iba pang mga paraan - kabilang ang pakikipag-ugnay sa mga nagkakagulong mga tao at iba pang mga nilalang (halimbawa, pagpatay sa kanila), pag-on o pag-off o mekanismo ng redstone (tulad ng isang pingga), at pakikipagkalakalan sa mga tagabaryo. Bilang karagdagan, ang mga manlalaro ay nakagagawa ng mga item tulad ng karaniwang ginagawa nila sa anumang iba pang mode ng laro. Ang isa pang tampok ay ang mga manlalaro na laging nagbubunga nang eksakto sa mundo na itlog ng itlog, hindi alintana kung nasaan ito - hindi katulad ng Survival mode, kung saan ang mga manlalaro ay maaaring itlog kahit saan sa loob ng isang tiyak na grid.</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>Mahirap na core</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Ang Hardcore ay isang eksklusibong variant ng Java Edition ng Survival. Sa mode na ito, ang mundo ay naka-lock sa Hard kahirapan at ang manlalaro ay hindi maaaring muling magbigay ng tulong matapos na pinatay. Ang pangunahing tampok ng Hardcore mode ay ang manlalaro ay hindi binigyan ng pagpipilian upang muling magbigay ng kamatayan tulad ng gagawin nila sa iba pang mga mode ng laro. Sa halip, mayroong dalawang mga pindutan sa screen ng kamatayan: "Spectate world" at "Screen ng pamagat." Itinakda ng "Spectate world" ang manlalaro sa mode ng Spectator at respawns ng player sa spawn point ng mundo, na ginagawang tingnan at tuklasin ang mundo sa mode lamang na iyon. Ang pindutang "Pamagat ng screen" ay humahantong lamang sa manlalaro sa pangunahing menu ng menu; muling pagbubukas sa mundo ay ibabalik lamang ang manlalaro sa parehong screen ng kamatayan tulad ng dati. Bilang karagdagan, ang mga mundo ng Hardcore mode ay pinaghihigpitan sa mahirap na kahirapan. Kapag lumilikha ng isang Hardcore mode na mundo, ang mga pagpipilian sa Paganahin ang Mga Cheat at Bonus Chest na mundo ay naka-lock sa OFF. Sa menu ng pagpili ng mundo, ang mga mundo ng hardcore mode ay nagpapakita ng madilim na pulang teksto na nagbabasa ng "Hardcore Mode!"</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>Maglaro tayo!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>Nais mo bang mag-upgrade / bumili ng ranggo?</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>Punta ka dito</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>Kaya ...... Kung wala ako wala itong minecraft na ito. Salamat sa iyong suporta</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>Maraming salamat sa Komunidad ng T-XIvIN para sa pagbuo ng site na ito.</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>Bid Salamat Para sa</value>
+  </data>
+</root>

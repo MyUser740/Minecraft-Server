@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>Our Minecraft Server Advantages</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>High speed server</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>Best Community</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>Hosted 24/7</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>Gamemode</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>Available gamemode in our minecraft Server</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>Survival</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>Survival mode is one of the main game modes in Minecraft. Players must collect resources, build structures, battle mobs, eat, and explore the world in an effort to thrive and survive. In Bedrock Edition, players may receive achievements in a world not set to Flat while playing Survival Mode with cheats off, add-ons off, and host privileges off. If a player creates a world in creative mode and then loads it in Survival Mode, the player cannot earn achievements in that world. In Minecraft Survival, the main goal is to survive, build, explore, and have fun, but also an optional goal in Survival is to defeat the Ender Dragon and the Wither. In Survival, players have an inventory to collect items. All Blocks require a certain amount of time to break unlike Creative mode where you can instantly destroy blocks. These items can be used in recipes to create tools including (Pickaxe, Axe, Sword, Hoe, Shovel) and other items. The recipes can also be accessed easier by clicking the Recipe book in the bottom left corner. This process is known as crafting. Most crafting recipes require a crafting table. Some items cannot be obtained by crafting normally and require a furnace for processing. Various other crafting stations exist for other uses, such as brewing, repairing, and enchanting. In Survival mode, the player is able to receive damage from the environment (fall damage, suffocation, and lava) and from hostile mobs (unless playing on peaceful, where hostile mobs are disabled). A player who receives enough damage dies and returns to a spawn point. If cheats are enabled, a player can switch to Survival mode by using the command /gamemode survival but cannot earn achievements.</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>Creative</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>Creative mode is one of the main game modes in Minecraft. Creative mode strips away the survival aspects of Minecraft and allows players to easily create and destroy structures and mechanisms with the inclusion of an infinite use of blocks and flying. It also changes the background music. In Creative mode, players have no health or hunger bar to hamper their building (though it is still possible to eat, and the player's health still goes down if they take damage from the void). Creative mode allows players to destroy all blocks instantly (including normally-indestructible blocks such as bedrock and end portal frames), provided they are not holding a sword, trident or debug stick. However, these blocks are not dropped and must be obtained by the creative inventory. Creative mode gives players the ability to fly. To activate flying, double-tap the jump key. Use the jump key to go up and the sneak key to go down and the movement keys, the default is WASD to move. The player can disable flying in mid-air by double-tapping jump again, causing them to drop to the ground. Touching the ground when flying disables flying in Java Edition, but not in Bedrock Edition. Getting into a minecart or bed does not disable flying.</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>Adventure</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>Adventure mode is a game mode intended for player-created maps, limiting some of the gameplay in Minecraft. In this mode, the player cannot directly destroy any blocks with any tools or place any blocks, in order to avoid spoiling adventure maps or griefing servers. Adventure mode is accessible only with commands or the game mode selector. Adventure mode is similar to Survival in that players receive damage from their environment, dying is possible, and players must manage hunger. However, it is different in many ways as well. In the Java Edition, blocks can be destroyed only with an item/tool that has the CanDestroy NBT tag, and cannot be destroyed by the player's fist. Likewise, blocks require the CanPlaceOn NBT tag to be placed. In Bedrock Edition, similarly, can_destroy and can_place_on NBT tags are required to destroy and place blocks. However, players are able to make use of the environment in other ways - including interacting with mobs and other entities (for example, killing them), turning a redstone mechanism (such as a lever) on or off, and trading with villagers. Additionally, players are able to craft items as they normally would in any other game mode. Another feature is that players always spawn exactly on the world spawn point, no matter where it is - unlike Survival mode, where players can spawn anywhere within a certain grid.</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>Hardcore</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore is a Java Edition exclusive variant of Survival. In this mode, the world is locked to Hard difficulty and the player cannot respawn after being killed. The key feature of Hardcore mode is that the player is not given the option to respawn upon death as they would in other game modes. Instead, there are two buttons on the death screen: "Spectate world" and "Title screen." "Spectate world" sets the player to Spectator mode and respawns the player at the world's spawn point, making them able to view and explore the world only in that mode. The "Title screen" button simply leads the player to the main menu screen; re-opening the world simply returns the player back to the same death screen as before. In addition, Hardcore mode worlds are restricted to hard difficulty. When creating a Hardcore mode world, the Enable Cheats and Bonus Chest world options are locked to OFF. On the world selection menu, hardcore mode worlds display dark red text reading "Hardcore Mode!"</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>Let's Play!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>Do you want to upgrade/buy rank?</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>Go here</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>Well...... Without me this minecraft never existed. Thank for your support</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>Many thanks to the T-XIvIN Community for developing this site.</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>Big Thank For</value>
+  </data>
+</root>

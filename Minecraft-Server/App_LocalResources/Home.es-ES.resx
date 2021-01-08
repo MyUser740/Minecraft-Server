@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="title_ServerAdvantages" xml:space="preserve">
+    <value>Nuestras ventajas del servidor Minecraft</value>
+  </data>
+  <data name="adv_1" xml:space="preserve">
+    <value>Servidor de alta velocidad</value>
+  </data>
+  <data name="adv_2" xml:space="preserve">
+    <value>Intimidad</value>
+  </data>
+  <data name="adv_3" xml:space="preserve">
+    <value>Mejor comunidad</value>
+  </data>
+  <data name="adv_4" xml:space="preserve">
+    <value>Alojado 24/7</value>
+  </data>
+  <data name="gamemode_Title" xml:space="preserve">
+    <value>Modo de juego</value>
+  </data>
+  <data name="gamemode_Subtitle" xml:space="preserve">
+    <value>Mod permainan yang tersedia di pelayan minecraft kami</value>
+  </data>
+  <data name="gamode_surv_section" xml:space="preserve">
+    <value>Supervivencia</value>
+  </data>
+  <data name="gamemode_surv_content" xml:space="preserve">
+    <value>El modo de supervivencia es uno de los principales modos de juego de Minecraft. Los jugadores deben recolectar recursos, construir estructuras, luchar contra turbas, comer y explorar el mundo en un esfuerzo por prosperar y sobrevivir. En Bedrock Edition, los jugadores pueden recibir logros en un mundo que no esté configurado en Flat mientras juegan en el modo de supervivencia sin trampas, complementos y privilegios de anfitrión desactivados. Si un jugador crea un mundo en modo creativo y luego lo carga en modo de supervivencia, el jugador no puede ganar logros en ese mundo. En Minecraft Survival, el objetivo principal es sobrevivir, construir, explorar y divertirse, pero también un objetivo opcional en Survival es derrotar al Ender Dragon y Wither. En Survival, los jugadores tienen un inventario para recolectar artículos. Todos los bloques requieren una cierta cantidad de tiempo para romperse, a diferencia del modo creativo, donde puedes destruir bloques instantáneamente. Estos elementos se pueden utilizar en recetas para crear herramientas que incluyen (pico, hacha, espada, azada, pala) y otros elementos. También se puede acceder más fácilmente a las recetas haciendo clic en el Libro de recetas en la esquina inferior izquierda. Este proceso se conoce como elaboración. La mayoría de las recetas de elaboración requieren una mesa de elaboración. Algunos artículos no se pueden obtener elaborando normalmente y requieren un horno para su procesamiento. Existen varias otras estaciones de elaboración para otros usos, como elaboración de cerveza, reparación y encantamiento. En el modo Supervivencia, el jugador puede recibir daño del entorno (daño por caída, asfixia y lava) y de turbas hostiles (a menos que juegue en modo pacífico, donde las turbas hostiles están desactivadas). Un jugador que recibe suficiente daño muere y regresa a un punto de generación. Si los trucos están habilitados, un jugador puede cambiar al modo Supervivencia utilizando el comando / modo de juego Supervivencia, pero no puede obtener logros.</value>
+  </data>
+  <data name="gamode_crtv_section" xml:space="preserve">
+    <value>Creativo</value>
+  </data>
+  <data name="gamemode_crtv_content" xml:space="preserve">
+    <value>El modo creativo es uno de los principales modos de juego de Minecraft. El modo creativo elimina los aspectos de supervivencia de Minecraft y permite a los jugadores crear y destruir estructuras y mecanismos fácilmente con la inclusión de un uso infinito de bloques y vuelo. También cambia la música de fondo. En el modo Creativo, los jugadores no tienen barra de salud o hambre que obstaculice su construcción (aunque todavía es posible comer, y la salud del jugador aún disminuye si reciben daño del vacío). El modo creativo permite a los jugadores destruir todos los bloques al instante (incluidos los bloques normalmente indestructibles como el lecho de roca y los marcos del portal final), siempre que no estén sosteniendo una espada, un tridente o un palo de depuración. Sin embargo, estos bloques no se eliminan y deben obtenerse mediante el inventario de creatividades. El modo creativo les da a los jugadores la habilidad de volar. Para activar el vuelo, toque dos veces la tecla de salto. Use la tecla de salto para subir y la tecla de furtivo para bajar y las teclas de movimiento, el valor predeterminado es WASD para moverse. El jugador puede inhabilitar el vuelo en el aire haciendo doble clic para saltar nuevamente, lo que hace que caigan al suelo. Tocar el suelo al volar desactiva el vuelo en Java Edition, pero no en Bedrock Edition. Subirse a un vagón de minas o una cama no impide el vuelo.</value>
+  </data>
+  <data name="gamode_advn_section" xml:space="preserve">
+    <value>Aventuras</value>
+  </data>
+  <data name="gamode_advn_content" xml:space="preserve">
+    <value>El modo Aventura es un modo de juego diseñado para mapas creados por jugadores, lo que limita parte del juego en Minecraft. En este modo, el jugador no puede destruir directamente ningún bloque con ninguna herramienta o colocar ningún bloque, para evitar estropear los mapas de aventuras o los servidores en duelo. El modo Aventura es accesible solo con comandos o el selector de modo de juego. El modo Aventura es similar a Supervivencia en que los jugadores reciben daño de su entorno, es posible morir y los jugadores deben manejar el hambre. Sin embargo, también es diferente en muchos aspectos. En la Edición Java, los bloques solo se pueden destruir con un elemento / herramienta que tenga la etiqueta CanDestroy NBT, y no se pueden destruir con el puño del jugador. Asimismo, los bloques requieren que se coloque la etiqueta CanPlaceOn NBT. En Bedrock Edition, de manera similar, las etiquetas can_destroy y can_place_on NBT son necesarias para destruir y colocar bloques. Sin embargo, los jugadores pueden hacer uso del entorno de otras formas, como interactuar con turbas y otras entidades (por ejemplo, matarlas), encender o apagar un mecanismo de piedra roja (como una palanca) y comerciar con los aldeanos. Además, los jugadores pueden crear artículos como lo harían normalmente en cualquier otro modo de juego. Otra característica es que los jugadores siempre aparecen exactamente en el punto de generación del mundo, sin importar dónde esté, a diferencia del modo Supervivencia, donde los jugadores pueden generar en cualquier lugar dentro de una determinada cuadrícula.</value>
+  </data>
+  <data name="gamemode_hrdc_section" xml:space="preserve">
+    <value>Núcleo duro</value>
+  </data>
+  <data name="gamemode_hrdc_content" xml:space="preserve">
+    <value>Hardcore es una variante exclusiva de la edición Java de Survival. En este modo, el mundo está bloqueado en dificultad Difícil y el jugador no puede reaparecer después de ser asesinado. La característica clave del modo Hardcore es que el jugador no tiene la opción de reaparecer al morir como lo haría en otros modos de juego. En cambio, hay dos botones en la pantalla de la muerte: "Mundo espectador" y "Pantalla de título". "Spectate world" establece al jugador en el modo Espectador y reaparece en el punto de generación del mundo, lo que le permite ver y explorar el mundo solo en ese modo. El botón "Pantalla de título" simplemente lleva al jugador a la pantalla del menú principal; reabrir el mundo simplemente devuelve al jugador a la misma pantalla de muerte que antes. Además, los mundos del modo Hardcore están restringidos a dificultad difícil. Al crear un mundo en modo Hardcore, las opciones de mundo Habilitar trucos y Cofre de bonificación están bloqueadas en APAGADO. En el menú de selección de mundo, los mundos del modo hardcore muestran un texto rojo oscuro que dice "¡Modo Hardcore!"</value>
+  </data>
+  <data name="letsPlay" xml:space="preserve">
+    <value>¡Vamos a jugar!</value>
+  </data>
+  <data name="shop_title" xml:space="preserve">
+    <value>¿Quieres mejorar / comprar rango?</value>
+  </data>
+  <data name="shop_link" xml:space="preserve">
+    <value>Ven aquí</value>
+  </data>
+  <data name="thx1" xml:space="preserve">
+    <value>Bueno ... Sin mí, este Minecraft nunca existió. Gracias por su apoyo</value>
+  </data>
+  <data name="thx2" xml:space="preserve">
+    <value>Muchas gracias a la comunidad T-XIvIN por desarrollar este sitio.</value>
+  </data>
+  <data name="thx_title" xml:space="preserve">
+    <value>Muchas gracias por</value>
+  </data>
+</root>
