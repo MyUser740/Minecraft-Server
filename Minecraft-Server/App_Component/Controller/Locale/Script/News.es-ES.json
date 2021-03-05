@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "Noticias al azar"
+    },
+    {
+      "id": "nav_List",
+      "text": "Lista"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "Desde el sistema"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "Anuncio"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "Regla"
+    },
+    {
+      "id": "nav_Create",
+      "text": "Crea una noticia"
+    },
+    {
+      "id": "btn_View",
+      "text": "Ver"
+    },
+    {
+      "id": "btnReport",
+      "text": "Reporte"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "Ver perfil de editor"
+    }
+  ]
+}

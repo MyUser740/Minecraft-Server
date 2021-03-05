@@ -1,0 +1,172 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="~/App_Component/Controller/Locale/Pages.js"></script>
+<script src="~/App_Component/Controller/Page/News/Index/Script/ng-Config.js"></script>
+<script src="~/App_Component/Controller/Page/News/Index/Script/func.js"></script>
+
+<main role="main" ng-controller="News">
+    <div class="row">
+        <div class="col-13">
+            <div id="NewsUpdate" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <div class="carousel-inner" ng-init="LoadCarouselNews()">
+                    <div class="carousel-item active">
+                        <h1 id="LatesNewsTitle"></h1>
+                        <img id="LatesNewsImage" src="" />
+                        <br />
+                        <a id="LatesNewsLink" class="link-secondary">Go Here!</a>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 id="MostPopullarNewsTitle"></h1>
+                        <img id="MostPopullarNewsImage" src="" />
+                        <br />
+                        <a id="MostPopullarNewsLink" class="link-secondary">Go Here!</a>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 id="MostRatedNewsTitle"></h1>
+                        <img id="MostRatedNewsImage" src="" />
+                        <br />
+                        <a id="MostRatedNewsLink" class="link-secondary">Go Here!</a>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 id="MostVotedNewsTitle"></h1>
+                        <img id="MostVotedNewsImage" src="" />
+                        <br />
+                        <a id="MostVotedNewsLink" class="link-secondary">Go Here!</a>
+                    </div>
+                    <div class="carousel-item">
+                        <h1 id="MostLikedNewsTitle"></h1>
+                        <img id="MostLikedNewsImage" src="" />
+                        <br />
+                        <a id="MostLikedNewsLink" class="link-secondary">Go Here!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <div class="col-10">
+                    <div class="card hvr-float" style="width: 18rem;">
+                        <div class="card" style="width: 18rem;">
+                            <img src="..." class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <p class="card-text">[Other News]</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="card hvr-float" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">[Other News]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-10">
+                    <div class="card hvr-float" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">[Other News]</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10">
+                    <div class="card hvr-float" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text">[Other News]</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-14">
+                <h4>@Minecraft_Server.App_LocalResources.News.Rndm_News</h4>
+                <ul class="list-group" id="RandomNewsLoader">
+                    <li class="list-group-item">
+                        <b-skeleton width="15%"></b-skeleton>
+                        <b-skeleton width="20%"></b-skeleton>
+                        <br />
+                        <div class="row" role="group" aria-label="Basic mixed styles example">
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <b-skeleton width="17%"></b-skeleton>
+                        <b-skeleton width="18%"></b-skeleton>
+                        <br />
+                        <div class="row" role="group" aria-label="Basic mixed styles example">
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <b-skeleton width="10%"></b-skeleton>
+                        <b-skeleton width="24%"></b-skeleton>
+                        <br />
+                        <div class="row" role="group" aria-label="Basic mixed styles example">
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <b-skeleton width="24%"></b-skeleton>
+                        <b-skeleton width="30%"></b-skeleton>
+                        <br />
+                        <div class="row" role="group" aria-label="Basic mixed styles example">
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <b-skeleton width="7%"></b-skeleton>
+                        <b-skeleton width="10%"></b-skeleton>
+                        <br />
+                        <div class="row" role="group" aria-label="Basic mixed styles example">
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                            <b-skeleton type="button" class="col-6" width="100%"></b-skeleton>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="list-group" ng-init="LoadRandomNews()" id="RandomNews">
+                    
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul class="nav flex-column float-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources.News.nav_List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources.News.nav_FromSys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources.News.nav_Anc</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources.News.nav_Create</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">@Minecraft_Server.App_LocalResources.News.nav_Rule</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</main>
+

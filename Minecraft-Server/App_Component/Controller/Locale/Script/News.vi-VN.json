@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "Tin tức ngẫu nhiên"
+    },
+    {
+      "id": "nav_List",
+      "text": "Danh sách"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "Từ hệ thống"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "Sự thông báo"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "Qui định"
+    },
+    {
+      "id": "nav_Create",
+      "text": "Tạo một tin tức"
+    },
+    {
+      "id": "btn_View",
+      "text": "Lượt xem"
+    },
+    {
+      "id": "btnReport",
+      "text": "Báo cáo"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "Xem hồ sơ nhà xuất bản"
+    }
+  ]
+}

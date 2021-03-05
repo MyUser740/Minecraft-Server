@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "Random News"
+    },
+    {
+      "id": "nav_List",
+      "text": "List"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "From System"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "Announcement"
+    },
+    {
+      "id": "nav_Create",
+      "text": "Create a news"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "Rule"
+    },
+    {
+      "id": "btn_View",
+      "text": "View"
+    },
+    {
+      "id": "btnReport",
+      "text": "Report"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "View Publisher Profile"
+    }
+  ]
+}

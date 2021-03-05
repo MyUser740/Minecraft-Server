@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "ကျပန်းသတင်း"
+    },
+    {
+      "id": "nav_List",
+      "text": "စာရင်း"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "စနစ်ကနေ"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "ကြေငြာချက်"
+    },
+    {
+      "id": "nav_Create",
+      "text": "သတင်းတစ်ခုဖန်တီးပါ"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "နည်းဥပဒေ"
+    },
+    {
+      "id": "btn_View",
+      "text": "ကြည့်ရှုပါ"
+    },
+    {
+      "id": "btnReport",
+      "text": "အစီရင်ခံစာ"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "ထုတ်ဝေသူကိုယ်ရေးဖိုင်ကိုကြည့်ပါ"
+    }
+  ]
+}

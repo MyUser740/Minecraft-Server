@@ -1,4 +1,6 @@
-﻿app.controller("QuickSearch", function ($scope, $http) {
+﻿var app = angular.module("apps", []);
+
+app.controller("QuickSearch", function ($scope, $http) {
     $scope.quickSearches = function () {
         if ($('#QuickSearch').val() === '')
             Swal.fire({

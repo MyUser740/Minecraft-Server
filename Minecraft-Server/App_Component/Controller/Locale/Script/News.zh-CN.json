@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "随机新闻"
+    },
+    {
+      "id": "nav_List",
+      "text": "清单"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "从系统"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "公告"
+    },
+    {
+      "id": "nav_Create",
+      "text": "创建新闻"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "规则"
+    },
+    {
+      "id": "btn_View",
+      "text": "视图"
+    },
+    {
+      "id": "btnReport",
+      "text": "报告"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "查看发布者资料"
+    }
+  ]
+}

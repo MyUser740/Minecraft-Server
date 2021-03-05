@@ -13,5 +13,11 @@ namespace Minecraft_Server.Controllers
         {
             return View();
         }
+
+        public ActionResult Detail(int id)
+        {
+            ViewBag.id = id;
+            return View();
+        }
     }
 }

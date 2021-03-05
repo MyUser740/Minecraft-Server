@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "ចៃដន្យព័ត៌មាន"
+    },
+    {
+      "id": "nav_List",
+      "text": "បញ្ជី"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "ពីប្រព័ន្ធ"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "សេចក្តីជូនដំណឹង"
+    },
+    {
+      "id": "nav_Create",
+      "text": "បង្កើតព័ត៌មាន"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "វិធាន"
+    },
+    {
+      "id": "btn_View",
+      "text": "មើល"
+    },
+    {
+      "id": "btnReport",
+      "text": "របាយការណ៍"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "មើលពត៌មានរបស់អ្នកបោះពុម្ពផ្សាយ"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "Random News"
+    },
+    {
+      "id": "nav_List",
+      "text": "Listahan"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "Mula sa System"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "Pagpapahayag"
+    },
+    {
+      "id": "nav_Create",
+      "text": "Lumikha ng isang balita"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "Panuntunan"
+    },
+    {
+      "id": "btn_View",
+      "text": "Tingnan"
+    },
+    {
+      "id": "btnReport",
+      "text": "Lulat"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "Tingnan ang Profile ng Publisher"
+    }
+  ]
+}

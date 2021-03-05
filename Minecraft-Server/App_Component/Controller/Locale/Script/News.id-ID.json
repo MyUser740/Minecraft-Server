@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "Berita Acak"
+    },
+    {
+      "id": "nav_List",
+      "text": "Lis"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "Dari Sistem"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "Pengumuman"
+    },
+    {
+      "id": "nav_Create",
+      "text": "Buat berita"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "Aturan"
+    },
+    {
+      "id": "btn_View",
+      "text": "View"
+    },
+    {
+      "id": "btnReport",
+      "text": "Laporkan"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "Lihat Profil Penerbit"
+    }
+  ]
+}

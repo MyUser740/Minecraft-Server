@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "隨機新聞"
+    },
+    {
+      "id": "nav_List",
+      "text": "清單"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "從系統"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "公告"
+    },
+    {
+      "id": "nav_Create",
+      "text": "創建新聞"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "規則"
+    },
+    {
+      "id": "btn_View",
+      "text": "視圖"
+    },
+    {
+      "id": "btnReport",
+      "text": "報告"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "查看發布者資料"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "Texts": [
+    {
+      "id": "Rndm_News",
+      "text": "ข่าวสุ่ม"
+    },
+    {
+      "id": "nav_List",
+      "text": "รายการ"
+    },
+    {
+      "id": "nav_FromSys",
+      "text": "จากระบบ"
+    },
+    {
+      "id": "nav_Anc",
+      "text": "ประกาศ"
+    },
+    {
+      "id": "nav_Rule",
+      "text": "กฎ"
+    },
+    {
+      "id": "nav_Create",
+      "text": "สร้างข่าว"
+    },
+    {
+      "id": "btn_View",
+      "text": "ดู"
+    },
+    {
+      "id": "btnReport",
+      "text": "รายงาน"
+    },
+    {
+      "id": "btnViewProfile",
+      "text": "ดูโปรไฟล์ผู้เผยแพร่โฆษณา"
+    }
+  ]
+}
